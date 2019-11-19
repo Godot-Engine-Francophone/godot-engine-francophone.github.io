@@ -1,0 +1,61 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "Godot Engine Francophone"
+email: "-"
+description: >
+  Nous sommes la communauté francophone officielle de Godot Engine.
+  Nous proposons de l’aide à ceux qui souhaitent se lancer dans l’utilisation de Godot,
+  et nous contribuons à l’amélioration du moteur.
+baseurl: ""
+url: ""
+twitter_username: ""
+github_username:  "Godot-Engine-Francophone"
+color_theme:  "#fefefe"
+color_text:  "#0e0e0e"
+language:  "fr"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+gems: [jekyll-paginate]
+paginate: 5
+
+# Color:
+color:
+  icon: "#f7fbff"
+  footer:
+    background: "#63baf6"
+  theme: "#fefefe"
+  text: "#0e0e0e"
+  link:
+    visited: "#020202"
+    active: "#020202"
+    link: "#020202"
+    hover: "#020202"
+
+# Plugins
+plugins_dir:
+  - jekyll-admin
+
+facebook:
+  app_id: "00000000"
+  admins: "00000000"
+
+social_sites:
+  twitter: GodotFrancophone
+  # youtube: Binogure studio
+  # youtube_uri: UCICwKQU-TUX24Ocm1Axsbeg
+  github:  Godot-Engine-Francophone
+  discord: NQVd34V
+  # dribbble: jekyll
+  # facebook: Binogure
+  #flickr: jekyll
+  #instagram: jekyll
+  #linkedin: jekyll
+  #pinterest: jekyll

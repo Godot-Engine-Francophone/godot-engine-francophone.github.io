@@ -1,0 +1,24 @@
+---
+---
+
+$baseurl: '{{ site.baseurl }}';
+
+$colortheme: {{ site.color.theme }};
+$colortext: {{ site.color.text }};
+$colorlink: {{ site.color.link.link }};
+$colorlink_visited: {{ site.color.link.visited }};
+$colorlink_active: {{ site.color.link.active }};
+$colorlink_hover: {{ site.color.link.hover }};
+
+$colorfooter_background: {{ site.color.footer.background }};
+
+$coloricon: {{ site.color.icon }};
+
+@import "base";
+@import "menu";
+@import "header";
+@import "footer";
+@import "layout";
+@import "icons";
+@import "post";
+@import "breadcrumbs";

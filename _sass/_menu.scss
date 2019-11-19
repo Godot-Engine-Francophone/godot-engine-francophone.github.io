@@ -1,0 +1,41 @@
+
+.menu {
+  background: $colortheme;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.menu--content {
+  height: 80px;
+}
+
+.menu--content--item {
+  margin: 8px;
+}
+
+.menu a {
+  color: $colorlink;
+}
+
+.menu a span {
+  font-weight: bold;
+}
+
+.site-title {
+  line-height: 80%;
+  width: 256px;
+  font-size: 21px;
+    @media screen and (max-width: 480px) {
+      img {
+        width: 26px
+      }
+    }
+    .site-title-text {
+      font-weight: bold;
+      margin-left: 12px;
+      transition: .3s;
+    }
+}

@@ -1,0 +1,27 @@
+<div class="menu">
+  <div class="size margin menu--content container align-items-center justify-content-between">
+
+    <a href="{{ site.baseurl }}/" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
+      <div class="container align-items-center site-title">
+        <div class="">
+          <img src="{{ site.baseurl }}/assets/img/icon.png" width="64" alt="">
+        </div>
+        <div class="site-title-text">
+          {{ site.title }}
+        </div>
+      </div>
+    </a>
+
+    <div class="container align-items-center" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
+      <nav class="masthead-nav">
+        {% for page in site.pages %}
+        {% if page.title %}
+        <a href="{{ page.url | prepend: site.baseurl }}" class="menu--content--item">
+          {{ page.title }}
+        </a>
+        {% endif %}
+        {% endfor %}
+      </nav>
+    </div>
+  </div>
+</div>
