@@ -2,8 +2,8 @@
   {% if site.posts.size == 0 %}
   <h2>No post found</h2>
   {% else %}
-  {% assign quantity = page.post.quantity | 3 %}
-  {% for post in site.posts limit:quantity %}
+  {% for post in site.posts %}
+  {% if post.categories contains page.search %}
   <a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
 
     <div class="list-item-icon container align-items-center justify-content-center">
@@ -22,12 +22,19 @@
       </div>
 
       <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
-        <small>Written by <span>{{ post.by }}</span>-</small>
+        <small>Écrit par <span>{{ post.by }}</span> - </small>
+        {% if post.translated %}
+        <small>Traduit par <span>{{ post.translated }}</span> - </small>
+        {% endif %}
         <small><time>{{ post.date | date_to_string }}</time></small>
       </div>
     </div>
 
   </a>
+  {% if page.post.quantity %}
+  {% break %}
+  {% endif %}
+  {% endif %}
   {% endfor %}
   {% endif %}
 </div>

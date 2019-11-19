@@ -3,12 +3,14 @@
 }
 
 .header {
-  min-height: calc(100vh - 550px);
+  min-height: calc(100vh - 512px);
   background: url('../assets/img/header-0.png'), url('../assets/img/header-1.png');
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
   .header--block {
     color: $colortext;
@@ -25,7 +27,7 @@
       border-radius: 4px;
       overflow: hidden;
       width: 100%;
-      opacity: 0.5;
+      opacity: 0.8;
       transition: 0.3s;
 
       &:focus-within {
