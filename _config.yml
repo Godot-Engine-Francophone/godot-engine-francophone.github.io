@@ -12,7 +12,7 @@ description: >
   Nous sommes la communauté francophone officielle de Godot Engine.
   Nous proposons de l’aide à ceux qui souhaitent se lancer dans l’utilisation de Godot,
   et nous contribuons à l’amélioration du moteur.
-baseurl: "/"
+baseurl: ""
 url: ""
 twitter_username: ""
 github_username:  "Godot-Engine-Francophone"
