@@ -3,16 +3,19 @@
 }
 
 .header {
-  min-height: 200px;
-  background: url('../assets/img/pattern2.svg'), rgba($colortheme, .9);
-  background-size: 310px;
+  min-height: calc(100vh - 512px);
+  background: url('../assets/img/header-0.png'), url('../assets/img/header-1.png');
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
-  box-shadow: 0 0 20px 1px rgba(0,0,0,.1);
 
   .header--block {
     color: $colortext;
 
-    .header--block--text {}
+    .header--block--text, h1 {
+      color: $colortheme;
+    }
 
     .header--block--input {
       display: flex;

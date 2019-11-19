@@ -2,8 +2,8 @@
   {% if site.posts.size == 0 %}
   <h2>No post found</h2>
   {% else %}
-  
-  {% for post in site.posts %}
+  {% assign quantity = page.post.quantity | 3 %}
+  {% for post in site.posts limit:quantity %}
   <a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
 
     <div class="list-item-icon container align-items-center justify-content-center">
@@ -28,5 +28,6 @@
     </div>
 
   </a>
-  {% endfor %} {% endif %}
+  {% endfor %}
+  {% endif %}
 </div>

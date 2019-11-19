@@ -7,9 +7,9 @@
 }
 
 .index-head {
+  min-height: 128px;
+  flex-grow: 0;
   background: #01365c;
-  min-height: 120px;
-
   color: $colortheme;
 
   h1 {
@@ -68,6 +68,22 @@
   .link-transparent {
     color: #01365c;
   }
+
+  ul {
+    list-style-type: disc;
+    padding: 0px 32px 0px 64px;
+  }
+
+  .index-foot-item {
+    padding: 32px 64px 32px 32px;
+    text-align: justify;
+    text-justify: auto;
+
+    span {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
 }
 
 .link-transparent {
@@ -93,6 +109,7 @@
 .list-item {
   box-shadow: 0 3px 8px 0 rgba(0,0,0,0.03);
   border: 1px solid #C1C1C1;
+  background-color: $colortheme;
   margin-bottom: 20px;
   padding: 20px;
   box-sizing: border-box;
@@ -105,20 +122,20 @@
     }
 
     &:hover {
-      border-color: $colortheme;
+      border-color: $colortext;
     }
 
     .list-item-icon {
       flex-basis: 100px;
       padding-right: 20px;
       font-size: 2rem;
-      color: $colortheme;
+      color: $colortext;
     }
 
     .list-post-title {
       font-size: 22px;
       transition: .3s;
-      color: $colortheme;
+      color: $colortext;
     }
     .list-post-description {
       font-size: 16px
