@@ -162,13 +162,18 @@
       transition: .3s;
       color: $colortext;
     }
+    .list-post-type {
+      font-size: 18px;
+      transition: .3s;
+      color: $colortext;
+    }
     .list-post-description {
-      font-size: 16px
+      font-size: 16px;
     }
 
     .list-post-written {
       span {
-        font-weight: bold
+        font-weight: bold;
       }
     }
 

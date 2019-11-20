@@ -1,0 +1,89 @@
+.ressource--content {
+  background-color: #e9e9e9;
+
+  .ressource--content--item {
+    padding: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+  }
+
+  a {
+    color: $colorlink;
+    text-decoration: none;
+    background-image: linear-gradient(#9f14dd, #9f14dd);
+    background-position: 0% 110%;
+    background-repeat: no-repeat;
+    background-size: 0% 8px;
+    transition: background-size cubic-bezier(0,0,0,1) 0.3s;
+  }
+
+  a:hover,
+  a:active,
+  a:focus {
+    color: #9f14dd;
+    text-decoration: none;
+    background-size: 100% 8px;
+  }
+
+  .ressource--content--item--active {
+    color: #9f14dd;
+    text-decoration: none;
+    background-size: 100% 8px;
+  }
+}
+
+.ressource-item {
+  transition: .3s;
+  overflow: hidden;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-bottom: 1px dotted #9f14dd;
+  cursor: pointer;
+
+  &:last-child {
+    margin-bottom: 0px;
+    border-bottom: none;
+  }
+
+  &:hover {
+    border-color: $colortext;
+  }
+
+  .ressource-item-icon {
+    max-width: 200px;
+    min-width: 200px;
+    padding-right: 16px;
+    font-size: 2rem;
+    color: $colortext;
+  }
+
+  .ressource-post-title {
+    font-size: 22px;
+    transition: .3s;
+    color: $colortext;
+  }
+  .ressource-post-type {
+    font-size: 18px;
+    transition: .3s;
+    color: $colortext;
+  }
+  .ressource-post-description {
+    font-size: 16px;
+    padding: 6px;
+  }
+
+  .ressource-post-written {
+    span {
+      font-weight: bold;
+    }
+  }
+
+  small {
+    font-size: 12px;
+    opacity: .7;
+  }
+}

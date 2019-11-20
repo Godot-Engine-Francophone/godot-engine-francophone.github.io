@@ -26,7 +26,7 @@
         </label>
         <div class="trigger">
           {% for site_page in site.pages %}
-          {% if site_page.title %}
+          {% if site_page.title and site_page.menu %}
             {% if site_page.redirect_to %}
             <a href="{{ site_page.redirect_to }}" class="menu--content--item" target="_blank" rel="noreferrer">
               {{ site_page.title }}

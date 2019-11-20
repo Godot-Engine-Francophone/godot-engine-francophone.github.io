@@ -1,0 +1,26 @@
+<!-- Top banner //-->
+<div class="ressource--content size margin container align-center">
+  {% if page.ressource == "extensions" %}
+  <a class="ressource--content--item align-center ressource--content--item--active">Extensions</a>
+  {% else %}
+  <a class="ressource--content--item align-center" href="/resources/extensions">Extensions</a>
+  {% endif %}
+
+  {% if page.ressource == "snippets" %}
+  <a class="ressource--content--item align-center ressource--content--item--active">Snippets</a>
+  {% else %}
+  <a class="ressource--content--item align-center" href="/resources/snippets">Snippets</a>
+  {% endif %}
+
+  {% if page.ressource == "projets" %}
+  <a class="ressource--content--item align-center ressource--content--item--active">Projets</a>
+  {% else %}
+  <a class="ressource--content--item align-center" href="/resources/projets">Projets</a>
+  {% endif %}
+
+  {% if page.ressource == "shaders" %}
+  <a class="ressource--content--item align-center ressource--content--item--active">Shaders</a>
+  {% else %}
+  <a class="ressource--content--item align-center" href="/resources/shaders">Shaders</a>
+  {% endif %}
+</div>

@@ -1,20 +1,22 @@
 ---
+title: Release candidate v3.1.2-RC1
 layout: actualite
-title: "Release candidate v3.1.2-RC1"
-description: >-
-  Il y a plus de 6 mois que Godot Engine 3.1.1 a été relâché et vous êtes nombreux à attendre la version 3.1.2. Cette dernière contiendra son lot de correctifs
-  notables ainsi que des améliorations. Nous avons ajouté 400 changements de code depuis la dernière version. Il est nécessaire de tester de manière approfondie afin
-  d'éviter tout nouveau bug qui serait en fait une regression. Voilà pourquoi nous publions cette version, pour que la communauté puisse la tester avec nous.
-categories: 'actualite'
-by: 'Rémi Verschelde'
-translated: 'Xavier Sellier'
+description: Il y a plus de 6 mois que Godot Engine 3.1.1 a été relâché et vous êtes
+  nombreux à attendre la version 3.1.2. Cette dernière contiendra son lot de correctifs
+  notables ainsi que des améliorations. Nous avons ajouté 400 changements de code
+  depuis la dernière version. Il est nécessaire de tester de manière approfondie afin
+  d'éviter tout nouveau bug qui serait en fait une regression. Voilà pourquoi nous
+  publions cette version, pour que la communauté puisse la tester avec nous.
+categories: actualite
+by: Rémi Verschelde
+translated: Xavier Sellier
 tags:
-  - Release Candidate
-  - 3.1
-original_url: 'https://godotengine.org/article/release-candidate-godot-3-1-2-rc-1'
-icon: 'package'
+- Release Candidate
+- 3.1
+original_url: https://godotengine.org/article/release-candidate-godot-3-1-2-rc-1
+icon: package
 ---
-## Godot Engine 3.1.2 RC 1
+
 6 mois se sont écoulés depuis Godot Engine 3.1.1, et tout le monde attend la version 3.1.2 qui viendra avec de nombreux correctifs et améliorations.
 
 Nous avons publié des versions 3.1.x plus régulièrement (presque tous les mois), cependant notre responsable des versions, Hein-Pieter, a été très
@@ -65,4 +67,3 @@ Si vous possédez un projet fait avec la verison 3.1.1, il est préférable de t
 - `GLES2` - Certains des correctifs apportés peuvent changer l'aspect visuel de votre projet (surotut concernant les lumières/ombres). Assurez-vous de rapporter tout comportement que vous considéreriez comme une régression.
 - macOS - La correspondance des touches `KEY_BRACELEFT` et `KEY_BRACERIGHT` étaient inversées. [GH-28185](https://github.com/godotengine/godot/pull/28185) contient un correctif. Veuillez vérifier si dans votre projet vous utilisiez ces touches.
 - Si vous remarquez une différence dans vos projets, s'il vous plait tenez-nous en informés comme ça nous pourrons l'afficher ici (même s'il s'agit d'une amélioration, c'est toujours mieux de tenir tout le monde informé)
-
