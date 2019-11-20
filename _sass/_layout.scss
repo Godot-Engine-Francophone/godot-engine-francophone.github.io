@@ -144,3 +144,26 @@ $on-laptop:        1024px !default;
     }
   }
 }
+
+.post-tag {
+  background-color: #63baf6;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 16px;
+  font-size: 16px;
+  color: white;
+}
+
+.tutoriel-niveau-facile {
+  color: #0caf00;
+}
+
+.tutoriel-niveau-moyen {
+  color: #e8c900;
+}
+
+.tutoriel-niveau-difficile {
+  color: #de1414;
+}

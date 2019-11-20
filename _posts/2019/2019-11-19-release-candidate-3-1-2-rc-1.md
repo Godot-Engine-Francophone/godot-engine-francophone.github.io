@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: actualite
 title: "Release candidate v3.1.2-RC1"
 description: >-
   Il y a plus de 6 mois que Godot Engine 3.1.1 a été relâché et vous êtes nombreux à attendre la version 3.1.2. Cette dernière contiendra son lot de correctifs
@@ -8,6 +8,9 @@ description: >-
 categories: 'actualite'
 by: 'Rémi Verschelde'
 translated: 'Xavier Sellier'
+tags:
+  - Release Candidate
+  - 3.1
 original_url: 'https://godotengine.org/article/release-candidate-godot-3-1-2-rc-1'
 icon: 'package'
 ---
