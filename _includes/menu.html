@@ -33,7 +33,7 @@
             </a>
             {% else %}
             {% if page.title == site_page.title %}
-            <a href="{{ site_page.url | prepend: site.baseurl }}" class="menu--content--item" id="menu-item-focus">
+            <a href="{{ site_page.url | prepend: site.baseurl }}" class="menu--content--item menu--content--item--active">
             {% else %}
             <a href="{{ site_page.url | prepend: site.baseurl }}" class="menu--content--item">
             {% endif %}
