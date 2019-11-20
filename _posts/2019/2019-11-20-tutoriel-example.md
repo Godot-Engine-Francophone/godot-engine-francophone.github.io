@@ -6,5 +6,6 @@ description: >-
 categories: 'tutoriel'
 by: 'Xavier Sellier'
 niveau: Facile
-icon: 'package'
+icon: 'book'
 ---
+Voilà, c'est un simple exemple de tutoriel
