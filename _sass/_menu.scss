@@ -6,6 +6,29 @@
   left: 0;
   z-index: 10;
   overflow: visible;
+
+  .site-nav {
+    a {
+      color: $colorlink;
+      text-decoration: none;
+      background-image: linear-gradient(#01365c, #01365c);
+      background-position: 0% 110%;
+      background-repeat: no-repeat;
+      background-size: 0% 4px;
+      transition: background-size cubic-bezier(0,.5,0,1) 0.3s;
+    }
+
+    a:hover,
+    a:active,
+    a:focus {
+      text-decoration: none;
+      background-size: 100% 4px;
+    }
+  }
+
+  a span {
+    font-weight: bold;
+  }
 }
 
 .menu--content {
@@ -14,14 +37,6 @@
 
 .menu--content--item {
   margin: 8px;
-}
-
-.menu a {
-  color: $colorlink;
-}
-
-.menu a span {
-  font-weight: bold;
 }
 
 .site-title {

@@ -25,15 +25,19 @@
           </span>
         </label>
         <div class="trigger">
-          {% for page in site.pages %}
-          {% if page.title %}
-            {% if page.redirect_to %}
-            <a href="{{ page.redirect_to }}" class="menu--content--item" target="_blank" rel="noreferrer">
-              {{ page.title }}
+          {% for site_page in site.pages %}
+          {% if site_page.title %}
+            {% if site_page.redirect_to %}
+            <a href="{{ site_page.redirect_to }}" class="menu--content--item" target="_blank" rel="noreferrer">
+              {{ site_page.title }}
             </a>
             {% else %}
-            <a href="{{ page.url | prepend: site.baseurl }}" class="menu--content--item">
-              {{ page.title }}
+            {% if page.title == site_page.title %}
+            <a href="{{ site_page.url | prepend: site.baseurl }}" class="menu--content--item" id="menu-item-focus">
+            {% else %}
+            <a href="{{ site_page.url | prepend: site.baseurl }}" class="menu--content--item">
+            {% endif %}
+              {{ site_page.title }}
             </a>
             {% endif %}
           {% endif %}
