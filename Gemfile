@@ -9,4 +9,5 @@ group :jekyll_plugins do
   gem 'jekyll-livereload'
   gem "jekyll-paginate-v2"
   gem "jekyll-feed"
+  gem "html-proofer"
  end

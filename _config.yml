@@ -67,3 +67,5 @@ social_sites:
 
 gems:
   - jekyll-paginate-v2
+
+exclude: [vendor]
