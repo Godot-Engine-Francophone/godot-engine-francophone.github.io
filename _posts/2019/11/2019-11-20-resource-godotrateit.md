@@ -1,4 +1,5 @@
 ---
+layout: ressource
 title: "Godot Rate It"
 description: >-
   Module qui permet d'ouvrir le Google Play Store afin de permettre
@@ -8,7 +9,6 @@ tag:
   - 2.1
   - C++
   - android
-categories: 'ressource'
-ressource: extensions
+categories: extensions
 lien: https://github.com/binogure-studio/godotrateit
 ---

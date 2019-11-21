@@ -244,3 +244,30 @@ article {
     transition: all 0.2s linear;
   }
 }
+
+.pager {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  .next {
+    float: right;
+  }
+
+  .previous {
+    float: left;
+  }
+
+}

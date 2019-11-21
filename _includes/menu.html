@@ -25,11 +25,12 @@
           </span>
         </label>
         <div class="trigger">
-          {% for site_page in site.pages %}
-          {% if site_page.title and site_page.menu %}
+          {% assign sorted_pages = site.pages | sort:"position" %}
+          {% for site_page in sorted_pages %}
+          {% if site_page.title and site_page.menu and site_page.autogen == nil%}
             {% if site_page.redirect_to %}
             <a href="{{ site_page.redirect_to }}" class="menu--content--item" target="_blank" rel="noreferrer">
-              {{ site_page.title }}
+              {{ site_page.title | escape }}
             </a>
             {% else %}
             {% if page.title == site_page.title %}

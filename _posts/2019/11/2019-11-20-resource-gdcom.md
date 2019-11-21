@@ -1,4 +1,5 @@
 ---
+layout: ressource
 title: "GD Com"
 description: >-
   Module NPM a ajouter a votre backend fait en NodeJS. Il permet de communiquer avec des instances de Godot
@@ -8,7 +9,6 @@ tag:
   - 2.1
   - 3.1
   - NodeJS
-categories: 'ressource'
-ressource: extensions
+categories: extensions
 lien: https://github.com/gd-com/utils
 ---

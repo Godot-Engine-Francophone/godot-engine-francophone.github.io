@@ -1,4 +1,5 @@
 ---
+layout: ressource
 title: "Godot Android"
 description: >-
   Module qui permet d'utiliser Firebase avec Google Play Game Service.
@@ -8,7 +9,6 @@ tag:
   - 2.1
   - C++
   - android
-categories: 'ressource'
-ressource: extensions
+categories: extensions
 lien: https://github.com/binogure-studio/godotandroid
 ---

@@ -1,12 +1,17 @@
 ---
 active_lang: fr
 layout: default
+position: 1
 ref: index
 title: Tutoriels
 header: search
 menu: true
 search: tutoriel
-permalink: /tutoriel/
+permalink: /tutoriel
+pagination: 
+  enabled: true
+  permalink: ':num/'
+  category: tutoriel
 description: >
   Les tutoriels en français.
 ---
@@ -16,6 +21,6 @@ description: >
 
 <div class="content-post">
   <div class="size margin">
-    {% include posts.html %}
+    {% include paginated-posts.html %}
   </div>
 </div>

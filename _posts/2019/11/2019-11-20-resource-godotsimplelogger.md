@@ -1,4 +1,5 @@
 ---
+layout: ressource
 title: "Godot Simple Logger"
 description: >-
   Script utilitaire à placer dans votre projet comme singleton.
@@ -8,7 +9,6 @@ type: Utilitaire
 tag:
   - 2.1
   - logger
-categories: 'ressource'
-ressource: extensions
+categories: extensions
 lien: https://github.com/binogure-studio/godot-simple-logger
 ---

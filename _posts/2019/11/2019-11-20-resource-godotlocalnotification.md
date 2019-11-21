@@ -1,4 +1,5 @@
 ---
+layout: ressource
 title: "Godot Local Notification"
 description: >-
   Module pour android qui permet d'envoyer des notifications
@@ -7,7 +8,6 @@ tag:
   - 2.1
   - C++
   - android
-categories: 'ressource'
-ressource: extensions
+categories: extensions
 lien: https://github.com/binogure-studio/godotlocalnotification
 ---

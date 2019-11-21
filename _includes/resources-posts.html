@@ -2,8 +2,7 @@
   {% if site.posts.size == 0 %}
   <h2>No post found</h2>
   {% else %}
-  {% for post in site.posts %}
-  {% if post.categories contains page.search and post.ressource == page.ressource %}
+  {% for post in paginator.posts %}
   <a href="{{ post.lien }}" target="_blank" rel="noreferrer" class="ressource-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
 
     <div class="ressource-item-icon align-items-center justify-content-center" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
@@ -33,7 +32,20 @@
   {% if page.post.quantity %}
   {% break %}
   {% endif %}
-  {% endif %}
   {% endfor %}
+  {% endif %}
+  {% if paginator.total_pages > 1 %}
+  <ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Suivant</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Précédent &rarr;</a>
+    </li>
+    {% endif %}
+  </ul>
   {% endif %}
 </div>

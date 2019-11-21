@@ -1,0 +1,67 @@
+<div class="">
+  {% if site.posts.size == 0 %}
+  <h2>No post found</h2>
+  {% else %}
+  {% for post in paginator.posts %}
+  {% if post.categories contains page.search %}
+  <a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+
+    <div class="list-item-icon container align-items-center justify-content-center">
+      <span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
+    </div>
+
+    <div class="flex-grow-1">
+      <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+        <h2 class="list-post-title">
+        {{ post.title }}
+        </h2>
+      </div>
+      <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+        {% if post.categories contains "tutoriel" %}
+           <small>Niveau <span class="tutoriel-niveau-{{ post.niveau | downcase }}">{{ post.niveau }}</span> - </small>
+        {% endif %}
+        <small>Écrit par <span>{{ post.by }}</span> - </small>
+        {% if post.translated %}
+        <small>Traduit par <span>{{ post.translated }}</span> - </small>
+        {% endif %}
+        <small><time>{{ post.date | date_to_string }}</time></small>
+      </div>
+
+      <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+        <span class="list-post-description">{{ post.description }}</span>
+      </div>
+
+      {% if post.categories contains "actualite" %}
+      <div class="" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="0">
+        {% for tag in post.tags %}
+          <span class="post-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+    </div>
+
+  </a>
+  {% if page.post.quantity %}
+  {% break %}
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+
+  <!-- Pagination links -->
+  {% if paginator.total_pages > 1 %}
+  <ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Suivant</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Précédent &rarr;</a>
+    </li>
+    {% endif %}
+  </ul>
+  {% endif %}
+</div>

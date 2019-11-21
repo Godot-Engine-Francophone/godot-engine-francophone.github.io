@@ -30,10 +30,12 @@ GEM
       jekyll (~> 3.3)
       sinatra (~> 1.4)
       sinatra-contrib (~> 1.4)
-    jekyll-archives (2.2.1)
-      jekyll (>= 3.6, < 5.0)
+    jekyll-feed (0.11.0)
+      jekyll (~> 3.3)
     jekyll-livereload (0.2.2)
       em-websocket (~> 0.5)
+      jekyll (~> 3.0)
+    jekyll-paginate-v2 (2.0.0)
       jekyll (~> 3.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
@@ -90,8 +92,9 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-admin
-  jekyll-archives
+  jekyll-feed
   jekyll-livereload
+  jekyll-paginate-v2
   jekyll-seo-tag
   jekyll-sitemap
   support-for

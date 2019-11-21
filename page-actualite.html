@@ -1,12 +1,17 @@
 ---
 active_lang: fr
 layout: default
+position: 0
 ref: index
 title: Actualités
 header: search
 menu: true
 search: actualite
-permalink: /actualite/
+permalink: /actualite
+pagination: 
+  enabled: true
+  permalink: ':num/'
+  category: actualite
 description: >
   Les derniers articles autour de Godot Engine.
 ---
@@ -16,6 +21,6 @@ description: >
 
 <div class="content-post">
   <div class="size margin">
-    {% include posts.html %}
+    {% include paginated-posts.html %}
   </div>
 </div>

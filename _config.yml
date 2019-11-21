@@ -23,7 +23,12 @@ language:  "fr"
 # Build settings
 markdown: kramdown
 permalink: /:title/
-paginate: 5
+pagination:
+  enabled: true
+  per_page: 12
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Color:
 color:
@@ -41,6 +46,7 @@ color:
 # Plugins
 plugins_dir:
   - jekyll-admin
+  - jekyll-paginate-v2
 
 facebook:
   app_id: "00000000"
@@ -59,3 +65,5 @@ social_sites:
   #linkedin: jekyll
   #pinterest: jekyll
 
+gems:
+  - jekyll-paginate-v2
