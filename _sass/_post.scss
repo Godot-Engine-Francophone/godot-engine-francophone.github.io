@@ -243,6 +243,18 @@ article {
     color: #de3535;
     transition: all 0.2s linear;
   }
+
+  .center-image
+  {
+    margin: 0 auto;
+    display: block;
+  }
+
+  img + em {
+    display: block;
+    text-align: center;
+    font-size: .8rem;
+  }
 }
 
 .pager {
