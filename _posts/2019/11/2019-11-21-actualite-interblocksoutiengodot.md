@@ -1,5 +1,5 @@
 ---
-title: Interblock supporte le développement de Godot engine
+title: Interblock sponsorise le développement de Godot engine
 layout: actualite
 description: >-
   Nous sommes heureux de vous annoncer qu'Interblock est maintenant un sponsor Platinum de Godot.

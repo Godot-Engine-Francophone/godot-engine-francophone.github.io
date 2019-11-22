@@ -14,7 +14,7 @@ description: >
   et nous contribuons à l’amélioration du moteur.
 baseurl: ""
 url: "https://www.godot-francophone.org"
-twitter_username: ""
+twitter_username: "gfrancophone"
 github_username:  "Godot-Engine-Francophone"
 color_theme:  "#fefefe"
 color_text:  "#0e0e0e"
@@ -53,7 +53,7 @@ facebook:
   admins: "00000000"
 
 social_sites:
-  twitter: GodotFrancophone
+  twitter: gfrancophone
   # youtube: Binogure studio
   # youtube_uri: UCICwKQU-TUX24Ocm1Axsbeg
   github:  Godot-Engine-Francophone
@@ -64,8 +64,5 @@ social_sites:
   #instagram: jekyll
   #linkedin: jekyll
   #pinterest: jekyll
-
-gems:
-  - jekyll-paginate-v2
 
 exclude: [vendor]
