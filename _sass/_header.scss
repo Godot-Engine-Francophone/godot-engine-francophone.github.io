@@ -19,6 +19,19 @@
       color: $colortheme;
     }
 
+    .header--block--proposal a {
+      color: $colortheme;
+      float: right;
+      text-decoration: none;
+      transition: .3s;
+
+      &:hover,
+      &:focus {
+        color: #ffdf0d;
+        transition: all 0.2s linear;
+      }
+    }
+
     .header--block--input {
       display: flex;
       align-items: center;

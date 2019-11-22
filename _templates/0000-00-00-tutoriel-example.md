@@ -8,7 +8,7 @@ description: >-
 categories: tutoriel
 by: Exemple d'auteur
 niveau: Facile
-icon: 'book'
+icon: 'code-branch'
 ---
 Pour niveau il y a 3 niveaux de difficulté:
 - Facile (s'affiche en vert)

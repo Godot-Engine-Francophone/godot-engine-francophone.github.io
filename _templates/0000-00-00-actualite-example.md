@@ -12,7 +12,7 @@ tags:
 - Les tags sont affichés
 - Dans les bulles bleues
 original_url: https://www.example.com/lien-vers-article-original
-icon: package
+icon: "code-branch"
 ---
 
 Contenu de l'article

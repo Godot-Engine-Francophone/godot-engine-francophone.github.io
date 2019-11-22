@@ -13,7 +13,7 @@ tags:
 - Platinum
 - Interblock
 original_url: https://godotengine.org/article/interblock-supports-godot-development
-icon: package
+icon: donate
 ---
 
 *Nous sommes heureux de vous annoncer qu'Interblock est dorénavant un sponsor Platinum de Godot.

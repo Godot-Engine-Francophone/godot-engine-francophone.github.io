@@ -13,7 +13,7 @@ tags:
 - AOT
 - WebAssembly
 original_url: https://godotengine.org/article/csharp-wasm-aot
-icon: package
+icon: newspaper
 ---
 Nous avons beaucoup progressé sur le support du C# depuis le premier rapport d'avancement dans le cadre de mon travail parrainé par Microsoft. Je vais maintenant vous présenter brièvement les améliorations et ajouts les plus importants qui ont été apportés, à savoir le support de l'exportation des jeux C# vers WebAssembly, une extension IDE pour Visual Studio pour Mac ainsi que pour MonoDevelop, et un support préliminaire pour la compilation AOT.
 

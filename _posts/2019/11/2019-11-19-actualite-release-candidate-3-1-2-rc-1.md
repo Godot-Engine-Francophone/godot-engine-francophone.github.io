@@ -14,7 +14,7 @@ tags:
 - Release Candidate
 - 3.1
 original_url: https://godotengine.org/article/release-candidate-godot-3-1-2-rc-1
-icon: package
+icon: code-branch
 ---
 
 6 mois se sont écoulés depuis Godot Engine 3.1.1, et tout le monde attend la version 3.1.2 qui viendra avec de nombreux correctifs et améliorations.

@@ -215,12 +215,13 @@ article {
   h4,
   h5,
   h6 {
-    margin-top: 1.0rem;
-    margin-bottom: 0.6rem;
-    font-weight: 600;
+    margin-top: 2.0rem;
+    margin-bottom: 1.0rem;
+    font-weight: 900;
     line-height: 0.9;
     color: #01365c;
     letter-spacing: -.025rem;
+    text-transform: uppercase;
   }
 
   ul {
@@ -254,6 +255,10 @@ article {
     display: block;
     text-align: center;
     font-size: .8rem;
+  }
+
+  strong {
+    font-weight: bold;
   }
 }
 
