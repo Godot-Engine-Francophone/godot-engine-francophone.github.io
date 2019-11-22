@@ -13,6 +13,7 @@ layout: default
     <div class="post-date" data-aos="fade-left" data-aos-delay="300" data-aos-offset="0">
       <time>{{ page.date | date_to_string }}</time>
       <span class="reading-time" title="Estimated read time"> - {{ minutesText }}</span>
+      {% include share.html %}
     </div>
     <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
       <small>Niveau <span class="tutoriel-niveau-{{ page.niveau | downcase }}">{{ page.niveau }}</span> - </small>
