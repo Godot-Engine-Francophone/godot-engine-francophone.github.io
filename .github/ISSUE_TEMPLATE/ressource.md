@@ -1,6 +1,6 @@
 ---
 name: Ressource
-about: Pour proper des ressources pour le site web
+about: Pour proposer une ressource a ajouter sur le site web
 title: "[Ressource] Nom de la ressource"
 labels: ressource
 assignees: ''
@@ -14,3 +14,4 @@ Type: Doit être une de ces valeurs:
 - extensions
 - projets
 - snippets
+Version de godot: 2.1, 3.0, 3.1, 3.2, 4.0, master
