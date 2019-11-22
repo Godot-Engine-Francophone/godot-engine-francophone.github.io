@@ -1,6 +1,6 @@
 ---
 name: Tutoriel
-about: Pour proposer un tutoriel
+about: Pour proposer un tutoriel a ajouter sur le site web
 title: "[Tutoriel] Nom du tutoriel"
 labels: Tutoriel
 assignees: ''
