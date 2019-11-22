@@ -2,7 +2,7 @@
 name: Ressource
 about: Pour proper des ressources pour le site web
 title: "[Ressource] Nom de la ressource"
-labels: ''
+labels: ressource
 assignees: ''
 
 ---
