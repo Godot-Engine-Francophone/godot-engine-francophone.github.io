@@ -245,8 +245,17 @@ article {
     transition: all 0.2s linear;
   }
 
-  .center-image
-  {
+  .article-header-link {
+    opacity: 0.1;
+
+    &:hover,
+    &:focus {
+      opacity: 0.5;
+      transition: all 0.2s linear;
+    }
+  }
+
+  .center-image {
     margin: 0 auto;
     display: block;
   }

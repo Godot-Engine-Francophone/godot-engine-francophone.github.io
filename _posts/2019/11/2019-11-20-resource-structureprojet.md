@@ -3,7 +3,7 @@ layout: ressource
 title: "Structurer un projet"
 description: >-
   Voici un exemple permettant de définir la structure d'un projet pour Godot Engine.
-type: Bonne pratique
+type: Documentation
 tag:
   - Structure
 categories: snippets
