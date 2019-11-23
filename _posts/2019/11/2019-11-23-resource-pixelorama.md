@@ -10,7 +10,7 @@ tag:
 - Pixel
 - Editeur
 categories: projets
-lien: https://www.exemple.com/lien-vers-la-ressource
+lien: https://github.com/OverloadedOrama/Pixelorama
 ---
 
 Il n'y a aucun contenu pour les ressources.
