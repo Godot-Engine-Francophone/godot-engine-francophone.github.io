@@ -18,7 +18,13 @@
     SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
-      json: '{{ site.baseurl }}/search.json'
+      searchResultTemplate: '<li><a href="{url}" title="{description}">{title}{tags}</a></li>',
+      json: '{{ site.baseurl }}/search.json',
+      templateMiddleware: function (prop, value, template) {
+        if (prop === 'tags' && value.length > 1) {
+          return '<div class="search-result-tags">' + value.split(',').reduce((acc, item) => `${acc} <span class="post-tag">${item}</span>`, '') + '</div>'
+        }
+      }
     })
 
     const articles = document.querySelectorAll('article')
