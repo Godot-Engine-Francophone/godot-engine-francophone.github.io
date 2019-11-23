@@ -6,6 +6,7 @@ description: >-
 type: Godot Engine
 tag:
   - master
+  - python
 categories: extensions
 lien: https://github.com/touilleMan/godot-python
 ---
