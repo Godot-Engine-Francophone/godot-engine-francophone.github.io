@@ -12,6 +12,7 @@ tag:
 - master
 - Android
 - Google Services
+- Module
 categories: extensions
 lien: https://github.com/FrogSquare/GodotGoogleService
 ---

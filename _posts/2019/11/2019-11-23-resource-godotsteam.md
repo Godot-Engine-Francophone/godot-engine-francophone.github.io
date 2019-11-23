@@ -10,7 +10,7 @@ tag:
 - 3.0
 - 3.1
 - Steam
-- Plugin
+- Module
 categories: extensions
 lien: https://github.com/Gramps/GodotSteam
 ---

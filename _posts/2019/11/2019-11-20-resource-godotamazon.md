@@ -8,7 +8,8 @@ type: Module
 tag:
   - 2.1
   - C++
-  - android
+  - Android
+  - Module
 categories: extensions
 lien: https://github.com/binogure-studio/godotamazon
 ---

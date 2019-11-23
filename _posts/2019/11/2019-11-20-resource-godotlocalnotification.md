@@ -8,6 +8,7 @@ tag:
   - 2.1
   - C++
   - android
+  - Module
 categories: extensions
 lien: https://github.com/binogure-studio/godotlocalnotification
 ---

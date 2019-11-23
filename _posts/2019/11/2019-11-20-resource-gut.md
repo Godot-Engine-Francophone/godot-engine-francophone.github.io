@@ -9,6 +9,7 @@ tag:
   - 2.1
   - 3.1
   - 3.2
+  - Plugin
 categories: extensions
 lien: https://github.com/bitwes/Gut
 ---
