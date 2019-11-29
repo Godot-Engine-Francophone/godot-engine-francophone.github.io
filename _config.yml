@@ -43,6 +43,8 @@ color:
     link: "#020202"
     hover: "#020202"
 
+highlighter: rouge
+
 # Plugins
 plugins_dir:
   - jekyll-admin

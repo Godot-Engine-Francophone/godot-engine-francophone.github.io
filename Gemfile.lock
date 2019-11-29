@@ -122,6 +122,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-target-blank
+  rouge
   support-for
 
 BUNDLED WITH

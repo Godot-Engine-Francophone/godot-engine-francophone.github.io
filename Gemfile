@@ -11,4 +11,5 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "html-proofer"
   gem "jekyll-target-blank"
+  gem "rouge"
  end
