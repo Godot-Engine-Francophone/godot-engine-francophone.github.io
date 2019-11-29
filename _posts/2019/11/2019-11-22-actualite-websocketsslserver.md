@@ -69,7 +69,7 @@ Dès que vous avez définit [vos modèles d'exportation](https://docs.godotengin
 
 ![HTML5 projet exportation](https://godotengine.org/storage/app/uploads/public/5de/044/edb/5de044edb1159008949448.png){: .center-image }
 
-Le navigateur par défaut s'ouvrira dès que vous exporterez votre projet en HTML5. Cependant, les navigateurs modernes empêches les requêtes asynchrones vers les url de type `file://`. C'est pourquoi nous avons ajouté un serveur HTTP très basique qui n'est là que pour servir les fichiers nécessaires à l'export HTML5.
+Le navigateur web par défaut s'ouvrira dès que vous exporterez votre projet en HTML5. Cependant, les navigateurs modernes empêchent les requêtes asynchrones vers les url de type `file://`. C'est pourquoi nous avons ajouté un serveur HTTP très basique qui n'est là que pour servir les fichiers nécessaires à l'export HTML5.
 
 Il s'agit d'un pas supplémentaire pour permettre aux utilisateurs de profiler les jeux exporter en HTML5 via une connexion en WebSocket.
 Restez connecté pour en savoir davantage!
