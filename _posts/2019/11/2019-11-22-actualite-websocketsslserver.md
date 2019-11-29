@@ -9,8 +9,12 @@ categories: actualite
 by: Fabio Alessandrelli 
 translated: Xavier Sellier
 tags:
-- Les tags sont affichés
-- Dans les bulles bleues
+- SSL
+- Chiffrement
+- WebSocket
+- Serveur HTTP
+- HTML5
+- 3.2
 original_url: https://godotengine.org/article/websocket-ssl-testing-html5-export
 icon: "shield-alt"
 ---
