@@ -14,7 +14,6 @@ original_url: https://godotengine.org/article/maintenance-release-godot-3-1-2
 icon: "code-branch"
 ---
 
-
 ![Fantastic Creatures](https://godotengine.org/storage/app/uploads/public/5de/1a4/91b/5de1a491b9c7c743318901.jpg){: .center-image }
 
 Alors que la version 3.2 est entrée [en phase de beta](http://www.godot-francophone.org/actualite-devsnapshot-3-2-beta-2/), nous relachons une nouvelle version de maintenance pour Godot Engine 3.1. Avec ses 400 changements de code, qui sont tout autant de correctifs que d'améliorations, il était temps de relacher la version 3.1.2.
@@ -59,5 +58,5 @@ Vous pouvez aussi consulter les changements qu'il y a eu depuis la version 3.1.1
 - Si vous remarquez une différence dans vos projets, s'il vous plait tenez-nous en informés comme ça nous pourrons l'afficher ici (même s'il s'agit d'une amélioration, c'est toujours mieux de tenir tout le monde informé)
 
 ----
-L'illustration est tirée de [Fantastic Creatures](https://store.steampowered.com/app/1002440/Fantastic_Creatures/), un jeu de stratégie 4X au tour par tour qui se déroule dans la mythologie de la Chine ancienne. Le tout développé avec Godot par Blue Calisto ([@FmrPlays](https://twitter.com/FmrPlays)). Il est disponible sur [Steam](https://store.steampowered.com/app/1002440/Fantastic_Creatures/) depuis deux semaines.
 
+*L'illustration est tirée de [Fantastic Creatures](https://store.steampowered.com/app/1002440/Fantastic_Creatures/), un jeu de stratégie 4X au tour par tour qui se déroule dans la mythologie de la Chine ancienne. Le tout développé avec Godot par Blue Calisto ([@FmrPlays](https://twitter.com/FmrPlays)). Il est disponible sur [Steam](https://store.steampowered.com/app/1002440/Fantastic_Creatures/) depuis deux semaines.*
