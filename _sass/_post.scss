@@ -142,45 +142,48 @@
   transition: .3s;
   overflow: hidden;
   cursor: pointer;
-    &:last-child {
-      margin-bottom: 0px;
-    }
 
-    &:hover {
-      border-color: $colortext;
-    }
+  &:last-child {
+    margin-bottom: 0px;
+  }
 
-    .list-item-icon {
-      flex-basis: 100px;
-      padding-right: 20px;
-      font-size: 2rem;
-      color: $colortext;
-    }
+  &:hover {
+    border-color: $colortext;
+    color: #de3535;
+    transition: all 0.2s linear;
+  }
 
-    .list-post-title {
-      font-size: 22px;
-      transition: .3s;
-      color: $colortext;
-    }
-    .list-post-type {
-      font-size: 18px;
-      transition: .3s;
-      color: $colortext;
-    }
-    .list-post-description {
-      font-size: 16px;
-    }
+  .list-item-icon {
+    flex-basis: 100px;
+    padding-right: 20px;
+    font-size: 2rem;
+    color: $colortext;
+  }
 
-    .list-post-written {
-      span {
-        font-weight: bold;
-      }
-    }
+  .list-post-title {
+    font-size: 22px;
+    transition: .3s;
+    color: $colortext;
+  }
+  .list-post-type {
+    font-size: 18px;
+    transition: .3s;
+    color: $colortext;
+  }
+  .list-post-description {
+    font-size: 16px;
+  }
 
-    small {
-      font-size: 12px;
-      opacity: .7
+  .list-post-written {
+    span {
+      font-weight: bold;
     }
+  }
+
+  small {
+    font-size: 12px;
+    opacity: .7
+  }
 }
 
 .list-item-2 {

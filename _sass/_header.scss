@@ -27,7 +27,7 @@
 
       &:hover,
       &:focus {
-        color: #ffdf0d;
+        color: #de3535;
         transition: all 0.2s linear;
       }
     }
@@ -98,14 +98,16 @@
         border-right: 1px solid #ddd;
         padding: 10px;
         box-sizing: border-box;
+
         &:first-child {
           border-top: 1px solid #ddd;
         }
-          a {
-            &:hover {
-              color: #01365c;
-            }
+
+        a {
+          &:hover {
+            color: #01365c;
           }
+        }
       }
     }
 }
