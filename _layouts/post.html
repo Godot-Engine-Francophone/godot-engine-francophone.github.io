@@ -28,7 +28,7 @@ layout: default
       <small><time>{{ page.date | date_to_string }}</time></small>
     </div>
     {% if page.categories contains "actualite" %}
-    <div class="list-post-written" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="0">
+    <div class="list-post-tag" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="0">
       {% for tag in page.tags %}
         <span class="post-tag">{{ tag }}</span>
       {% endfor %}

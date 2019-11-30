@@ -14,6 +14,7 @@ original_url: https://godotengine.org/article/maintenance-release-godot-3-1-2
 icon: "code-branch"
 ---
 
+
 ![Fantastic Creatures](https://godotengine.org/storage/app/uploads/public/5de/1a4/91b/5de1a491b9c7c743318901.jpg){: .center-image }
 
 Alors que la version 3.2 est entrée [en phase de beta](http://www.godot-francophone.org/actualite-devsnapshot-3-2-beta-2/), nous relachons une nouvelle version de maintenance pour Godot Engine 3.1. Avec ses 400 changements de code, qui sont tout autant de correctifs que d'améliorations, il était temps de relacher la version 3.1.2.
