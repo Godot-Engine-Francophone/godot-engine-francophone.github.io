@@ -12,4 +12,5 @@ group :jekyll_plugins do
   gem "html-proofer"
   gem "jekyll-target-blank"
   gem "rouge"
+  gem "jekyll-youtube"
  end

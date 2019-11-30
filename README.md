@@ -3,7 +3,7 @@
 Site statique utilisant Jekyll.
 
 ## Branche principale
-La branche principale est la branche `gh-pages`. Nommée ainsi pour signaler que c'est la branche de rendu `github pages`.
+La branche principale est la branche `gh-pages`. Elle est nommée ainsi pour signaler que c'est la branche de rendu `github pages`.
 
 ### Pourquoi ne pas avoir utilisé la branche `master`?
 La branche `master` est utilisée automatiquement par github pour afficher le site web. Il n'est pas possible de changer de branche, c'est imposé par github.
@@ -69,11 +69,17 @@ Sur tous les en-tête, il n'y a que deux champs qu'il ne faut pas modifier: `lay
 Ces deux champs permettent de définir comment afficher l'article puis de les trier pour la pagination.
 
 ### Ajouter des images?
-Si vous êtes amenés a ajouter des images. Ces dernières doivent être placées dans le rérptoire `assets/img`. Puis pour les intégrer a votre article procéder comme suit:
+Si vous êtes amenés a ajouter des images, ces dernières doivent être placées dans le rérptoire `assets/img`. Puis pour les intégrer a votre article procéder comme suit:
 ```markdown
-![Infobulle de l'image](/assets/img/2019-11-21-actualite-bigorno-titredelimage.jpg)
+![Infobulle de l'image](/assets/img/2019-11-21-actualite-bigorno-titredelimage.jpg){: .center-image }
 ```
 Le top ce serait que les images portent le même nom que l'article. Par exemple si un article se nomme `2019-11-21-actualite-bigorno.md`, l'image devra se nommer `/assets/img/2019-11-21-actualite-bigorno-titredelimage.jpg` par exemple.
+
+### Ajouter une vidéo Youtube?
+Ajouter des vidéos Youtube est assez facile à faire. Mettons que vous souhaitiez intégrer cette video `https://www.youtube.com/watch?v=4Wz-uCZd6EE` a votre article ou tutoriel, alors procédez comme suit:
+```markdown
+{% youtube "https://www.youtube.com/watch?v=4Wz-uCZd6EE" %}
+```
 
 ## Tester le tout en local
 
@@ -89,3 +95,8 @@ bundle exec jekyll serve --livereload --watch
 
 Une fois que c'est fait, vous pouvez ouvrir cette page http://127.0.0.1:4000/ via votre navigateur.
 De là vous pourrez visualiser le site localement.
+
+## Vous rencontrez un problème?
+
+## Vérifiez la date de l'article
+Si la date de l'article est dans le futur, alors Jekyll ne l'affichera pas. L'article/tutoriel ne sera disponible que lorsque la **date** de l'article sera **valide** qui est déjà **passée**.

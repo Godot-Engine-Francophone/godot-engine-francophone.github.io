@@ -7,8 +7,11 @@ description: >-
   Il est préférable de garder la description relativement courte.
 categories: tutoriel
 by: Exemple d'auteur
+tags:
+- Les tags sont affichés
+- Dans les bulles bleues
 niveau: Facile
-icon: 'code-branch'
+icon: "code-branch"
 ---
 Pour niveau il y a 3 niveaux de difficulté:
 - Facile (s'affiche en vert)
@@ -17,3 +20,5 @@ Pour niveau il y a 3 niveaux de difficulté:
 
 Contenu du tutoriel.
 On peut faire du markdown ici
+
+{% youtube "https://www.youtube.com/watch?v=4Wz-uCZd6EE" %}

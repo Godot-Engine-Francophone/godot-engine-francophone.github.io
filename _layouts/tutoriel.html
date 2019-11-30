@@ -29,6 +29,11 @@ layout: default
       {% endif %}
       <small><time>{{ page.date | date_to_string }}</time></small>
     </div>
+    <div class="list-post-tag" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="0">
+      {% for tag in page.tags %}
+        <span class="post-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
     <!-- titles -->
 
     <!-- content -->
