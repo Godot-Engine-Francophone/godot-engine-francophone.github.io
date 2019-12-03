@@ -20,6 +20,8 @@ Alors que la version 3.2 est entrée [en phase de beta](http://www.godot-francop
 
 Vous pouvez déjà [telécharger la version 3.1.2 de Godot](https://godotengine.org/download) avant de lire la liste des changements de cette mise à jour. Cette mise à jour est aussi disponible sur [Steam](https://store.steampowered.com/app/404790/Godot_Engine/) et [itch.io](https://godotengine.itch.io/godot)
 
+**Edit 2019-12-03 @ 15:00 UTC**: Une régression a été trouvée dans les modèles d'exports de WebAssembly (HTML5). Les fichiers `.tpz` contiennent maintenant le correctif. Cependant si vous avez installé Godot 3.1.2 avec ses modèles d'exportation, vous devriez mettre à jour les modèles d'exportations pour WebAssembly manuellement. Pour se faire, veuillez suivre les instructions suivantes. [Télécharger cette archive](https://downloads.tuxfamily.org/godotengine/3.1.2/hotfix/Godot_v3.1.2-stable_fixed_webassembly_templates.tpz) qui ne contient que le modèle d'exportation de WebAssembly, puis installez le manuellement depuis l'éditeur ([Voir les détails](https://downloads.tuxfamily.org/godotengine/3.1.2/hotfix/README.txt)). Si vous avez téléchargé Godot après l'ajout de ce message, alors vous n'avez rien à faire. La version steam quand à elle sera fixée automatiquement.
+
 ## Les branches de version
 Avant d'aller vérifier tous les changements pour cette version, une petite clarification est de mise pour ce qui concerne
 les branches de versions.
