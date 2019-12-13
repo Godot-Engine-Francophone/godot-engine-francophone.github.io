@@ -46,4 +46,5 @@ Retournez dans votre tilemap créez un tileset si cela n'a pas déjà été fait
 une fois sélectionné ça devient une tuile comme les autres, a vous de caler votre région. et voilà vous avez crée une tuile animée. 
 
 vidéo du tuto : 
+
 {% youtube "https://youtu.be/b5JbUR3B1vU" %}
