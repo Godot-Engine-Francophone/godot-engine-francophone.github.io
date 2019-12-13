@@ -3,9 +3,9 @@ layout: tutoriel
 title: "tuile de tilemap animée"
 description: >-
   comment mettre des sprites animés dans un tilemap
-categorie: tutoriel
+categories: tutoriel
 by: SoloCodeNet
-tag:
+tags:
 - tilemap
 - animatedSprite
 - resources
