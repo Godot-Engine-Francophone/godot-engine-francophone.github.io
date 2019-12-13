@@ -10,7 +10,7 @@ tags:
 - animatedSprite
 - resources
 - 3.1
-niveau: facile
+niveau: Facile
 icon: "code-branch"
 ---
 
