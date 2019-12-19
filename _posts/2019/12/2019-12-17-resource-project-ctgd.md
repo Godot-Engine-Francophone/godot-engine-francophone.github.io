@@ -3,7 +3,7 @@ layout: ressource
 title: "Crypth of the GodoDancers"
 description: >-
   Une copie des mécaniques de jeu de crypth of the necrodancer.
-type: Sous titre de la ressource
+type: Jeu complet
 tag:
 - 3.1
 - Jeu
