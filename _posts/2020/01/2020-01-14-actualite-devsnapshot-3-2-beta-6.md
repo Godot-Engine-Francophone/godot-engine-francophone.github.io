@@ -55,4 +55,4 @@ En tant que testeur, vous êtes encouragé à ouvrir les rapports de bogue si vo
 ----
 
 *L'illustration est tirée de [Sealed Bite](https://securas.itch.io/sealedbite), un magnifique graphisme pixel à la metroidvania par [Securas](https://twitter.com/Securas2010) avec la musique composée par [Wandard](https://soundcloud.com/fabienmerten). Il s'agit du jeu qui a gagné le [Github Game Off 2019](https://itch.io/jam/game-off-2019) (Gamejam organisée par github).
-Allez voir çá sur [http://itch.io](http://itch.io), vous pouvez même jouer avec le [code source du jeu qui est disponible sur Github](https://github.com/securas/SealedBite). N'oubliez pas de suivre [Securas sur Twitter](https://twitter.com/Securas2010), qui est un des plus profilique et talentueux Jammers de Godot.*
+Allez voir ça sur [http://itch.io](https://securas.itch.io/sealedbite), vous pouvez même jouer avec le [code source du jeu qui est disponible sur Github](https://github.com/securas/SealedBite). N'oubliez pas de suivre [Securas sur Twitter](https://twitter.com/Securas2010), qui est un des plus profilique et talentueux Jammers de Godot.*
