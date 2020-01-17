@@ -2,9 +2,8 @@
 title: "Release candidate 1: Godot 3.2"
 layout: actualite
 description: >-
-  Et voilà; Godot 3.2 est bientôt prêt. Nous sommes heureux de vous annoncer cette première Release Candidate. 
-  Nous espérons que cela va encourager les tests de ce qui va devenir Godot 3.2 dans les jours à venirs.
-
+  Et voilà; Godot 3.2 sera bientôt prêt. Nous sommes heureux de vous annoncer cette première Release Candidate. 
+  Nous espérons que cela va encourager les tests de ce qui va devenir Godot 3.2 dans les jours à venir.
 categories: actualite
 by: Rémi Verschelde 
 translated: Xavier Sellier
@@ -15,8 +14,8 @@ original_url: https://godotengine.org/article/release-candidate-godot-3-2-rc-1
 icon: code-branch
 ---
 
-Et voilà; Godot 3.2 est bientôt prêt. Nous sommes heureux de vous annoncer cette première Release Candidate. 
-Nous espérons que cela va encourager les tests de ce qui va devenir Godot 3.2 dans les jours à venirs.
+Et voilà; Godot 3.2 sera bientôt prêt. Nous sommes heureux de vous annoncer cette première Release Candidate. 
+Nous espérons que cela va encourager les tests de ce qui va devenir Godot 3.2 dans les jours à venir.
 
 ## Petit deviendra grand
 
@@ -24,7 +23,7 @@ Godot 3.2 devait être une petite mise à jour, apportant avec elle son lot habi
 
 Cependant, cette rallonge de temps a été bénéfique pour la version 3.2. Elle est livrée avec une tonne de nouvelles et importantes fonctionnalités ainsi qu'un nombre conséquent de correctifs - plus de 6000 changements de code apportés par près de 450 contributeurs! Avant de basculer sur la branche `vulkan`, Juan a pris le temps de développer quelques superbes fonctionnalités, et le reste a été fait par les contributeurs qui ont travaillés sans relâche pour implémenter toutes sortes de choses et pour corriger quelques 2000 bugs. Godot 3.2 sera bien plus mature que 3.1 sur tous les aspects, et ce sera une excellente version pour les developpeurs qui souhaitent développer des jeux avec la version 3.x (dans le cas ou porter les jeux à la version 4.0 s'avère compliqué)
 
-Bon, je vous tiens en haleine, mais j'ai pas encore la lsite des changements décrivant les plus importants pour le moment - avec un peu de chance la semaine qui vient me donnera un peu de temps libre pour faire un brouillon pour la version finale.
+Bon, je vous tiens en haleine, mais j'ai pas encore fait la liste des plus importants changements pour le moment - avec un peu de chance la semaine qui vient me donnera assez de temps libre pour faire un brouillon à temps pour la version finale.
 
 Cette version contient [187 changements](https://github.com/godotengine/godot/compare/0ab1726b43dbe81c96d208a41a582435b76fd058...ba7aca4199019529dec60555a5ff005f6692d281) depuis la 3.2 beta 6. Cette version est construite à partir de [0ab1726](https://github.com/godotengine/godot/commit/ba7aca4199019529dec60555a5ff005f6692d281)
 
