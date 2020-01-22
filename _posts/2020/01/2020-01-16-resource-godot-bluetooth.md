@@ -5,7 +5,7 @@ description: >-
   Implémentation native du bluetooth pour Godot Engine.
 type: Connexion Bluetooth
 tag:
-- 3.2
+- 3.1.2
 - Module
 - Bluetooth
 categories: extensions
