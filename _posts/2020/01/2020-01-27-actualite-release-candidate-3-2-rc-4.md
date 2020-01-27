@@ -17,10 +17,10 @@ Nous n'avons jamais été aussi proche de pouvoir publier la version 3.2 stable.
 Durant le seul mois de Janvier, plus de 350 correctifs auront été publié. Ce qui fait de la version 3.2 une bonne version.
 
 Les changements notables depuis la candidate 3:
-- Editeur: Correction de la mise à jour de l'Inspecteur lorsqu'un noeud est renommé, ce qui fermait l'éditeur de shader accompagné d'erreurs ([GH-35526](https://github.com/godotengine/godot/pull/35526)).
-- GLES2: Correction du Softbody qui apparaissait toujours au centre des mondes ([GH-35495](https://github.com/godotengine/godot/pull/35495)).
+- Editeur: Correction de la mise à jour de l'`Inspecteur` lorsqu'un noeud est renommé, ce qui fermait l'éditeur de shader accompagné d'erreurs ([GH-35526](https://github.com/godotengine/godot/pull/35526)).
+- GLES2: Correction du `SoftBody` qui apparaissait toujours au centre des mondes ([GH-35495](https://github.com/godotengine/godot/pull/35495)).
 - GLES3: Ajout d'un paramètre au projet pour régler la taille maximale d'irradiation ([GH-35561](https://github.com/godotengine/godot/pull/35561)).
-- Mono: Correction du `préprocessuer C#` qui bouclait sans s'arrêter et qui ne comprenait pas le `#if` ([GH-35524](https://github.com/godotengine/godot/pull/35524)).
+- Mono: Correction du `préprocesseur C#` qui bouclait sans s'arrêter et qui ne comprenait pas le `#if` ([GH-35524](https://github.com/godotengine/godot/pull/35524)).
 - Mono: Correction d'un crach potentiel de `_update_exports` a cause des `References` qui pourraient être nulles([GH-35527](https://github.com/godotengine/godot/pull/35527)).
 - `PathFollow`: Correction d'une régression avec les boucles qui ne commenceraient pas a 0 ([GH-35515](https://github.com/godotengine/godot/pull/35515)).
 - Modules tiers: `mbedtls`: Mise à jour de la version en amont a `2.16.4` (Patch de sécurité) ([GH-35596](https://github.com/godotengine/godot/pull/35596)).
