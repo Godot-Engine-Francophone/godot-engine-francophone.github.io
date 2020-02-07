@@ -6,7 +6,7 @@ description: >-
   Vous saurez alors tout ce que nous avons accomplis, ce que nous avons bien fait, mais aussi ce que nous pouvons et voulons améliorer.
   Et pour finir j'aborderai rapidement ce que nous avons planifié pour 2020.
 categories: actualite
-by: Xavier Sellier
+by: Xavier "Binogure"
 tags:
 - Godot Francophone
 - Rétrospective
