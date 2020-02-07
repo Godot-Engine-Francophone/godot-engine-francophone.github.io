@@ -84,7 +84,7 @@ Mais ce n'était pas tout d'avoir un site, encore fallait-il le faire vivre.
 
 Alors j'ai traduit les articles publiés sur le site de [Godot Engine](godotengine.org/) sur mon temps libre. Dès que j'avais le temps, j'ajoutais de [nouvelles ressources](https://www.godot-francophone.org/resources/index.html) au site web. Puis *SoloCodeNet* a publié un premier [tuto](https://www.godot-francophone.org/tutoriel-animated_tile/). En quelques semaines le site avait pris vie et la communauté **Godot Francophone** s'était aggrandit de plus belle. **Godot Francophone** était désormais listé sur les résultats de recherches Google.
 
-![Logo godot Social Club](/assets/img/2020-02-06-actualite-3-belles-annees-1.png){: .center-image }
+![Nombre d'utilisateurs uniques](/assets/img/2020-02-06-actualite-3-belles-annees-1.png){: .center-image }
 
 De son côté *theLudovyc* a travaillé très fort sur le [compte Twitter](https://twitter.com/GodotFrancopho1)[^1], dès que l'occasion se présentait il partageait le lien du discord amenant sans cesse de nouveaux membres. En l'espace de quelques semaines le serveur avait presque doublé de taille en accueillant près de 150 nouveaux membres.
 
@@ -93,10 +93,13 @@ Gérer une communauté ça s'apprend. *theLudovyc* a très rapidement appris, il
 
 À cause de cette différence d'approche, je n'ai pas su conserver le duo que nous avons formé avec *theLudovyc*. C'est ce qui a fait que quelques semaines plus tard, mi-janvier 2020 il a décidé de quitter le staff de **Godot Francophone** afin de se lancer dans un nouveau challenge, [**Godot est arrivé**](https://discord.gg/eTVcuwR). Après quelques jours, en se sentant plus a leur place au sein de **Godot Francophone**, *SoloCodeNet* et *tsar* l'ont rejoint. Je leur souhaite de réussir dans leur entreprise, la communauté de Godot s'en sera que plus grande.
 
-![Logo godot Social Club](/assets/img/2020-02-06-actualite-3-belles-annees-3.png){: .center-image }
+![Tabula rasa](/assets/img/2020-02-06-actualite-3-belles-annees-3.png){: .center-image }
 ## Tabula rasa
-Ne voulant répéter _mes_ erreurs passées, nous nous sommes concertés avec *Monsieur Kraken SIN* et *Topy* afin d'[améliorer le fonctionnement](https://github.com/Godot-Engine-Francophone/serveur-discord/pull/9/files) du discord. C'est l'amorce d'un nouveau serveur discord **Godot Francophone**. Je ne peux vous dire qu'une seule chose:
+Ne voulant répéter _mes_ erreurs passées, nous nous sommes concertés avec *Monsieur Kraken SIN* et *Topy* afin d'[améliorer le fonctionnement](https://github.com/Godot-Engine-Francophone/serveur-discord/pull/9/files) du discord.
+
+Aujourd'hui, 3 ans plus tard, nous sommes toujours en train d'évoluer afin de pouvoir offrir à la communauté francophone de Godot Engine ce dont elle a besoin pour s'épanouïr. Et cela va passer par la rédaction de nouveaux tutoriels sur le site web, la mise en avant des projets créés par la communauté via le twitter, le relai des articles de Godot Engine traduit en Français et offrir notre aide pour les personnes qui souhaitent utiliser Godot Engine sur le serveur discord. On veut construire une communauté forte autour de l'engin Godot Engine et je ne peux vous dire qu'une seule chose:
 
 ### <center>2020 va être une année chargée</center>
 
 [^1]: Hélàs, le compte originel a du être supprimé (dû à un problème d'organisation suite aux changements récents parmis les membres du staff). 
+[^2]: Il n'est pas possible de créer une association Francophone
