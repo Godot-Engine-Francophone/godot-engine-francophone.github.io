@@ -107,4 +107,6 @@ Aujourd'hui, après 3 ans d'aventures extraordinaires, nous sommes toujours en t
 
 ### <center>2020 va être une année chargée</center>
 
+Vous êtes motivé pour aider la communauté Godot Francophone?! Venez aider [à traduire la doc](https://hosted.weblate.org/projects/godot-engine/godot-docs/fr/) sur Weblate, à [rédiger des articles](https://github.com/Godot-Engine-Francophone/godot-engine-francophone.github.io/issues/new/choose) autour de Godot Engine ou encore à [publier des tutoriels](https://github.com/Godot-Engine-Francophone/godot-engine-francophone.github.io/issues/new/choose) sur le site. 
+
 [^1]: Hélàs, le compte originel a du être supprimé (dû à un problème d'organisation suite aux changements récents parmis les membres du staff). 
