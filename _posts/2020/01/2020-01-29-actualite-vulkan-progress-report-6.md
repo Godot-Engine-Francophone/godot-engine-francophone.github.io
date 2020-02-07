@@ -66,7 +66,7 @@ de sorte que la perte de qualité est beaucoup moins perceptible.
 
 ![HTML5 projet exportation](https://godotengine.org/storage/app/uploads/public/5e3/0aa/4d2/5e30aa4d2ecb4011191498.png){: .center-image }
 
-## Anti-alisaing spéculaire
+## Anti-aliasing spéculaire
 
 Étant donné que Godot n'utilise pas le TAA (`Temporal Anti Aliasing`), et qu'il ne le fera probablement jamais 
 (en raison de la charge énorme que cela représente pour les utilisateurs d'un moteur de jeu généraliste de 

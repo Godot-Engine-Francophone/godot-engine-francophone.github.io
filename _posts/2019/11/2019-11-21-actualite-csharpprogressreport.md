@@ -6,7 +6,7 @@ description: >-
   Il y a aussi une nouvelle extension pour Visual Studio pour Mac, MonoDevelop et un support préliminaire pour la compilation AOT.
 categories: actualite
 by: Ignacio Roldán Etcheverry 
-translated: Xavier Sellier
+translated: Xavier "Binogure"
 tags:
 - C#
 - Mono
