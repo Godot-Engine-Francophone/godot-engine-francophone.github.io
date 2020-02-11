@@ -33,8 +33,9 @@ pagination:
 # Color:
 color:
   icon: "#f7fbff"
+  tag_color: "#297AC3"
   footer:
-    background: "#63baf6"
+    background: "#01365c"
   theme: "#fefefe"
   text: "#0e0e0e"
   link:

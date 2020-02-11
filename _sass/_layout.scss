@@ -150,7 +150,7 @@ $on-laptop:        1024px !default;
 }
 
 .post-tag {
-  background-color: #63baf6;
+  background-color: $colortag;
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 4px;
@@ -158,6 +158,7 @@ $on-laptop:        1024px !default;
   border-radius: 16px;
   font-size: 16px;
   color: white;
+  font-weight: 600;
 }
 
 .tutoriel-niveau-facile {
