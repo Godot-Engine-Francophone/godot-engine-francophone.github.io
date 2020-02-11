@@ -13,7 +13,7 @@ tags:
 icon: code-branch
 ---
 
-![Attention branche master instable](/assets/img/2020-02-11-actu-branche-master-instable.png)
+![Attention branche master instable](/assets/img/2020-02-11-actu-branche-master-instable.png){: .center-image .image-512 }
 
 Dans la plupart des _workflows_ de développement basés sur Git, la branche `master` par défaut est celle où se fait 
 la majeure partie du développement. Il peut s'agir de branches de fonctionnalités bien définies (ou dans notre cas, de 
