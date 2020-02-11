@@ -1,8 +1,8 @@
 ---
-title: "Attention ! Merge de Vulkan, branche master instable !"
+title: "Attention! Merge de Vulkan, branche master instable!"
 layout: actualite
 description: >-
-  
+  Nous fusionnons notre port Vulkan en cours de développement (jusqu’à présent dans la branche Vulkan) dans la branche master
 categories: actualite
 by: Rémi Verschelde
 translated: Topy
@@ -13,9 +13,7 @@ tags:
 icon: code-branch
 ---
 
-![Attention branche master instable](https://raw.githubusercontent.com/Godot-Engine-Francophone/godot-engine-francophone.github.io/2020-11-02-merge-de-vulkan-branche-master-instable/assets/img/2020-02-11-actu-branche-master-instable.png)
-
-# Attention ! Merge de Vulkan, la branche master devient instable !
+![Attention branche master instable](/assets/img/2020-02-11-actu-branche-master-instable.png)
 
 Dans la plupart des _workflows_ de développement basés sur Git, la branche `master` par défaut est celle où se fait 
 la majeure partie du développement. Il peut s'agir de branches de fonctionnalités bien définies (ou dans notre cas, de 
