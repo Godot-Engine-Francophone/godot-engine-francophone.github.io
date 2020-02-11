@@ -263,6 +263,21 @@ article {
     display: block;
   }
 
+  .image-128 {
+    width: 128px;
+    height: auto;
+  }
+
+  .image-256 {
+    width: 256px;
+    height: auto;
+  }
+
+  .image-512 {
+    width: 512px;
+    height: auto;
+  }
+
   img + em {
     display: block;
     text-align: center;
