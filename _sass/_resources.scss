@@ -14,7 +14,7 @@
   a {
     color: $colorlink;
     text-decoration: none;
-    background-image: linear-gradient(#9f14dd, #9f14dd);
+    background-image: linear-gradient(#297ac3, #297ac3);
     background-position: 0% 110%;
     background-repeat: no-repeat;
     background-size: 0% 8px;
@@ -24,13 +24,13 @@
   a:hover,
   a:active,
   a:focus {
-    color: #9f14dd;
+    color: #297ac3;
     text-decoration: none;
     background-size: 100% 8px;
   }
 
   .ressource--content--item--active {
-    color: #9f14dd;
+    color: #297ac3;
     text-decoration: none;
     background-size: 100% 8px;
   }
@@ -41,7 +41,7 @@
   overflow: hidden;
   padding-bottom: 8px;
   padding-top: 8px;
-  border-bottom: 1px dotted #9f14dd;
+  border-bottom: 1px dotted #297ac3;
   cursor: pointer;
 
   &:last-child {
