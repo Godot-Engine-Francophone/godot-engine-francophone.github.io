@@ -24,7 +24,7 @@ Nous avons beaucoup progressé sur le support du C# depuis le premier rapport d'
 Lors du premier rapport, nous avons parlé du support du C# pour les jeux Android. Maintenant, c'est au tour de WebAssembly.
 
 ![Demo Dodge The Creep](https://godotengine.org/storage/app/media/mono_wasm_demo.opt.gif){: .center-image }
-*Démo [Dodge The Creeps](https://github.com/godotengine/godot-demo-projects/tree/master/mono/DodgeTheCreepsCS) fait en C# sur un navigateur Web*
+*Démo [Dodge The Creeps](https://github.com/godotengine/godot-demo-projects/tree/master/mono/dodge_the_creeps) fait en C# sur un navigateur Web*
 
 WebAssembly est une plateforme assez inhabituelle, il y a donc quelques points à garder à l'esprit. Plus important encore, le compilateur JIT n'est pas disponible. Il y a deux façons d'exécuter du code: l'interpréteur IL de Mono et la compilation AOT. Pour l'instant, Godot utilise l'interpréteur IL de Mono. C'est utile pour le développement car il permet une itération rapide, cependant il est beaucoup plus lent que le code compilé avec AOT. Malheureusement, Godot ne supporte pas encore AOT pour WebAssembly, cela devrait arriver bientôt.
 
