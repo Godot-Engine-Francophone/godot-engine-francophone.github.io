@@ -103,7 +103,7 @@ La documentation intégrée et la [version en ligne](https://docs.godotengine.or
 
 ![Documentation](https://godotengine.org/storage/app/uploads/public/5e3/161/4f3/5e31614f37b41633239978.png){: .center-image .image-512 }
 
-Pour la première fois, la documentation de Godot est également disponible en plusieurs langues! Seule la [dernière branche est traduite](https://docs.godotengine.org/fr/latest/), mais elle correspond actuellement au contenu de la branche stable. Vous pouvez participer à l'[effort de traduction](https://hosted.weblate.org/projects/godot-engine/godot-docs/!
+Pour la première fois, la documentation de Godot est également disponible en plusieurs langues! Seule la [dernière branche est traduite](https://docs.godotengine.org/fr/latest/), mais elle correspond actuellement au contenu de la branche stable. Vous pouvez participer à l'[effort de traduction](https://hosted.weblate.org/projects/godot-engine/godot-docs/)
 
 ![Documentation](https://godotengine.org/storage/app/uploads/public/5e3/162/182/5e3162182c027709073016.png){: .center-image .image-256 }
 
