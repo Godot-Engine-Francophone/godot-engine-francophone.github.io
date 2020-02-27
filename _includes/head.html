@@ -18,7 +18,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ site.url }}" />
 
-  <meta property="og:description" content="{{ page.description | site.description }}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:image" content="{{site.url}}{{site.baseurl}}/assets/img/icon.png" />
 
@@ -33,10 +33,29 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ page.title | site.title }}">
   <meta name="twitter:description" content="{{ page.description | site.description }}">
-  <meta name="twitter:creator" content="{{ site.twitter_username }}">
+  <meta name="twitter:creator" content="{{ site.social_sites.twitter }}">
   <meta name="twitter:image" content="{{site.url}}{{site.baseurl}}/assets/img/icon.png">
-  <meta itemprop="name" content="{{ site.title }}">
-  <meta itemprop="description" content="{{ site.description }}">
-  <meta itemprop="image" content="{{site.url}}{{site.baseurl}}/assets/img/icon.png">
+  <meta name="image" content="{{site.url}}{{site.baseurl}}/assets/img/icon.png">
+  <meta itemprop="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+  <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
+  <meta itemprop="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}, {% endif %}{{ site.tag }}">
   <!-- twitter -->
+
+  <meta name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+  <meta name="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
+  <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}, {% endif %}{{ site.tag }}">
+
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "alternateName": "{{ site.alt_title }}",
+    "url": "{{site.url}}",
+    "logo": "{{site.url}}{{site.baseurl}}/assets/img/icon.png",
+    "sameAs": [
+      "https://twitter.com/{{ site.social_sites.twitter }}",
+      "https://github.com/{{ site.social_sites.github }}"
+  }]
+  </script>
 </head>

@@ -7,18 +7,19 @@
 
 # Site settings
 title: "Godot Engine Francophone"
+alt_title:  "Godot Francophone"
 email: "-"
 description: >
-  Nous sommes la communauté francophone officielle de Godot Engine.
-  Nous proposons de l’aide à ceux qui souhaitent se lancer dans l’utilisation de Godot,
-  et nous contribuons à l’amélioration du moteur.
+  Nous sommes la communauté francophone de Godot Engine.
+  On partage des tutoriels et des ressource utiles en français.
 baseurl: ""
 url: "https://www.godot-francophone.org"
-twitter_username: "GodotFrancopho1"
+twitter_username: "godotenginefr"
 github_username:  "Godot-Engine-Francophone"
 color_theme:  "#fefefe"
 color_text:  "#0e0e0e"
 language:  "fr"
+tag: godot, godot engine, engine, francais, france, tutoriel, francophone, discord, communauté
 
 # Build settings
 markdown: kramdown
@@ -56,7 +57,7 @@ facebook:
   admins: "00000000"
 
 social_sites:
-  twitter: GodotFrancopho1
+  twitter: godotenginefr
   # youtube: Binogure studio
   # youtube_uri: UCICwKQU-TUX24Ocm1Axsbeg
   github:  Godot-Engine-Francophone
