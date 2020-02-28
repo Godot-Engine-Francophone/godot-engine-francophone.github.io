@@ -5,7 +5,7 @@ description: >-
   Godot 3.2 est une amélioration majeure par rapport à la version 3.1, apportant des dizaines de fonctionnalités importantes, des centaines de corrections de bugs et d'améliorations pour apporter à nos développeurs de jeux un ensemble de fonctionnalités en constante amélioration avec un fort accent sur facilité d'utilisation.
 categories: actualite
 by: Rémi Verschelde
-translated: Xavier "Binogure"
+translated: Xavier \"Binogure\"
 original_url: https://godotengine.org/article/here-comes-godot-3-2
 tags:
 - godot

@@ -6,7 +6,7 @@ description: >-
   améliorations mineures sans risque et une document mise à niveau), voici sans plus attendre Godot 3.2 beta 6!
 categories: actualite
 by: Rémi Verschelde 
-translated: Xavier Sellier
+translated: Xavier \"Binogure\"
 tags:
 - Snapshot
 - 3.2
