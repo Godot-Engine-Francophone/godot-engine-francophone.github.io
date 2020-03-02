@@ -32,7 +32,7 @@
   <!-- twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ page.title | site.title }}">
-  <meta name="twitter:description" content="{{ page.description | site.description }}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}">
   <meta name="twitter:creator" content="{{ site.social_sites.twitter }}">
   <meta name="twitter:image" content="{{site.url}}{{site.baseurl}}/assets/img/icon.png">
   <meta name="image" content="{{site.url}}{{site.baseurl}}/assets/img/icon.png">
