@@ -2,7 +2,7 @@
 layout: ressource
 title: "Shader To Image"
 description: >-
-  Permet d'exporter le rendu d'un shader dans un fichier PNG.
+  Permet d'obtenir une instance Image contenant le rendu d'un shader
 type: Shader
 tag:
   - 3.2
