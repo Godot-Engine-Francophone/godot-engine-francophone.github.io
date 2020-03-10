@@ -16,7 +16,7 @@ icon: chalkboard-teacher
 Étudiant à Brassart Montpellier dans la filière programmation, nous recherchons actuellement un développeur avec de bonnes connaissances dans l’utilisation du moteur Godot afin de donner des cours sur quelques semaines avant Juin!
 
 - Titre: **Chargé de cours**
-- Lieu: **Université Brassart** à Montpellier (France)
+- Lieu: **École Brassart** à Montpellier (France)
 - Disponibilité: **Immédiat**
 - Durée: 4x 4 heures de cours
 - **Rémunéré**
