@@ -2,7 +2,8 @@
 title: "Version de maintenance: Godot 3.2.1"
 layout: actualite
 description: >-
-  La dernière version stable, Godot 3.2, a été publié fin Janvier.
+  Godot Engine 3.2.1 vient de sortir, elle apporte de nombreuses corrections par rapport à la version 3.2.
+  Elle est 100% compatible avec la version 3.2, pensez a mettre à jour vos projets.
 categories: actualite
 by: Rémi Verschelde 
 translated: Xavier \"Binogure\"
