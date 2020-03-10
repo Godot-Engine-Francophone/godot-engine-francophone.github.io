@@ -1,5 +1,5 @@
 ---
-title: "Poste à pourvoir: Chargés de cours à Montpellier (34) France"
+title: "Poste à pourvoir: Chargé de cours à Montpellier (34) France"
 layout: actualite
 description: >-
   Nous recherchons actuellement un développeur avec de bonnes connaissances dans l’utilisation du moteur Godot afin de donner 4 cours sur quelques semaines avant Juin 2020!  
@@ -8,7 +8,9 @@ by: Xavier \"Binogure\"
 tags:
 - Godot engine
 - Offre d'emploi
-icon: code-branch
+- Chargé de cours
+- Montpellier
+icon: chalkboard-teacher
 ---
 
 Étudiant à Brassart Montpellier dans la filière programmation, nous recherchons actuellement un développeur avec de bonnes connaissances dans l’utilisation du moteur Godot afin de donner des cours sur quelques semaines avant Juin!
