@@ -11,6 +11,7 @@ tags:
 - Active design
 icon: graduation-cap
 ---
+
 ![Escoria in daiza](https://activdesign.eu/uploads/2020/03/25/escoria_in_daiza_workshop2020.jpg){: .center-image }
 
 Dans ces temps de confinement plusieurs initiatives voient le jour. Dont celle d'[Activdesign](https://activdesign.eu/), qui met à disposition gratuitement leurs tuteurs dans le cadre d'ateliers ouverts gratuitement aux collégiens et lycéens.
