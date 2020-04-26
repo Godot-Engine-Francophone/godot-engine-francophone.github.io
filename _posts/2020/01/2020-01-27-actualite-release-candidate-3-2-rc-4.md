@@ -5,7 +5,7 @@ description: >-
   Nous n'avons jamais été aussi proche de pouvoir publier la version 3.2 stable. La candidate 4 est la afin de valider les derniers changements faits durant le week-end, et avant de publier une nouvelle version, qui sera (probablement) la dernière release candidate. Si aucune regression critique n'est trouvée dans cette version, alors la 3.2 devrait être presque identique a celle-ci.
 categories: actualite
 by: Rémi Verschelde 
-translated: Xavier \"Binogure\"
+translated: "Xavier \"Binogure\""
 tags:
 - 3.2
 - Release candidate

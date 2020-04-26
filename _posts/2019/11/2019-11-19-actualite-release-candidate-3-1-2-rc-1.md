@@ -9,7 +9,7 @@ description: Il y a plus de 6 mois que Godot Engine 3.1.1 a été relâché et v
   publions cette version, pour que la communauté puisse la tester avec nous.
 categories: actualite
 by: Rémi Verschelde
-translated: Xavier \"Binogure\"
+translated: "Xavier \"Binogure\""
 tags:
 - Release Candidate
 - 3.1

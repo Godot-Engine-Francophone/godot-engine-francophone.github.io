@@ -7,7 +7,7 @@ description: >-
   pourquoi ont-ils choisi de supporter Godot, et que comptent-ils faire avec Godot.
 categories: actualite
 by: Rémi Verschelde. 
-translated: Xavier \"Binogure\"
+translated: "Xavier \"Binogure\""
 tags:
 - Sponsor
 - Platinum

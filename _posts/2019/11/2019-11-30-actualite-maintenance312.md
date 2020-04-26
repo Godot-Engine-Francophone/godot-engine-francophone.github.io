@@ -6,7 +6,7 @@ description: >-
   Avec ses 400 changements de code, qui sont tout autant de correctifs que d'améliorations, il était temps de relacher la version 3.1.2.
 categories: actualite
 by: Rémi Verschelde
-translated: Xavier \"Binogure\"
+translated: "Xavier \"Binogure\""
 tags:
 - 3.1.2
 - Stable

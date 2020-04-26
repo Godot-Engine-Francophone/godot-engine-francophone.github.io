@@ -6,7 +6,7 @@ description: >-
   Elle est 100% compatible avec la version 3.2, pensez a mettre à jour vos projets.
 categories: actualite
 by: Rémi Verschelde 
-translated: Xavier \"Binogure\"
+translated: "Xavier \"Binogure\""
 tags:
 - 3.2.1
 - Stable

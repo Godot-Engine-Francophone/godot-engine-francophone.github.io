@@ -6,7 +6,7 @@ description: >-
   Nous espérons que cela va encourager les tests de ce qui va devenir Godot 3.2 stable dans les jours à venir.
 categories: actualite
 by: Rémi Verschelde 
-translated: Xavier \"Binogure\"
+translated: "Xavier \"Binogure\""
 tags:
 - 3.2
 - Release candidate

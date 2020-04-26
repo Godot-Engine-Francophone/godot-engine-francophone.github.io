@@ -5,7 +5,7 @@ description: >-
   Le showreel de 2020 est fin prêt !
 categories: actualite
 by: Juan Linietsky 
-translated: Xavier \"Binogure\"
+translated: "Xavier \"Binogure\""
 tags:
 - Showreel
 - 2020
