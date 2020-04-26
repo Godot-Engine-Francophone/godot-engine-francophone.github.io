@@ -4,7 +4,7 @@ layout: actualite
 description: >-
   Nous recherchons actuellement un développeur avec de bonnes connaissances dans l’utilisation du moteur Godot afin de donner 4 cours sur quelques semaines avant Juin 2020!  
 categories: actualite
-by: Xavier \"Binogure\"
+by: "Xavier \"Binogure\""
 tags:
 - Godot engine
 - Offre d'emploi
