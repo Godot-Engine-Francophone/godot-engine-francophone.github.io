@@ -2,8 +2,7 @@
 title: "Godot Showreel 2020"
 layout: actualite
 description: >-
-  Godot Engine 3.2.1 vient de sortir, elle apporte de nombreuses corrections par rapport à la version 3.2.
-  Elle est 100% compatible avec la version 3.2, pensez a mettre à jour vos projets.
+  Le showreel de 2020 est fin prêt !
 categories: actualite
 by: Juan Linietsky 
 translated: Xavier \"Binogure\"
