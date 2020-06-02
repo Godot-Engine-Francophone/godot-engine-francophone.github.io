@@ -7,7 +7,7 @@ description: >-
   le support de C# 8 via Mono 6.6.0.
 categories: actualite
 by: Rémi Verschelde 
-translated: "Xavier \"Binogure\""
+translated: Xavier 'Binogure'
 tags:
 - Snapshot
 - 3.2

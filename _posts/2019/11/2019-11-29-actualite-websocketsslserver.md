@@ -7,7 +7,7 @@ description: >-
   et il vous est possible d'exporter et de tester l'export HTML5 depuis l'éditeur avec un simple clic.
 categories: actualite
 by: Fabio Alessandrelli 
-translated: "Xavier \"Binogure\""
+translated: Xavier 'Binogure'
 tags:
 - SSL
 - Chiffrement

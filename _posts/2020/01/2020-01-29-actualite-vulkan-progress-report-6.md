@@ -6,7 +6,7 @@ description: >-
   (ça n'était pas arrivé depuis des années), et Décembre a été jonché de tâches liées au moteur qui se sont accumulées et que j'ai dû traiter. J'ai donc repris le travail sur Vulkan début Janvier, et beaucoup de progrès a déjà été fait.
 categories: actualite
 by: Juan Linietsky
-translated: Clément \"Topy\"
+translated: Clément 'Topy'
 tags:
 - Vulkan
 original_url: https://godotengine.org/article/vulkan-progress-report-6

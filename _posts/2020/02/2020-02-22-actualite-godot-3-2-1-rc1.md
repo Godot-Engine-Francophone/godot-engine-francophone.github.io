@@ -6,7 +6,7 @@ description: >-
   a durée quasiment une année
 categories: actualite
 by: Rémi Verschelde 
-translated: "Xavier \"Binogure\""
+translated: Xavier 'Binogure'
 tags:
 - 3.2.1
 - Release candidate

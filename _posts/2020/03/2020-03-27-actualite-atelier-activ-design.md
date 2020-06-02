@@ -4,7 +4,7 @@ layout: actualite
 description: >-
   Dans ces temps de confinement plusieurs initiatives voient le jour. Dont celle d'Activdesign, qui met à disposition gratuitement leurs tuteurs dans le cadre d'ateliers ouverts gratuitement aux collégiens et lycéens.
 categories: actualite
-by: "Xavier \"Binogure\""
+by: Xavier 'Binogure'
 tags:
 - Atelier
 - Game design
