@@ -5,9 +5,9 @@ description: >-
   Shader réaliste qui rend la surface de l'eua avec les jeux de lumière.
 type: Reflet sur de l'eau réaliste
 tag:
-- Water
+- Eau
 - 3.2
-- Realiste
+- Réaliste
 - Shader
 categories: shaders
 lien: https://github.com/Platinguin/Godot-Water-Shader-Prototype
