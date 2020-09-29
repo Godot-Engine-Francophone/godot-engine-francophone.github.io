@@ -9,7 +9,7 @@ tag:
 - Addon
 - 3.2
 categories: extensions
-lien: https://godot-build-options-generator.github.io/
+lien: https://github.com/Calinou/godot-lod
 ---
 
 Il n'y a aucun contenu pour les ressources.
