@@ -6,7 +6,7 @@ description: >-
 type: Jeu
 logo: 2020-11-09-showcase-portability.gif
 tag:
-- Smokey Moose Games   
+- Aurimas Drungilas
 categories: showcase
 lien: https://store.steampowered.com/app/1358760/Portability/
 ---
