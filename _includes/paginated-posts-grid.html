@@ -4,8 +4,12 @@
   {% else %}
   {% for post in paginator.posts %}
   {% if post.categories contains page.search %}
-  <a href="{{ site.baseurl }}{{ post.url }}" class="list-item-2 container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
-
+  {% if post.nsfw %}
+    <div class="nsfw">
+    <a class="list-item-2 container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+  {% else %}
+    <a href="{{ site.baseurl }}{{ post.url }}" class="list-item-2 container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+  {% endif %}
     <img class="list-item-2-img game-logo" src="/assets/img/showcase/{{ post.logo }}"  alt="{{ post.title }}" />
 
     <div class="flex-grow-1">
@@ -25,6 +29,14 @@
       </div>
     </div>
 
+  {% if post.nsfw %}
+      <label class="nsfw-button" ondblclick="javascript: {
+        this.parentNode.href = '{{ site.baseurl }}{{ post.url }}'
+        this.parentNode.parentNode.classList.remove('nsfw')
+        this.remove()
+      }">Contenu 18+ (Double clique)</label>
+    </div>
+  {% endif %}
   </a>
   {% if page.post.quantity %}
   {% break %}
