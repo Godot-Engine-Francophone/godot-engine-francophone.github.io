@@ -172,6 +172,8 @@
   }
   .list-post-description {
     font-size: 16px;
+    box-sizing : border-box;
+    padding-right : 8px;
   }
 
   .list-post-written {
@@ -195,6 +197,11 @@
   transition: .3s;
   margin-bottom: 10px;
   overflow: hidden;
+  flex-direction: column;
+
+  .flex-empty {
+    height: 256px;
+  }
 
   &:hover {
     border-color: $colortext;
@@ -202,13 +209,19 @@
       color: $colortext;
     }
   }
+  .flex-grow-1 {
+    float: bottom;
+    bottom: 0;
+    width: 100%;
 
-  .list-item-2-img {
-    margin-right: 20px;
-      @media screen and (max-width: 839px) {
-        margin-right: 4px;
-      }
-   }
+    background-position: center;
+    background-size: cover;
+  }
+
+  .flex-content {
+    background-color: #FFFFFFC0;
+    padding: 18px;
+  }
 
   .list-item-icon {
     flex-basis: 100px;
