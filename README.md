@@ -33,7 +33,7 @@ Avec jekyll, il est nécessaire de nommer ses articles comme suit `AAAA-MM-JJ-ca
 - `AAAA` - L'année en chiffres, par exemple `2020`
 - `MM` - Le mois en chiffres, par exemple `11`
 - `JJ` - Le jour en chiffre, par exemple `26`
-- `categorie` - Le type d'article que vous allez écrire. Cela doit être un de ceux là: `actualite`, `resource`, `tutoriel`.
+- `categorie` - Le type d'article que vous allez écrire. Cela doit être un de ceux là: `actualite`, `resource`, `tutoriel`, `showcase`.
 - `titre` - Le titre de l'article sans espace, ni accent. Que des caracteres alphanumerique
 
 ### Bien placer son article
