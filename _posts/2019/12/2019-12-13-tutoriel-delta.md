@@ -47,7 +47,7 @@ Maintenant prenons le temps de comprendre ce qu'il se passe suivant la puissance
 
 *(FPS : Frames per second - > images par secondes)*
 
-![without delta](/assets/img/2019-12-13-tutoriel-without-delta.png){: .center-image }
+![without delta](/assets/img/tutoriel/2019-12-13-tutoriel-without-delta.png){: .center-image }
 
 Ça serait problématique si dans mon éventuel jeu en réseau l'un incarnait un policier et l'autre un bandit à rattraper ! suivant la puissance de la machine, nous n'avancerions pas à la même distance par seconde. 
 
@@ -73,7 +73,7 @@ Si on effectue les calculs maintenant:
 - 100 x 0.011111 = 1.111  par frame  x **90** FPS = **99.99**  pixels en 1 sec
 - 100 x 0.05 = 5  par frame x **20** FPS = **100** pixels en 1 sec 
   
-![with delta](/assets/img/2019-12-13-tutoriel-with-delta.png){: .center-image }
+![with delta](/assets/img/tutoriel/2019-12-13-tutoriel-with-delta.png){: .center-image }
 
 Les résultats parlent d'eux-mêmes, malgré les différences de FPS la distance parcourue en une seconde est la même (les différences sont infimes au centième de pixel et viennent de mes arrondis ) 
 

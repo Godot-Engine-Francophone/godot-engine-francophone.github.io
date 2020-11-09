@@ -189,11 +189,13 @@
 .list-item-2 {
   box-shadow: 0 3px 8px 0 rgba(0,0,0,0.03);
   border: 1px solid #C1C1C1;
-  padding: 40px;
+  padding: 0px;
+  border-radius: 32px;
   box-sizing: border-box;
   transition: .3s;
   margin-bottom: 10px;
   overflow: hidden;
+
   &:hover {
     border-color: $colortext;
     .list-post-title {
@@ -208,6 +210,38 @@
         margin-top: 20px;
       }
    }
+
+  .list-item-icon {
+    flex-basis: 100px;
+    padding-right: 20px;
+    font-size: 2rem;
+    color: $colortext;
+  }
+
+  .list-post-title {
+    font-size: 22px;
+    transition: .3s;
+    color: $colortext;
+  }
+  .list-post-type {
+    font-size: 18px;
+    transition: .3s;
+    color: $colortext;
+  }
+  .list-post-description {
+    font-size: 16px;
+  }
+
+  .list-post-written {
+    span {
+      font-weight: bold;
+    }
+  }
+
+  small {
+    font-size: 12px;
+    opacity: .7
+  }
 }
 
 article {
@@ -287,6 +321,10 @@ article {
   strong {
     font-weight: bold;
   }
+}
+
+.flex-grow-1 {
+  margin: auto;
 }
 
 .pager {

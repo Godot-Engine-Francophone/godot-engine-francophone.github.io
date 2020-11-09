@@ -1,0 +1,33 @@
+---
+active_lang: fr
+layout: default
+position: 3
+ref: index
+title: Showcase
+header: search
+menu: true
+search: showcase
+permalink: /showcase
+pagination: 
+  enabled: true
+  permalink: ':num/'
+  category: showcase
+description: >
+  Liste des jeux faits avec Godot Engine.
+---
+<div class="bg-header">
+  {% include header.html %}
+</div>
+
+<div class="content-post">
+  <div class="size margin">
+    <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+      Voici une liste non-exaustive des jeux faits avec Godot Engine qui sont disponibles en Français!
+    </div>
+
+    {% include paginated-posts-grid.html %}
+    <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+      <i>Nous ne listons que les jeux qui sont jouables en Français.</i>
+    </div>
+  </div>
+</div>
