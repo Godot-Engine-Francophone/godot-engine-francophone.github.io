@@ -4,8 +4,10 @@
 
 .header {
   min-height: calc(100vh - 512px);
-  background: url('../assets/img/header-0.png'), url('../assets/img/header-1.png');
-  background-blend-mode: overlay;
+  background: url('../assets/img/background.png'), url('../assets/img/header-1.png');
+  background-blend-mode: exclusion;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
