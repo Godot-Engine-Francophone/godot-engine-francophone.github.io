@@ -6,11 +6,11 @@ description: >-
   en utilisant uniquement ud GDScript
 type: Editeur de sprite
 tag:
-- 3.1
+- 3.2
 - Pixel
 - Editeur
 categories: projets
-lien: https://github.com/OverloadedOrama/Pixelorama
+lien: https://github.com/Orama-Interactive/Pixelorama
 ---
 
 Il n'y a aucun contenu pour les ressources.
