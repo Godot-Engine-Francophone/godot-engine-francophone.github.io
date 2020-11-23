@@ -9,8 +9,15 @@
   </div>
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
-  
+  <script src="{{ site.baseurl }}/assets/js/freezeframe.min.js"></script>
+
   <script>
+    const freeze = new Freezeframe('.freezeframe',{
+      trigger: 'hover',
+      responsive: true,
+      warnings: false
+    });
+    
     AOS.init({
       once: true
     })

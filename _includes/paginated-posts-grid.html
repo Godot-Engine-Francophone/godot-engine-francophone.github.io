@@ -1,4 +1,4 @@
-<div class="">
+<div class="masonry">
   {% if site.posts.size == 0 %}
   <h2>No post found</h2>
   {% else %}
@@ -8,31 +8,26 @@
     <div class="nsfw">
     <a class="list-item-2 container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
   {% else %}
+  <!--
     <a href="{{ site.baseurl }}{{ post.url }}" class="list-item-2 container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+  -->
+
+  <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" class="container brick" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
   {% endif %}
-
-<!--     <img class="list-item-2-img game-logo" src="/assets/img/showcase/{{ post.logo }}"  alt="{{ post.title }}" > -->
-    
-    <div class="flex-grow-1" style="background-image: url('/assets/img/showcase/{{ post.logo }}')">
-      <div class='flex-empty'></div>
-      <div class='flex-content'>
-        <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
-          <h2 class="list-post-title">
+    <img class="freezeframe" src="/assets/img/showcase/{{ post.logo }}" alt="{{ post.title }}">
+    <div class="overlay-description">
+      <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+        <h2 class="list-post-title">  
           {{ post.title }}
-          </h2>
-        </div>
-        <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
-          <span class="list-post-description">{{ post.description }}</span>
-        </div>
-
-        <div class="list-post-tag" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="0">
-          {% for tag in post.tags %}
-            <span class="post-tag">{{ tag }}</span>
-          {% endfor %}
-        </div>
+        </h2>
+        <!-- <p>{{ post.description }}</p> -->
+      </div>
+      <div class="list-post-tag" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="0">
+        {% for tag in post.tags %}
+          <span class="post-tag">{{ tag }}</span>
+        {% endfor %}
       </div>
     </div>
-
   {% if post.nsfw %}
       <label class="nsfw-button" ondblclick="javascript: {
         this.parentNode.href = '{{ site.baseurl }}{{ post.url }}'
