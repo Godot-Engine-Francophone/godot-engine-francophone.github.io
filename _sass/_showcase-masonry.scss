@@ -1,7 +1,9 @@
 
 /* Masonry grid */
 .masonry {
-  width: fit-content;
+  width : -moz-fit-content;
+  width : -webkit-fit-content;
+  width : fit-content;
   transition: all .1s ease-in-out;
   column-gap: 20px;
   column-fill: initial;
@@ -14,6 +16,9 @@
     margin-bottom: 20px;
     display: inline-block; /* Fix the misalignment of items */
     vertical-align: top; /* Keep the item on the very top */
+    width: -moz-available;          /* For Mozila */
+    width: -webkit-fill-available;  /* For Chrome */
+    width: stretch;                 /* Unprefixed */
 
     &:hover .overlay-description {
       display: block;
