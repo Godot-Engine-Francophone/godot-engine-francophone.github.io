@@ -1,122 +1,136 @@
 
 /* Masonry grid */
 .masonry {
-    width: fit-content;
-    transition: all .5s ease-in-out;
-    column-gap: 20px;
-    column-fill: initial;
-    box-sizing: border-box;
-    padding: 10px 15px;
-    .brick {
-        border-radius: 8px;
-        border: 0;
-        margin-bottom: 20px;
-        display: inline-block; /* Fix the misalignment of items */
-        vertical-align: top; /* Keep the item on the very top */
+  width: fit-content;
+  transition: all .1s ease-in-out;
+  column-gap: 20px;
+  column-fill: initial;
+  box-sizing: border-box;
+  padding: 10px 15px;
 
-        &:hover .overlay-description{
-            display: block;
-        }
-        canvas{
-            border-radius: 8px;
-        }
-        img {
-            transition: all .5s ease-in-out;
-            backface-visibility: hidden; /* Remove Image flickering on hover */
-            border-radius: 8px;
-            @media only screen and (min-width: 1024px) {
-                max-width: 100%;
-            }
-        }
-        h2 {
-            margin-top: .5rem;
-            margin-bottom: .5rem;
-            text-align: center;
-            letter-spacing: 3px;
-        }
-        p {
-            color: #fff;
-            box-sizing: border-box;
-            padding: 5px;
-            font-size: 14px;
-        }
-        .overlay-description{
-            z-index: 10;
-            opacity: .8;
-            width: 100%;    
-            position: absolute;
-            height: 15  0px;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            margin: auto;
-            display: none;
-            background-color: black;
-            box-sizing: border-box;
-            padding: 5px;
-            border-radius: 8px;
-            animation-name: fadeInOpacity;
-            animation-iteration-count: 1;
-            animation-timing-function: ease-in;
-            animation-duration: 0.7s;
-        }
-        .list-post-tag{
-            text-align: center;
-          }
+  .brick {
+    border-radius: 8px;
+    border: 0;
+    margin-bottom: 20px;
+    display: inline-block; /* Fix the misalignment of items */
+    vertical-align: top; /* Keep the item on the very top */
+
+    &:hover .overlay-description {
+      display: block;
     }
+    canvas {
+      border-radius: 8px;
+    }
+
+    img {
+      -moz-backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden; /* Remove Image flickering on hover */
+      border-radius: 8px;
+
+      @media only screen and (min-width: 1024px) {
+        max-width: 100%;
+      }
+    }
+
+    h2 {
+      color: #ffffff;
+      margin: auto;
+      text-align: center;
+      letter-spacing: 3px;
+      text-shadow: 1px 1px 2px #000000aa;
+    }
+
+    p {
+      color: #ffffff;
+      box-sizing: border-box;
+      padding: 5px;
+      font-size: 14px;
+    }
+
+    .center-content {
+      margin-top: 20%; /* poussé de la moitié de hauteur de viewport */
+    }
+
+    .overlay-description {
+      z-index: 10;
+      opacity: .8;
+      width: 100%;  
+      position: absolute;
+      height: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      display: none;
+      background: linear-gradient(#00000000, #000000dd);
+      box-sizing: border-box;
+      padding: 5px;
+      border-radius: 8px;
+      animation-name: fadeInOpacity;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out;
+      animation-duration: 0.334s;
+    }
+
+    .list-post-tag {
+      text-align: center;
+    }
+  }
 }
 
-.modal-showcase{
-    display: none;
+.modal-showcase {
+  display: none;
 }
-.modal-showcase .open{
-    display: block;
-    position: fixed;
-    top: 0%;
-    right: 0;
-    left: 0;
+
+.modal-showcase .open {
+  display: block;
+  position: fixed;
+  top: 0%;
+  right: 0;
+  left: 0;
 }
 
 /* Bordered masonry */
 .masonry.bordered {
-    column-rule: 1px solid #eee;
-    column-gap: 50px;
+  column-rule: 1px solid #eee;
+  column-gap: 50px;
 }
 
 .masonry.bordered .brick {
-    padding-bottom: 25px;
-    margin-bottom: 25px;
-    border-bottom: 1px solid #eee;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #eee;
 }
 
 /* Gutterless masonry */
 .masonry.gutterless {
-    column-gap: 0;
+  column-gap: 0;
 }
 
 .masonry.gutterless .brick {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* Masonry on tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-.masonry {
+  .masonry {
     column-count: 2;
-}
+  }
 }
 
 /* Masonry on big screens */
 @media only screen and (min-width: 1024px) {
-    .masonry {
-        column-count: 3;
-    }
+  .masonry {
+    column-count: 3;
+  }
 }
 
 @keyframes fadeInOpacity {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: .9;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .9;
+  }
 }

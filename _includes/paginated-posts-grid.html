@@ -6,26 +6,23 @@
   {% if post.categories contains page.search %}
   {% if post.nsfw %}
     <div class="nsfw">
-    <a class="list-item-2 container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+    <a class="container brick" target="_blank" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
   {% else %}
-  <!--
-    <a href="{{ site.baseurl }}{{ post.url }}" class="list-item-2 container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
-  -->
-
   <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" class="container brick" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
   {% endif %}
-    <img class="freezeframe" src="/assets/img/showcase/{{ post.logo }}" alt="{{ post.title }}">
-    <div class="overlay-description">
-      <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
-        <h2 class="list-post-title">  
-          {{ post.title }}
-        </h2>
-        <!-- <p>{{ post.description }}</p> -->
-      </div>
-      <div class="list-post-tag" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="0">
-        {% for tag in post.tags %}
-          <span class="post-tag">{{ tag }}</span>
-        {% endfor %}
+    <img class="freezeframe" src="/assets/img/showcase/{{ post.logo }}" alt="{{ post.title }}" />
+    <div class="overlay-description disable-pointer">
+      <div class="center-content disable-pointer">
+        <div class="disable-pointer" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
+          <h2 class="list-post-title disable-pointer">  
+            {{ post.title }}
+          </h2>
+        </div>
+        <div class="list-post-tag disable-pointer" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+          {% for tag in post.tags %}
+            <span class="post-tag disable-pointer">{{ tag }}</span>
+          {% endfor %}
+        </div>
       </div>
     </div>
   {% if post.nsfw %}
