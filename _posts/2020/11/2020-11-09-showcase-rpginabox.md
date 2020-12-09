@@ -13,4 +13,3 @@ lien: https://store.steampowered.com/app/498310/RPG_in_a_Box/
 
 Il n'y a aucun contenu pour les ressources.
 Ce que vous écrirez ici ne sera jamais affiché.
-d
