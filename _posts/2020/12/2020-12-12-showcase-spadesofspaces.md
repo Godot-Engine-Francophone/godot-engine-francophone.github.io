@@ -1,3 +1,4 @@
+---
 layout: showcase
 title: "Spades of Spaces"
 description: >-
@@ -7,7 +8,7 @@ description: >-
   Pouvez-vous l'atteindre?
   C'est gratuit, pas de pub, pas de dlc et pas d"achat en jeu.
 type: Jeu
-logo: 2020-12-11-showcase-spadesofspaces.gif
+logo: 2020-12-12-showcase-spadesofspaces.gif
 nsfw: false
 tag:
 - KrakenSIN Studio
