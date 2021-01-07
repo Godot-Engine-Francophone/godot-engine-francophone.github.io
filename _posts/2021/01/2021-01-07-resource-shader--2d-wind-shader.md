@@ -5,9 +5,9 @@ description: >-
   Permet de simuler le vent dans des sprites 2D
 type: Shader
 tag:
-  - 3.2
-  - Shader
-categories: extensions
+- 3.2
+- Shader
+categories: shaders
 lien: https://gist.github.com/jordanlis/7d21abf8857a465ac48126a8425f7f7a
 ---
 
