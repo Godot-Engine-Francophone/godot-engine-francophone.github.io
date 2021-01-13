@@ -3,9 +3,10 @@ layout: ressource
 title: "Thrive"
 description: >-
   Jeu complet fait avec Godot Engine sur l'évolution de la vie.
-type: Site web
+type: Jeu complet
 tag:
-- Jeu complet
+- 3.2
+- Evolution
 categories: projets
 lien: https://github.com/Revolutionary-Games/Thrive
 ---
