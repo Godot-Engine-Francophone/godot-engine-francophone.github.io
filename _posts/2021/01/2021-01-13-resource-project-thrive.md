@@ -6,7 +6,7 @@ description: >-
 type: Jeu complet
 tag:
 - 3.2
-- Evolution
+- Jeu
 categories: projets
 lien: https://github.com/Revolutionary-Games/Thrive
 ---
