@@ -5,12 +5,12 @@ description: >-
   Une décision de rebranding importante a eu lieu aujourd'hui
   Godot Engine devient Godette Engine !
 categories: actualite
-by: Auteur original. 
-translated: Traducteur. À supprimer si ce n'est pas un article traduit
+by: Juan Linietsky.
+translated: Topy
 tags:
-- Les tags sont affichés
-- Dans les bulles bleues
-original_url: https://www.example.com/lien-vers-article-original
+  - Godot Engine
+  - Rebranding
+original_url: https://godotengine.org/article/godot-has-been-renamed-godette-engine
 icon: "exclamation-circle"
 ---
 
