@@ -11,7 +11,7 @@ tags:
   - Godot Engine
   - Rebranding
 original_url: https://godotengine.org/article/godot-has-been-renamed-godette-engine
-icon: "exclamation-circle"
+icon: "fish"
 ---
 
 Après des mois de débat interne, nous avons décidé de traiter une fois pour toutes un sujet brûlant et source de nombreuses critiques. Godot fait l'objet d'un *rebranding* afin de gagner en attractivité commerciale.
