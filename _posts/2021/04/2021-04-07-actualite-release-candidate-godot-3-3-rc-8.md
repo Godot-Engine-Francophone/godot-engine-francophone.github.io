@@ -1,15 +1,15 @@
 ---
 title: Release candidate: Godot 3.3 RC 8 
 layout: actualite
-description: >- 
+description: >-
   Voici un autre Release Candidate pour Godot 3.3 ! Ce post sera bref car il n'y a pas eu beaucoup de changements, 
   juste quelques corrections - référez-vous au post 3.3 RC 7 pour les détails sur les nouvelles fonctionnalités.
 categories: actualite
 by: Rémi Verschelde.
 translated: Topy
 tags:
-- 3.3
-- Release Candidate
+  - 3.3
+  - Release Candidate
 original_url: https://godotengine.org/article/release-candidate-godot-3-3-rc-8
 icon: "code-branch"
 ---
