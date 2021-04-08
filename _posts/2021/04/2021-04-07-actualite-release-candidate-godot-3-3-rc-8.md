@@ -1,5 +1,5 @@
 ---
-title: Release candidate: Godot 3.3 RC 8 
+title: "Release candidate : Godot 3.3 RC 8"
 layout: actualite
 description: >-
   Voici un autre Release Candidate pour Godot 3.3 ! Ce post sera bref car il n'y a pas eu beaucoup de changements, 
