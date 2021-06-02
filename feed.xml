@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Godot Engine Francophone</title>
+    <description>Nous sommes la communauté francophone de Godot Engine. On partage des tutoriels et des ressource utiles en français.
+</description>
+    <link>https://www.godot-francophone.org/</link>
+    <atom:link href="https://www.godot-francophone.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 02 Jun 2021 09:22:14 +0000</pubDate>
+    <lastBuildDate>Wed, 02 Jun 2021 09:22:14 +0000</lastBuildDate>
+    <generator>Jekyll v3.6.3</generator>
+    
+      <item>
+        <title>Daedalus Demise</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/showcase-daedalusdemise/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/showcase-daedalusdemise/</guid>
+        
+        <category>tim Krief</category>
+        
+        
+        <category>showcase</category>
+        
+      </item>
+    
+      <item>
+        <title>Multiplayer Starter Project</title>
+        <description>
+</description>
+        <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/resource-topy-multiplayer-starter-project/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/resource-topy-multiplayer-starter-project/</guid>
+        
+        <category>Réseau</category>
+        
+        <category>Multijoueur</category>
+        
+        <category>Tuto</category>
+        
+        
+        <category>projets</category>
+        
+      </item>
+    
+      <item>
+        <title>Release candidate : Godot 3.3 RC 8</title>
+        <description>&lt;p&gt;&lt;em&gt;Au cas où vous auriez manqué les récentes nouvelles, nous avons décidé de &lt;a href=&quot;https://godotengine.org/article/versioning-change-godot-3x&quot;&gt;changer notre version de Godot 3.x&lt;/a&gt; 
+et de renommer &lt;strong&gt;la prochaine version (3.2.4) en Godot 3.3&lt;/strong&gt;, démarrant ainsi une nouvelle branche stable. Consultez l’article de blog dédié pour plus de détails.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Voici un autre &lt;a href=&quot;https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidate&quot;&gt;Release Candidate&lt;/a&gt; pour Godot 3.3 ! 
+Ce post sera court car il n’y a pas eu beaucoup de changements, juste quelques corrections - référez-vous au post &lt;a href=&quot;https://godotengine.org/article/release-candidate-godot-3-3-rc-7&quot;&gt;3.3 RC 7&lt;/a&gt; pour les détails sur les nouvelles fonctionnalités.&lt;/p&gt;
+
+&lt;p&gt;Nous sommes assez confiants à propos de ce RC (Famous Last Words™) donc si aucune nouvelle régression n’est trouvée, la prochaine version devrait être la version stable ! 
+Si vous n’avez pas encore essayé les builds de la 3.3 RC, c’est le moment de le faire pour nous aider à nous assurer que tout se passe bien de la 3.2.3 à la 3.3.&lt;/p&gt;
+
+&lt;p&gt;Comme d’habitude, vous pouvez l’essayer en direct avec la &lt;a href=&quot;https://editor.godotengine.org/releases/3.3.rc8/godot.tools.html&quot;&gt;version en ligne de l’éditeur&lt;/a&gt; mise à jour pour cette version.&lt;/p&gt;
+
+&lt;h2 id=&quot;changements&quot;&gt;Changements&lt;/h2&gt;
+
+&lt;p&gt;Par rapport à la version RC 7 précédente, cette version corrige quelques régressions dans GDNative, le moteur de rendu, 
+GodotPhysics (BVH), et les threads Android JNI. Elle corrige également l’option de &lt;em&gt;fallback&lt;/em&gt; GLES2 pour les exportations 
+HTML5.&lt;/p&gt;
+
+&lt;p&gt;Voir le journal complet des changements depuis la version 3.2.3-stable (&lt;a href=&quot;https://downloads.tuxfamily.org/godotengine/3.3/rc8/Godot_v3.3-rc8_changelog_chrono.txt&quot;&gt;chronologique&lt;/a&gt;, 
+ou &lt;a href=&quot;https://downloads.tuxfamily.org/godotengine/3.3/rc8/Godot_v3.3-rc8_changelog_authors.txt&quot;&gt;pour chaque contributeur&lt;/a&gt;), ou les changements depuis la précédente version RC 7.&lt;/p&gt;
+
+&lt;p&gt;Cette version est construite à partir du commit &lt;a href=&quot;https://github.com/godotengine/godot/commit/b076150b086a5001b190a9a20a425d1bc842fe21&quot;&gt;b076150b086a5001b190a9a20a425d1bc842fe21&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;téléchargements&quot;&gt;Téléchargements&lt;/h2&gt;
+
+&lt;p&gt;Les liens de téléchargement pour les snapshot de développement ne figurent pas sur la page de &lt;a href=&quot;https://godotengine.org/download/windows&quot;&gt;téléchargement&lt;/a&gt; 
+pour éviter toute confusion pour les nouveaux utilisateurs. Parcourez plutôt notre dépôt de téléchargement et 
+récupérez le binaire de l’éditeur qui correspond à votre plateforme :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://downloads.tuxfamily.org/godotengine/3.3/rc8/&quot;&gt;Version standard&lt;/a&gt; (GDScript, GDNative, VisualScript).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://downloads.tuxfamily.org/godotengine/3.3/rc8/mono/&quot;&gt;Version Mono&lt;/a&gt; (support C# + tout ce qui a été dit plus haut). 
+Vous devez avoir installé MSBuild pour utiliser la version Mono. Les parties pertinentes de Mono &lt;strong&gt;6.12.0.122&lt;/strong&gt; sont incluses dans ce build. (Note : Les builds antérieurs à 3.3 RC 7 utilisaient Mono 6.12.0.114.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rapports-de-bugs&quot;&gt;Rapports de bugs&lt;/h2&gt;
+
+&lt;p&gt;En tant que testeur, vous êtes encouragé à &lt;a href=&quot;https://github.com/godotengine/godot/issues&quot;&gt;ouvrir des rapports de bug&lt;/a&gt; si 
+vous rencontrez des problèmes avec la version 3.3 RC 8. Veuillez d’abord vérifier les &lt;a href=&quot;https://github.com/godotengine/godot/issues&quot;&gt;&lt;em&gt;issues&lt;/em&gt; existantes&lt;/a&gt; 
+sur GitHub, en utilisant la fonction de recherche par mots-clés, pour vous assurer que le bug que vous rencontrez 
+n’est pas déjà connu.&lt;/p&gt;
+
+&lt;p&gt;En particulier, il est très important de signaler tout changement qui entraînerait une régression dans vos projets 
+(par exemple, si quelque chose qui fonctionnait bien dans la version 3.2.3 ou antérieure ne fonctionne plus dans la 
+version 3.3 RC 8).&lt;/p&gt;
+
+&lt;h2 id=&quot;support&quot;&gt;Support&lt;/h2&gt;
+
+&lt;p&gt;Godot est un moteur de jeu open source à but non lucratif, développé par des centaines de contributeurs sur leur temps libre, 
+et une poignée de développeurs à temps partiel ou à temps plein, engagés grâce aux &lt;a href=&quot;https://godotengine.org/donate&quot;&gt;dons de la communauté Godot&lt;/a&gt;. 
+Un grand merci à tous ceux qui ont contribué au projet par &lt;a href=&quot;https://github.com/godotengine/godot/blob/master/AUTHORS.md&quot;&gt;leur temps&lt;/a&gt; 
+ou leur &lt;a href=&quot;https://github.com/godotengine/godot/blob/master/DONORS.md&quot;&gt;soutien financier&lt;/a&gt; !&lt;/p&gt;
+
+&lt;p&gt;Si vous souhaitez soutenir financièrement le projet Godot et nous aider à assurer nos futurs recrutements, vous pouvez le faire 
+sur &lt;a href=&quot;https://www.patreon.com/godotengine&quot;&gt;Patreon&lt;/a&gt; ou &lt;a href=&quot;https://godotengine.org/donate&quot;&gt;PayPal&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/actualite-release-candidate-godot-3-3-rc-8/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/actualite-release-candidate-godot-3-3-rc-8/</guid>
+        
+        <category>3.3</category>
+        
+        <category>Release Candidate</category>
+        
+        
+        <category>actualite</category>
+        
+      </item>
+    
+      <item>
+        <title>Godot Engine change de peau !</title>
+        <description>&lt;p&gt;Après des mois de débat interne, nous avons décidé de traiter une fois pour toutes un sujet brûlant et source de nombreuses critiques. Godot fait l’objet d’un &lt;em&gt;rebranding&lt;/em&gt; afin de gagner en attractivité commerciale.&lt;/p&gt;
+
+&lt;h2 id=&quot;épiphanie&quot;&gt;Épiphanie&lt;/h2&gt;
+
+&lt;p&gt;Il nous a peut-être fallu beaucoup de temps, mais nous avons finalement compris et accepté que Godot devait toucher un public plus large, créer quelque chose d’ultime, aller au-delà de ce qu’aucun autre moteur de jeu n’a jamais tenté.&lt;/p&gt;
+
+&lt;p&gt;Nous pensions que nous avions tout. Des contributeurs passionnés, une communauté étonnante et une direction dévouée. Pourtant, quelque chose se mettait en travers de notre chemin et nous ne pouvions pas savoir ce que c’était. Il nous a fallu des nuits blanches et des mois à regarder des animés pendant des débats houleux pour parvenir à l’épiphanie, à la prise de conscience que quelque chose devait changer.&lt;/p&gt;
+
+&lt;h2 id=&quot;le-nom-godot&quot;&gt;Le nom “Godot”&lt;/h2&gt;
+
+&lt;p&gt;Comment sommes-nous censés travailler sur quelque chose que personne ne sait prononcer en anglais ? Est-ce que c’est Go-Dote, Go-DOH ? GOH-do ? Robot ? Même les auteurs originaux n’ont pas la moindre idée quand on leur demande.&lt;/p&gt;
+
+&lt;p&gt;De plus, nous avons réalisé qu’un gros problème de Godot comme nom de projet est qu’il n’est tout simplement pas mignon. Pour attirer un public plus large, il faut trouver un autre nom, un nom plus commercialisable qui parle à un public plus large.&lt;/p&gt;
+
+&lt;h2 id=&quot;le-logo-de-godot&quot;&gt;Le logo de Godot&lt;/h2&gt;
+
+&lt;p&gt;Depuis que Godot est open source, nous avons reçu d’innombrables critiques de la part d’une petite minorité vocale de la communauté, soulignant le manque de professionnalisme du logo Godot. Avez-vous déjà lu des commentaires de membres de la communauté comme ceux-ci ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Il ne ressemble pas au logo d’un moteur de jeu commercial.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Je ne paierais pas pour quelque chose avec ce logo.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Le robot me fait peur ; je ne peux pas dormir la nuit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Je croyais que le logo original représentait la tête d’un homme sortant d’une tour de château, mais le nouveau logo n’a aucun sens.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;J’ai peur des clowns.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Oui, nous aussi. Ils sont partout. Ils sont l’écriture sur le mur que nous refusons de voir.&lt;/p&gt;
+
+&lt;h2 id=&quot;la-nouvelle-image-de-marque&quot;&gt;La NOUVELLE image de marque&lt;/h2&gt;
+
+&lt;p&gt;Après des semaines de consultation avec les utilisateurs de Reddit et des experts en marketing professionnels, il a été décidé de changer la marque de Godot et son logo pour véhiculer une image de marque plus professionnelle. Désormais, le projet sera connu sous le nom de &lt;strong&gt;Godette Engine&lt;/strong&gt; et le nouveau logo en sera le reflet :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://godotengine.org/storage/app/uploads/public/606/4f9/ed1/6064f9ed122b5192659480.png&quot; alt=&quot;Godette Engine&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nous utiliserons désormais cette marque pour le moteur, et notre site web est hébergé sur &lt;a href=&quot;https://godetteengine.org&quot;&gt;https://godetteengine.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Notre compte Twitter officiel a également été transféré à @godetteengine, alors n’hésitez pas à le suivre.
+D’autres changements à venir&lt;/p&gt;
+
+&lt;p&gt;En outre, afin de rendre le moteur plus attrayant sur le plan commercial, nous évaluons d’autres changements, tels que l’adoption d’un modèle de revenu partagé premium, l’augmentation de la taille du téléchargement à quelques gigaoctets et le paiement de toute forme d’aide ou de support. Un avenir brillant s’annonce pour notre communauté shareholdcommunity. Nous espérons pouvoir vous en dire plus très bientôt (probablement le 2 avril, puisque nous sommes maintenant le 1er avril).&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/actualite-godot-change-de-peau/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/actualite-godot-change-de-peau/</guid>
+        
+        <category>Godot Engine</category>
+        
+        <category>Rebranding</category>
+        
+        
+        <category>actualite</category>
+        
+      </item>
+    
+      <item>
+        <title>Firebase cloud firestore parser</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/resource-snippet-firebase/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/resource-snippet-firebase/</guid>
+        
+        <category>3.2</category>
+        
+        <category>Snippets</category>
+        
+        
+        <category>snippets</category>
+        
+      </item>
+    
+      <item>
+        <title>Godot GGPO</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/resource-extension-ggpo/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/resource-extension-ggpo/</guid>
+        
+        <category>Windows Only</category>
+        
+        <category>3.2</category>
+        
+        <category>3.1</category>
+        
+        <category>4.0</category>
+        
+        <category>GGPO</category>
+        
+        
+        <category>extensions</category>
+        
+      </item>
+    
+      <item>
+        <title>Godot Engine reçoit une subvention de 120 000$ du studio Kefir</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://godotengine.org/storage/app/uploads/public/602/3eb/707/6023eb707ee89657560854.png&quot; alt=&quot;Kefir&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nous sommes ravis d’annoncer que le studio de développement de jeux Kefir accorde au projet Godot une subvention de 120 000$, pour financer le développement ultérieur du moteur. Merci à Kefir de soutenir notre moteur de jeu libre et open source!&lt;/p&gt;
+
+&lt;p&gt;Kefir est connu pour ses jeux de survie à succès tels que &lt;strong&gt;Last Day on Earth&lt;/strong&gt;, &lt;strong&gt;Grim Soul&lt;/strong&gt; et &lt;strong&gt;Frostborn&lt;/strong&gt; (non-réalisés avec Godot). Ils utilisent actuellement Godot pour des prototypes internes et envisagent de l’utiliser davantage à l’avenir.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Un grand merci à l’équipe de Godot pour son incroyable contribution au développement de jeu vidéo. C’est un grand honneur pour nous de fournir un peu d’aide dans cette grande entreprise. Et nous sommes toujours prêts à soutenir des jeux et des équipes puissants, cools et originaux, quels que soient leur plateforme, leurs outils et leur stade de développement.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;em&gt;Alyosha Stalin, directeur du développement commercial, Kefir.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Comme toutes les subventions, parrainages et dons accordés au projet Godot à but non lucratif, ces fonds sont gérés par notre sponsor légal et fiscal &lt;strong&gt;Software Freedom Conservancy&lt;/strong&gt;, et seront utilisés pour accélérer le développement de notre moteur de jeu libre et open source.&lt;/p&gt;
+
+&lt;p&gt;Ces fonds nous permettent d’engager davantage de contributeurs pour travailler sur les domaines qui en ont le plus besoin, ainsi que de renouveler les contrats des contractants actuellement engagés - toujours avec la garantie que tout le travail effectué par les contractants est sous licence MIT et bénéfique pour la communauté dans son ensemble.&lt;/p&gt;
+
+&lt;p&gt;Nous sommes reconnaissants à tous les utilisateurs et entreprises de la communauté Godot qui participent au développement de ce moteur de jeu open source, que ce soit par la programmation, la documentation, le support utilisateur, les rapports de bugs ou le financement.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/actualite-receives120kfromkefir/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/actualite-receives120kfromkefir/</guid>
+        
+        <category>Subvention</category>
+        
+        
+        <category>actualite</category>
+        
+      </item>
+    
+      <item>
+        <title>Haiki</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/showcase-haiki/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/showcase-haiki/</guid>
+        
+        <category>Richard Hörnig</category>
+        
+        
+        <category>showcase</category>
+        
+      </item>
+    
+      <item>
+        <title>A Comfortable Burden</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/showcase-acomfortableburden/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/showcase-acomfortableburden/</guid>
+        
+        <category>OtterWays</category>
+        
+        
+        <category>showcase</category>
+        
+      </item>
+    
+      <item>
+        <title>Thrive</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/resource-project-thrive/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/resource-project-thrive/</guid>
+        
+        <category>3.2</category>
+        
+        <category>Jeu</category>
+        
+        
+        <category>projets</category>
+        
+      </item>
+    
+  </channel>
+</rss>
