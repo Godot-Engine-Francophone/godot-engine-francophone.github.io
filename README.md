@@ -19,7 +19,7 @@ publié automatiquement sur la branche `master` de ce repository git.
 En faisant ainsi, la branche `master` ne contient que des fichiers générés et donc, pousser manuellement sur la branche `master` reviendrait a casser le site web.
 
 Voici l'url de travis pour le suivi de l'intégration continue:
-https://travis-ci.com/Godot-Engine-Francophone/godot-engine-francophone.github.io
+https://app.travis-ci.com/github/Godot-Engine-Francophone/godot-engine-francophone.github.io
 
 ## Comment publier un article?
 
