@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Godot Engine Francophone</title>
+    <description>Nous sommes la communauté francophone de Godot Engine. On partage des tutoriels et des ressource utiles en français.
+</description>
+    <link>https://www.godot-francophone.org/</link>
+    <atom:link href="https://www.godot-francophone.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 16 Jan 2022 17:04:42 +0000</pubDate>
+    <lastBuildDate>Sun, 16 Jan 2022 17:04:42 +0000</lastBuildDate>
+    <generator>Jekyll v3.6.3</generator>
+    
+      <item>
+        <title>Simple wind 2D</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/resource-shader-simple-wind/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/resource-shader-simple-wind/</guid>
+        
+        <category>3.2</category>
+        
+        <category>Shader</category>
+        
+        
+        <category>shaders</category>
+        
+      </item>
+    
+      <item>
+        <title>Simple wind 3D</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/resource-shader-simple-wind-3d/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/resource-shader-simple-wind-3d/</guid>
+        
+        <category>3.2</category>
+        
+        <category>Shader</category>
+        
+        
+        <category>shaders</category>
+        
+      </item>
+    
+      <item>
+        <title>Flow Map Shader</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/resource-shader-flow-map/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/resource-shader-flow-map/</guid>
+        
+        <category>3.2</category>
+        
+        <category>Shader</category>
+        
+        
+        <category>shaders</category>
+        
+      </item>
+    
+      <item>
+        <title>Basic Water Material</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/resource-shader-basic-water/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/resource-shader-basic-water/</guid>
+        
+        <category>3.2</category>
+        
+        <category>Shader</category>
+        
+        
+        <category>shaders</category>
+        
+      </item>
+    
+      <item>
+        <title>Visual shader node library</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/resource-extension-visual-shader-library/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/resource-extension-visual-shader-library/</guid>
+        
+        <category>3.2</category>
+        
+        <category>Plugin</category>
+        
+        <category>Shader</category>
+        
+        
+        <category>extensions</category>
+        
+      </item>
+    
+      <item>
+        <title>Camera Control</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/resource-extension-camera-control/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/resource-extension-camera-control/</guid>
+        
+        <category>3.2</category>
+        
+        <category>Shader</category>
+        
+        
+        <category>extensions</category>
+        
+      </item>
+    
+      <item>
+        <title>RUN The world in between</title>
+        <description>
+</description>
+        <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/showcase-run-the-world-in-between/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/showcase-run-the-world-in-between/</guid>
+        
+        <category>Team Run</category>
+        
+        
+        <category>showcase</category>
+        
+      </item>
+    
+      <item>
+        <title>NeJ</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/showcase-nej/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/showcase-nej/</guid>
+        
+        <category>Ben Lega</category>
+        
+        
+        <category>showcase</category>
+        
+      </item>
+    
+      <item>
+        <title>Martial Law</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/showcase-martial-law/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/showcase-martial-law/</guid>
+        
+        <category>FIXER</category>
+        
+        
+        <category>showcase</category>
+        
+      </item>
+    
+      <item>
+        <title>Aetheris</title>
+        <description>&lt;p&gt;Il n’y a aucun contenu pour les ressources.
+Ce que vous écrirez ici ne sera jamais affiché.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+        <link>https://www.godot-francophone.org/showcase-aetheris/</link>
+        <guid isPermaLink="true">https://www.godot-francophone.org/showcase-aetheris/</guid>
+        
+        <category>Wild wits Games</category>
+        
+        
+        <category>showcase</category>
+        
+      </item>
+    
+  </channel>
+</rss>

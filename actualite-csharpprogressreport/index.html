@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rapport d'avancement C#: WebAssembly, Monodevelop et AOT</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/the-grid-flexbox@2.0.1/css/the-grid.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="shortcut icon" href="https://www.godot-francophone.org/assets/img/favicon.png">
+  <link rel="icon" href="https://www.godot-francophone.org/assets/img/favicon.png">
+
+  <meta property="og:title" content="Rapport d'avancement C#: WebAssembly, Monodevelop et AOT" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.godot-francophone.org" />
+
+  <meta property="og:description" content="WebAssembly débarque avec Godot Engine 3.2 pour vos jeux en C#. Il y a aussi une nouvelle extension pour Visual Studio pour Mac, MonoDevelop et un support pr..." />
+  <meta property="og:site_name" content="Godot Engine Francophone" />
+  <meta property="og:image" content="https://www.godot-francophone.org/assets/img/icon.png" />
+
+  <!-- facebook -->
+  
+    <meta property="fb:app_id" content="00000000" />
+    <meta property="fb:admins" content="00000000" />
+  
+  <!-- facebook -->
+
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Rapport d'avancement C#: WebAssembly, Monodevelop et AOT">
+  <meta name="twitter:description" content="WebAssembly débarque avec Godot Engine 3.2 pour vos jeux en C#. Il y a aussi une nouvelle extension pour Visual Studio pour Mac, MonoDevelop et un support pr...">
+  <meta name="twitter:creator" content="godotenginefr">
+  <meta name="twitter:image" content="https://www.godot-francophone.org/assets/img/icon.png">
+  <meta name="image" content="https://www.godot-francophone.org/assets/img/icon.png">
+  <meta itemprop="description" content="WebAssembly débarque avec Godot Engine 3.2 pour vos jeux en C#. Il y a aussi une nouvelle extension pour Visual Studio pour Mac, MonoDevelop et un support pr..." />
+  <meta itemprop="name" content="Rapport d'avancement C#: WebAssembly, Monodevelop et AOT">
+  <meta itemprop="keywords" content="C#, Mono, AOT, WebAssembly, godot, godot engine, engine, francais, france, tutoriel, francophone, discord, communauté">
+  <!-- twitter -->
+
+  <meta name="description" content="WebAssembly débarque avec Godot Engine 3.2 pour vos jeux en C#. Il y a aussi une nouvelle extension pour Visual Studio pour Mac, MonoDevelop et un support pr..." />
+  <meta name="name" content="Rapport d'avancement C#: WebAssembly, Monodevelop et AOT">
+  <meta name="keywords" content="C#, Mono, AOT, WebAssembly, godot, godot engine, engine, francais, france, tutoriel, francophone, discord, communauté">
+
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Godot Engine Francophone",
+    "alternateName": "Godot Engine fr",
+    "url": "https://www.godot-francophone.org",
+    "logo": "https://www.godot-francophone.org/assets/img/icon.png",
+    "sameAs": [
+      "https://twitter.com/godotenginefr",
+      "https://github.com/Godot-Engine-Francophone"
+    ]
+  }]
+  </script>
+</head>
+
+
+<body>
+  <div class="body-content">
+    <div class="menu">
+  <div class="size margin menu--content container align-items-center justify-content-between">
+
+    <a href="/" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
+      <div class="container align-items-center site-title">
+        <div class="">
+          <img src="/assets/img/icon.png" width="64" alt="Godot fr">
+        </div>
+        <div class="site-title-text">
+          Godot Engine Francophone
+        </div>
+      </div>
+    </a>
+
+    <div class="container align-items-center" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
+      <nav class="site-nav" id="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"></path>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"></path>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+        <div class="trigger">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            
+            
+            <a href="/actualite/index.html" class="menu--content--item">
+            
+              Actualités
+            </a>
+            
+          
+          
+          
+          
+          
+            
+            
+            <a href="/tutoriel/index.html" class="menu--content--item">
+            
+              Tutoriels
+            </a>
+            
+          
+          
+          
+            
+            
+            <a href="/resources/index.html" class="menu--content--item">
+            
+              Ressources
+            </a>
+            
+          
+          
+          
+          
+          
+          
+          
+            
+            
+            <a href="/showcase/index.html" class="menu--content--item">
+            
+              Showcase
+            </a>
+            
+          
+          
+          
+          
+          
+          
+          
+            
+            <a href="https://docs.godotengine.org/fr/latest/" class="menu--content--item" target="_blank" rel="noopener noreferrer">
+              Documentation
+            </a>
+            
+          
+          
+          
+            
+            
+            <a href="/apropos/" class="menu--content--item">
+            
+              À propos
+            </a>
+            
+          
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="bg-header">
+  <header>
+  
+  <div class="header container align-items-center justify-content-center">
+  </div>
+  
+</header>
+
+</div>
+
+
+
+
+<div class="size margin min-height background-box-white aos-init aos-animate">
+  <article>
+    <!-- titles -->
+    <h1 class="post-title" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">Rapport d'avancement C#: WebAssembly, Monodevelop et AOT</h1>
+    <div class="post-date" data-aos="fade-left" data-aos-delay="300" data-aos-offset="0">
+      <time>21 Nov 2019</time>
+      <span class="reading-time" title="Estimated read time"> - 5 minutes de lecture</span>
+      
+
+<div id="share-buttons">
+  <div class="facebook" title="Partager via Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https://www.godot-francophone.org/actualite-csharpprogressreport/');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"></path>
+    </svg>
+  </div>
+  <div class="twitter" title="Partager sur Twitter" onclick="window.open('https://twitter.com/intent/tweet?text=Rapport d'avancement C#: WebAssembly, Monodevelop et AOT https://www.godot-francophone.org/actualite-csharpprogressreport/');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path>
+    </svg>
+    </div>  
+  <div class="linkedin" title="Partager sur Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.godot-francophone.org/actualite-csharpprogressreport/&amp;title=&amp;summary=&amp;source=');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
+    </svg>
+  </div>
+</div>
+    </div>
+    <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+      
+      <a target="_blank" rel="noopener noreferrer" href="https://godotengine.org/article/csharp-wasm-aot">
+      
+      <small>Écrit par <span>Ignacio Roldán Etcheverry</span> - </small>
+      
+      </a>
+      
+      
+      <small>Traduit par <span>Xavier 'Binogure'</span> - </small>
+      
+      <small><time>21 Nov 2019</time></small>
+    </div>
+    <div class="list-post-tag" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="0">
+      
+        <span class="post-tag">C#</span>
+      
+        <span class="post-tag">Mono</span>
+      
+        <span class="post-tag">AOT</span>
+      
+        <span class="post-tag">WebAssembly</span>
+      
+    </div>
+    <!-- titles -->
+    <!-- content -->
+    <p>Nous avons beaucoup progressé sur le support du C# depuis le premier rapport d’avancement dans le cadre de mon travail parrainé par Microsoft. Je vais maintenant vous présenter brièvement les améliorations et ajouts les plus importants qui ont été apportés, à savoir le support de l’exportation des jeux C# vers WebAssembly, une extension IDE pour Visual Studio pour Mac ainsi que pour MonoDevelop, et un support préliminaire pour la compilation AOT.</p>
+
+<p><em>Veuillez noter que WebAssembly et AOT dépendent tous les deux <a href="https://github.com/godotengine/godot/pull/33603" target="_blank" rel="noopener noreferrer">de modifications</a> qui n’ont pas encore été fusionnées au moment de la rédaction du présent document.</em></p>
+
+<h2 id="support-webassembly">Support WebAssembly</h2>
+
+<p>Lors du premier rapport, nous avons parlé du support du C# pour les jeux Android. Maintenant, c’est au tour de WebAssembly.</p>
+
+<p><img src="https://godotengine.org/storage/app/media/mono_wasm_demo.opt.gif" alt="Demo Dodge The Creep" class="center-image">
+<em>Démo <a href="https://github.com/godotengine/godot-demo-projects/tree/master/mono/dodge_the_creeps" target="_blank" rel="noopener noreferrer">Dodge The Creeps</a> fait en C# sur un navigateur Web</em></p>
+
+<p>WebAssembly est une plateforme assez inhabituelle, il y a donc quelques points à garder à l’esprit. Plus important encore, le compilateur JIT n’est pas disponible. Il y a deux façons d’exécuter du code: l’interpréteur IL de Mono et la compilation AOT. Pour l’instant, Godot utilise l’interpréteur IL de Mono. C’est utile pour le développement car il permet une itération rapide, cependant il est beaucoup plus lent que le code compilé avec AOT. Malheureusement, Godot ne supporte pas encore AOT pour WebAssembly, cela devrait arriver bientôt.</p>
+
+<p>Quant au processus d’exportation, tout comme avec Android, il ne devrait pas y avoir de différences par rapport à ce à quoi nous sommes habitués quand nous exportons des jeux non-C#. Godot s’occupe de tout et les fichiers résultants restent les mêmes.</p>
+
+<p>Pour compiler Godot à partir des sources, vous devrez compiler à la fois le runtime Mono et la bibliothèque <code class="highlighter-rouge">Base Class</code> de WebAssembly. J’ai créé quelques <a href="https://github.com/godotengine/godot-mono-builds" target="_blank" rel="noopener noreferrer">scripts</a> pour vous aider. Je vais mettre à jour la partie de la documentation nommée <a href="https://docs.godotengine.org/fr/latest/development/compiling/compiling_with_mono.html" target="_blank" rel="noopener noreferrer">Compiling with Mono</a> dès la semaine prochaine pour refléter ces changements.</p>
+
+<h2 id="add-in-pour-visual-studio-pour-mac-et-monodevelop">Add-in pour Visual Studio pour Mac et MonoDevelop</h2>
+
+<p>Dans le dernier rapport d’avancement, j’ai parlé des extensions à venir pour les éditeurs/IDEs. Aujourd’hui, la première extension est disponible sous la forme d’un add-in pour Visual Studio pour Mac et l’IDE MonoDevelop.</p>
+
+<p>Cet add-in améliorera votre expérience lorsque vous ouvrez des fichiers C# depuis l’éditeur de Godot. Auparavant, Godot utilisait la ligne de commande MonoDevelop, qui ne fonctionnait pas bien quand il s’agissait de réutiliser des instances MonoDevelop en cours d’exécution. Avec ce nouvel add-in, Godot se connecte directement à l’IDE pour envoyer de ses requêtes, résolvant ainsi ces problèmes.</p>
+
+<p>Plus important encore, ce module complémentaire vise à assurer une intégration parfaite du débogage avec l’éditeur Godot. Le lancement à partir de l’éditeur MonoDevelop ordonne à l’éditeur Godot de lancer le jeu puis de connecter le débogueur. Dès lors, vous pourrez l’utiliser normalement (placer des points d’arrêts, capturer les exceptions…)</p>
+
+<p>Il y a trois options de lancement:
+<img src="https://godotengine.org/storage/app/media/monodevelop_addin.png" alt="Mono develop addin" class="center-image">
+<em>Options d’exécution de l’add-in</em></p>
+
+<ul>
+  <li>
+<em>Play in Editor</em> lance le jeu à partir de l’éditeur Godot. C’est probablement celui que vous utiliserez le plus souvent.</li>
+  <li>
+<em>Launch</em> lance l’exécutable Godot à partir d’un chemin qui doit être préalablement configuré dans les paramètres (ou d’un chemin obtenu automatiquement depuis un éditeur Godot connecté).</li>
+  <li>
+<em>Attach</em> attache l’éditeur à une instance déjà en cours d’exécution.</li>
+</ul>
+
+<p>Veuillez noter que pour pouvoir exécuter le jeu avec l’option <em>Jouer dans l’éditeur</em>, vous devrez régler la <em>Configuration</em> active sur <em>Tools</em>. Cela va vous permettre de lier l’éditeur avec Godot.</p>
+
+<p>Le code source de l’add-in est disponible ici: <a href="https://github.com/godotengine/godot-monodevelop-addin" target="_blank" rel="noopener noreferrer">https://github.com/godotengine/godot-monodevelop-addin</a></p>
+
+<p>Il y a également un paquet <em>mpack</em> disponible sur la <a href="https://github.com/godotengine/godot-monodevelop-addin/releases" target="_blank" rel="noopener noreferrer">page des versions</a> et nous espérons pouvoir bientôt le rendre disponible en tant qu’add-in officiel pour qu’il puisse être installé depuis l’<em>Extension Manager</em>.</p>
+
+<p>Je voudrais remercier David Karlaš de Microsoft pour avoir pris le temps d’écrire <a href="https://github.com/DavidKarlas/GodotExtension" target="_blank" rel="noopener noreferrer">cette extension</a>. Extension qui m’a servi de base pour écrire celle-ci. Cela m’a été d’une grande aide et m’a fait gagner beaucoup de temps.</p>
+
+<h2 id="ahead-of-time-compilation">Ahead Of Time compilation</h2>
+
+<p>Godot commence à prendre en charge la compilation Ahead Of Time (AOT) pour les jeux exportés. Il reste encore du travail, et certaines choses pourraient ne pas fonctionner correctement. Il n’est pas encore possible d’activer le <code class="highlighter-rouge">LLVM</code>, mais vous pouvez le tester en changeant le paramètre <code class="highlighter-rouge">Mono -&gt; Export -&gt; Extra Aot Options</code>.</p>
+
+<p><img src="https://godotengine.org/storage/app/media/mono_aot_settings.png" alt="Réglages AOT" class="center-image">
+<em>Réglages AOT</em></p>
+
+<p>Ce;a mértite d’être mentionne: actuellement, en raison d’une limitation avec l’API exposée par l’éditeur Godot, tous les paramètres d’exportation C# sont situés dans <code class="highlighter-rouge">Project Settings</code> sous <code class="highlighter-rouge">Mono -&gt; Export</code>, y compris les paramètres AOT. À l’avenir, ils seront déplacés vers le panneau d’exportation des presets, là où ils doivent être.</p>
+
+<p>Godot s’attend à ce que les compilateurs AOT soient placés dans le répertoire de l’éditeur sous <code class="highlighter-rouge">GodotSharp/Tools/aot-compilers</code>. Si vous voulez les compiler à partir des sources, ces <a href="https://github.com/godotengine/godot-mono-builds" target="_blank" rel="noopener noreferrer">scripts</a> peuvent aussi vous être utiles. Il est peu probable que la version <code class="highlighter-rouge">3.2</code> soit livrée avec le support AOT, mais elle sera probablement incluse dans la prochaine version avant la version <code class="highlighter-rouge">4.0</code>.</p>
+
+<h2 id="prochaines-étapes">Prochaines étapes</h2>
+
+<p>Pour l’instant, je vais mettre un peu de temps à corriger les bogues pour m’assurer de la stabilité de la version <code class="highlighter-rouge">3.2</code>. La prochaine chose qui suivra sera le support d’iOS ; vous pouvez vous attendre à une annonce à ce propos dans un mois environ. Ensuite nous allons travailler, entre autres choses, sur plus d’extensions IDE, à commencer par Visual Studio puis Visual Studio Code. Nous poursuivrons nos efforts sur la compilation AOT afin que cela fonctionne avec le WebAssembly.</p>
+
+
+    <!-- content -->
+  </article>
+</div>
+
+    <footer>
+  <div class="footer container column align-center">
+    <div class="size margin footer--block container align-center justify-content-between">
+      <div class="container" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+        <a href="/"><span>Godot Engine Francophone</span></a>
+      </div>
+      <div class="container social-media-list" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
+        <ul class="">
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://discordapp.com/invite/NQVd34V">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#discord"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/Godot-Engine-Francophone">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#github"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/godotenginefr">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#twitter"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+</ul>
+
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="/assets/js/simple-jekyll-search.min.js"></script>
+  <script src="/assets/js/freezeframe.min.js"></script>
+
+  <script>
+    const freeze = new Freezeframe('.freezeframe', {
+      trigger: 'hover',
+      responsive: true,
+      warnings: false
+    });
+    
+    AOS.init({
+      once: true
+    })
+
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      searchResultTemplate: '<li><a href="{url}" title="{description}">{title}{tags}</a></li>',
+      json: '/search.json',
+      templateMiddleware: function (prop, value, template) {
+        if (prop === 'tags' && value.length > 1) {
+          return '<div class="search-result-tags">' + value.split(',').reduce((acc, item) => `${acc} <span class="post-tag">${item}</span>`, '') + '</div>'
+        }
+      }
+    })
+
+    const articles = document.querySelectorAll('article')
+
+    for (const article of articles) {
+      const headings = article.querySelectorAll('h2,h3,h4,h5,h6')
+
+      for (const heading of headings) {
+        const linkIcon = document.createElement('a')
+
+        linkIcon.innerHTML = ' <span class="fas fa-link fa-xs"></span>'
+        linkIcon.setAttribute('href', `#${heading.id}`)
+        linkIcon.setAttribute('class', `article-header-link`)
+        heading.appendChild(linkIcon)
+      }
+    }
+  </script>
+</body>
+
+</html>

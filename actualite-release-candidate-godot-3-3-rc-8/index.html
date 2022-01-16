@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Release candidate : Godot 3.3 RC 8</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/the-grid-flexbox@2.0.1/css/the-grid.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="shortcut icon" href="https://www.godot-francophone.org/assets/img/favicon.png">
+  <link rel="icon" href="https://www.godot-francophone.org/assets/img/favicon.png">
+
+  <meta property="og:title" content="Release candidate : Godot 3.3 RC 8" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.godot-francophone.org" />
+
+  <meta property="og:description" content="Voici un autre Release Candidate pour Godot 3.3 ! Ce post sera bref car il n'y a pas eu beaucoup de changements,  juste quelques corrections - référez-vous a..." />
+  <meta property="og:site_name" content="Godot Engine Francophone" />
+  <meta property="og:image" content="https://www.godot-francophone.org/assets/img/icon.png" />
+
+  <!-- facebook -->
+  
+    <meta property="fb:app_id" content="00000000" />
+    <meta property="fb:admins" content="00000000" />
+  
+  <!-- facebook -->
+
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Release candidate : Godot 3.3 RC 8">
+  <meta name="twitter:description" content="Voici un autre Release Candidate pour Godot 3.3 ! Ce post sera bref car il n'y a pas eu beaucoup de changements,  juste quelques corrections - référez-vous a...">
+  <meta name="twitter:creator" content="godotenginefr">
+  <meta name="twitter:image" content="https://www.godot-francophone.org/assets/img/icon.png">
+  <meta name="image" content="https://www.godot-francophone.org/assets/img/icon.png">
+  <meta itemprop="description" content="Voici un autre Release Candidate pour Godot 3.3 ! Ce post sera bref car il n'y a pas eu beaucoup de changements,  juste quelques corrections - référez-vous a..." />
+  <meta itemprop="name" content="Release candidate : Godot 3.3 RC 8">
+  <meta itemprop="keywords" content="3.3, Release Candidate, godot, godot engine, engine, francais, france, tutoriel, francophone, discord, communauté">
+  <!-- twitter -->
+
+  <meta name="description" content="Voici un autre Release Candidate pour Godot 3.3 ! Ce post sera bref car il n'y a pas eu beaucoup de changements,  juste quelques corrections - référez-vous a..." />
+  <meta name="name" content="Release candidate : Godot 3.3 RC 8">
+  <meta name="keywords" content="3.3, Release Candidate, godot, godot engine, engine, francais, france, tutoriel, francophone, discord, communauté">
+
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Godot Engine Francophone",
+    "alternateName": "Godot Engine fr",
+    "url": "https://www.godot-francophone.org",
+    "logo": "https://www.godot-francophone.org/assets/img/icon.png",
+    "sameAs": [
+      "https://twitter.com/godotenginefr",
+      "https://github.com/Godot-Engine-Francophone"
+    ]
+  }]
+  </script>
+</head>
+
+
+<body>
+  <div class="body-content">
+    <div class="menu">
+  <div class="size margin menu--content container align-items-center justify-content-between">
+
+    <a href="/" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
+      <div class="container align-items-center site-title">
+        <div class="">
+          <img src="/assets/img/icon.png" width="64" alt="Godot fr">
+        </div>
+        <div class="site-title-text">
+          Godot Engine Francophone
+        </div>
+      </div>
+    </a>
+
+    <div class="container align-items-center" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
+      <nav class="site-nav" id="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"></path>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"></path>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+        <div class="trigger">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            
+            
+            <a href="/actualite/index.html" class="menu--content--item">
+            
+              Actualités
+            </a>
+            
+          
+          
+          
+          
+          
+            
+            
+            <a href="/tutoriel/index.html" class="menu--content--item">
+            
+              Tutoriels
+            </a>
+            
+          
+          
+          
+            
+            
+            <a href="/resources/index.html" class="menu--content--item">
+            
+              Ressources
+            </a>
+            
+          
+          
+          
+          
+          
+          
+          
+            
+            
+            <a href="/showcase/index.html" class="menu--content--item">
+            
+              Showcase
+            </a>
+            
+          
+          
+          
+          
+          
+          
+          
+            
+            <a href="https://docs.godotengine.org/fr/latest/" class="menu--content--item" target="_blank" rel="noopener noreferrer">
+              Documentation
+            </a>
+            
+          
+          
+          
+            
+            
+            <a href="/apropos/" class="menu--content--item">
+            
+              À propos
+            </a>
+            
+          
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="bg-header">
+  <header>
+  
+  <div class="header container align-items-center justify-content-center">
+  </div>
+  
+</header>
+
+</div>
+
+
+
+
+<div class="size margin min-height background-box-white aos-init aos-animate">
+  <article>
+    <!-- titles -->
+    <h1 class="post-title" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">Release candidate : Godot 3.3 RC 8</h1>
+    <div class="post-date" data-aos="fade-left" data-aos-delay="300" data-aos-offset="0">
+      <time>07 Apr 2021</time>
+      <span class="reading-time" title="Estimated read time"> - 2 minutes de lecture</span>
+      
+
+<div id="share-buttons">
+  <div class="facebook" title="Partager via Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https://www.godot-francophone.org/actualite-release-candidate-godot-3-3-rc-8/');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"></path>
+    </svg>
+  </div>
+  <div class="twitter" title="Partager sur Twitter" onclick="window.open('https://twitter.com/intent/tweet?text=Release candidate : Godot 3.3 RC 8 https://www.godot-francophone.org/actualite-release-candidate-godot-3-3-rc-8/');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path>
+    </svg>
+    </div>  
+  <div class="linkedin" title="Partager sur Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.godot-francophone.org/actualite-release-candidate-godot-3-3-rc-8/&amp;title=&amp;summary=&amp;source=');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
+    </svg>
+  </div>
+</div>
+    </div>
+    <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+      
+      <a target="_blank" rel="noopener noreferrer" href="https://godotengine.org/article/release-candidate-godot-3-3-rc-8">
+      
+      <small>Écrit par <span>Rémi Verschelde.</span> - </small>
+      
+      </a>
+      
+      
+      <small>Traduit par <span>Topy</span> - </small>
+      
+      <small><time>07 Apr 2021</time></small>
+    </div>
+    <div class="list-post-tag" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="0">
+      
+        <span class="post-tag">3.3</span>
+      
+        <span class="post-tag">Release Candidate</span>
+      
+    </div>
+    <!-- titles -->
+    <!-- content -->
+    <p><em>Au cas où vous auriez manqué les récentes nouvelles, nous avons décidé de <a href="https://godotengine.org/article/versioning-change-godot-3x" target="_blank" rel="noopener noreferrer">changer notre version de Godot 3.x</a> 
+et de renommer <strong>la prochaine version (3.2.4) en Godot 3.3</strong>, démarrant ainsi une nouvelle branche stable. Consultez l’article de blog dédié pour plus de détails.</em></p>
+
+<p>Voici un autre <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidate" target="_blank" rel="noopener noreferrer">Release Candidate</a> pour Godot 3.3 ! 
+Ce post sera court car il n’y a pas eu beaucoup de changements, juste quelques corrections - référez-vous au post <a href="https://godotengine.org/article/release-candidate-godot-3-3-rc-7" target="_blank" rel="noopener noreferrer">3.3 RC 7</a> pour les détails sur les nouvelles fonctionnalités.</p>
+
+<p>Nous sommes assez confiants à propos de ce RC (Famous Last Words™) donc si aucune nouvelle régression n’est trouvée, la prochaine version devrait être la version stable ! 
+Si vous n’avez pas encore essayé les builds de la 3.3 RC, c’est le moment de le faire pour nous aider à nous assurer que tout se passe bien de la 3.2.3 à la 3.3.</p>
+
+<p>Comme d’habitude, vous pouvez l’essayer en direct avec la <a href="https://editor.godotengine.org/releases/3.3.rc8/godot.tools.html" target="_blank" rel="noopener noreferrer">version en ligne de l’éditeur</a> mise à jour pour cette version.</p>
+
+<h2 id="changements">Changements</h2>
+
+<p>Par rapport à la version RC 7 précédente, cette version corrige quelques régressions dans GDNative, le moteur de rendu, 
+GodotPhysics (BVH), et les threads Android JNI. Elle corrige également l’option de <em>fallback</em> GLES2 pour les exportations 
+HTML5.</p>
+
+<p>Voir le journal complet des changements depuis la version 3.2.3-stable (<a href="https://downloads.tuxfamily.org/godotengine/3.3/rc8/Godot_v3.3-rc8_changelog_chrono.txt" target="_blank" rel="noopener noreferrer">chronologique</a>, 
+ou <a href="https://downloads.tuxfamily.org/godotengine/3.3/rc8/Godot_v3.3-rc8_changelog_authors.txt" target="_blank" rel="noopener noreferrer">pour chaque contributeur</a>), ou les changements depuis la précédente version RC 7.</p>
+
+<p>Cette version est construite à partir du commit <a href="https://github.com/godotengine/godot/commit/b076150b086a5001b190a9a20a425d1bc842fe21" target="_blank" rel="noopener noreferrer">b076150b086a5001b190a9a20a425d1bc842fe21</a>.</p>
+
+<h2 id="téléchargements">Téléchargements</h2>
+
+<p>Les liens de téléchargement pour les snapshot de développement ne figurent pas sur la page de <a href="https://godotengine.org/download/windows" target="_blank" rel="noopener noreferrer">téléchargement</a> 
+pour éviter toute confusion pour les nouveaux utilisateurs. Parcourez plutôt notre dépôt de téléchargement et 
+récupérez le binaire de l’éditeur qui correspond à votre plateforme :</p>
+
+<ul>
+  <li>
+<a href="https://downloads.tuxfamily.org/godotengine/3.3/rc8/" target="_blank" rel="noopener noreferrer">Version standard</a> (GDScript, GDNative, VisualScript).</li>
+  <li>
+<a href="https://downloads.tuxfamily.org/godotengine/3.3/rc8/mono/" target="_blank" rel="noopener noreferrer">Version Mono</a> (support C# + tout ce qui a été dit plus haut). 
+Vous devez avoir installé MSBuild pour utiliser la version Mono. Les parties pertinentes de Mono <strong>6.12.0.122</strong> sont incluses dans ce build. (Note : Les builds antérieurs à 3.3 RC 7 utilisaient Mono 6.12.0.114.)</li>
+</ul>
+
+<h2 id="rapports-de-bugs">Rapports de bugs</h2>
+
+<p>En tant que testeur, vous êtes encouragé à <a href="https://github.com/godotengine/godot/issues" target="_blank" rel="noopener noreferrer">ouvrir des rapports de bug</a> si 
+vous rencontrez des problèmes avec la version 3.3 RC 8. Veuillez d’abord vérifier les <a href="https://github.com/godotengine/godot/issues" target="_blank" rel="noopener noreferrer"><em>issues</em> existantes</a> 
+sur GitHub, en utilisant la fonction de recherche par mots-clés, pour vous assurer que le bug que vous rencontrez 
+n’est pas déjà connu.</p>
+
+<p>En particulier, il est très important de signaler tout changement qui entraînerait une régression dans vos projets 
+(par exemple, si quelque chose qui fonctionnait bien dans la version 3.2.3 ou antérieure ne fonctionne plus dans la 
+version 3.3 RC 8).</p>
+
+<h2 id="support">Support</h2>
+
+<p>Godot est un moteur de jeu open source à but non lucratif, développé par des centaines de contributeurs sur leur temps libre, 
+et une poignée de développeurs à temps partiel ou à temps plein, engagés grâce aux <a href="https://godotengine.org/donate" target="_blank" rel="noopener noreferrer">dons de la communauté Godot</a>. 
+Un grand merci à tous ceux qui ont contribué au projet par <a href="https://github.com/godotengine/godot/blob/master/AUTHORS.md" target="_blank" rel="noopener noreferrer">leur temps</a> 
+ou leur <a href="https://github.com/godotengine/godot/blob/master/DONORS.md" target="_blank" rel="noopener noreferrer">soutien financier</a> !</p>
+
+<p>Si vous souhaitez soutenir financièrement le projet Godot et nous aider à assurer nos futurs recrutements, vous pouvez le faire 
+sur <a href="https://www.patreon.com/godotengine" target="_blank" rel="noopener noreferrer">Patreon</a> ou <a href="https://godotengine.org/donate" target="_blank" rel="noopener noreferrer">PayPal</a>.</p>
+
+
+    <!-- content -->
+  </article>
+</div>
+
+    <footer>
+  <div class="footer container column align-center">
+    <div class="size margin footer--block container align-center justify-content-between">
+      <div class="container" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+        <a href="/"><span>Godot Engine Francophone</span></a>
+      </div>
+      <div class="container social-media-list" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
+        <ul class="">
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://discordapp.com/invite/NQVd34V">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#discord"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/Godot-Engine-Francophone">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#github"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/godotenginefr">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#twitter"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+</ul>
+
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="/assets/js/simple-jekyll-search.min.js"></script>
+  <script src="/assets/js/freezeframe.min.js"></script>
+
+  <script>
+    const freeze = new Freezeframe('.freezeframe', {
+      trigger: 'hover',
+      responsive: true,
+      warnings: false
+    });
+    
+    AOS.init({
+      once: true
+    })
+
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      searchResultTemplate: '<li><a href="{url}" title="{description}">{title}{tags}</a></li>',
+      json: '/search.json',
+      templateMiddleware: function (prop, value, template) {
+        if (prop === 'tags' && value.length > 1) {
+          return '<div class="search-result-tags">' + value.split(',').reduce((acc, item) => `${acc} <span class="post-tag">${item}</span>`, '') + '</div>'
+        }
+      }
+    })
+
+    const articles = document.querySelectorAll('article')
+
+    for (const article of articles) {
+      const headings = article.querySelectorAll('h2,h3,h4,h5,h6')
+
+      for (const heading of headings) {
+        const linkIcon = document.createElement('a')
+
+        linkIcon.innerHTML = ' <span class="fas fa-link fa-xs"></span>'
+        linkIcon.setAttribute('href', `#${heading.id}`)
+        linkIcon.setAttribute('class', `article-header-link`)
+        heading.appendChild(linkIcon)
+      }
+    }
+  </script>
+</body>
+
+</html>

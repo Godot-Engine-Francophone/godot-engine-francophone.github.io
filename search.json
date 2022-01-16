@@ -1,0 +1,1467 @@
+[
+  
+    {
+      "title"       : "Simple wind 2D",
+      "description" : "Shader qui permet de simuler du vent dans un environnement 2D",
+      "date"        : "2022-01-16 00:00:00 +0000",
+      "categories"  : "shaders",
+      "by"          : "",
+      "url"         : "/resource-shader-simple-wind/",
+      "icon"        : "",
+      "tags"        : "3.2,Shader"
+
+    } ,
+  
+    {
+      "title"       : "Simple wind 3D",
+      "description" : "Shader permettant de simuler du vent en 3D",
+      "date"        : "2022-01-16 00:00:00 +0000",
+      "categories"  : "shaders",
+      "by"          : "",
+      "url"         : "/resource-shader-simple-wind-3d/",
+      "icon"        : "",
+      "tags"        : "3.2,Shader"
+
+    } ,
+  
+    {
+      "title"       : "Flow Map Shader",
+      "description" : "Un shader material assez basique permettant d'appliquer des déformations détaillées a des textures",
+      "date"        : "2022-01-16 00:00:00 +0000",
+      "categories"  : "shaders",
+      "by"          : "",
+      "url"         : "/resource-shader-flow-map/",
+      "icon"        : "",
+      "tags"        : "3.2,Shader"
+
+    } ,
+  
+    {
+      "title"       : "Basic Water Material",
+      "description" : "Un shader pour avoir un rendu d'une surface d'eau réaliste.",
+      "date"        : "2022-01-16 00:00:00 +0000",
+      "categories"  : "shaders",
+      "by"          : "",
+      "url"         : "/resource-shader-basic-water/",
+      "icon"        : "",
+      "tags"        : "3.2,Shader"
+
+    } ,
+  
+    {
+      "title"       : "Visual shader node library",
+      "description" : "Collection de plusieurs types de shaders (avec des exemples) qui peuvent être utilisés avec l'éditeur graphique de shader (Visual Shader editor).",
+      "date"        : "2022-01-16 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-extension-visual-shader-library/",
+      "icon"        : "",
+      "tags"        : "3.2,Plugin,Shader"
+
+    } ,
+  
+    {
+      "title"       : "Camera Control",
+      "description" : "Script facile d'utilisation permettant de controller une caméra via la souris.",
+      "date"        : "2022-01-16 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-extension-camera-control/",
+      "icon"        : "",
+      "tags"        : "3.2,Shader"
+
+    } ,
+  
+    {
+      "title"       : "RUN The world in between",
+      "description" : "RUN: The world in between est un nouveau plateformer Die and Retry dont le parcours à effectuer se génère de manière procédurale. Sois rapide, saute, cours pour débloquer du nouveau contenu.",
+      "date"        : "2021-12-07 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-run-the-world-in-between/",
+      "icon"        : "",
+      "tags"        : "Team Run"
+
+    } ,
+  
+    {
+      "title"       : "NeJ",
+      "description" : "Pour arriver à défendre son petit chiot, NeJ doit accepter sa noirceur intérieure. À travers cette aventure fantastique , il deviendra plus fort mais courra le risque d'effrayer celui qu'il voulait protéger...",
+      "date"        : "2021-12-07 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-nej/",
+      "icon"        : "",
+      "tags"        : "Ben Lega"
+
+    } ,
+  
+    {
+      "title"       : "Martial Law",
+      "description" : "Martial Law est un jeu d'une réalité, qui est venue avec le communisme en Pologne. Le jeu a pour but de visualiser les conditions de vie des familles polonaises pendant ce temp troubleant, leurs façon de penser et leurs point de vue sur le monde autour d’eux. ",
+      "date"        : "2021-12-07 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-martial-law/",
+      "icon"        : "",
+      "tags"        : "FIXER"
+
+    } ,
+  
+    {
+      "title"       : "Aetheris",
+      "description" : "Trouvez le pouvoir dont vous avez besoin pour venger votre tribu dans ce RPG d'aventure, avec des combats en tour par tour et une expérience de coopération jusqu’à 4 joueurs",
+      "date"        : "2021-12-07 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-aetheris/",
+      "icon"        : "",
+      "tags"        : "Wild wits Games"
+
+    } ,
+  
+    {
+      "title"       : "Real Estate Online: A Multiplayer Board Game",
+      "description" : "Jeu de monopoly en ligne 3D, gratuit et FOSS.",
+      "date"        : "2021-12-07 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-project-real-estate-online/",
+      "icon"        : "",
+      "tags"        : "Multijoueur,4.0,Jeu"
+
+    } ,
+  
+    {
+      "title"       : "Sonic Colors: Ultimate",
+      "description" : "Rejoignez Sonic dans cette aventure inédite à couper le souffle au sein d'un parc d'attraction interstellaire haut en couleur. Colorez l'univers dans Sonic Colors: Ultimate !",
+      "date"        : "2021-09-20 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-sonic-colors-ultimate/",
+      "icon"        : "",
+      "tags"        : "Sega"
+
+    } ,
+  
+    {
+      "title"       : "Little adventure",
+      "description" : "Jeu d'aventure ou vous aider Gordon a trouver les pièces pour réparer le puit du village.",
+      "date"        : "2021-09-20 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-little-adventure/",
+      "icon"        : "",
+      "tags"        : "dupot.org"
+
+    } ,
+  
+    {
+      "title"       : "En attendant 9h15",
+      "description" : "Il est bientôt 9h15, mais pas tout à fait. Enfin, il serait bientôt 9h15 si le temps ne passait pas si lentement et, surtout, si cette horloge n'était pas cassée.",
+      "date"        : "2021-09-20 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-en-attendant09h15/",
+      "icon"        : "",
+      "tags"        : "Obeqaen"
+
+    } ,
+  
+    {
+      "title"       : "Daedalus Demise",
+      "description" : "Daedalus Demise est un jeu de labyrinthe qui a la particularité d'être infini!",
+      "date"        : "2021-06-02 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-daedalusdemise/",
+      "icon"        : "",
+      "tags"        : "Tim Krief"
+
+    } ,
+  
+    {
+      "title"       : "Multiplayer Starter Project",
+      "description" : "Un projet de démarrage (ou boilerplate) pour le multijoueur en réseau dans Godot.  Il utilise une structure séparée Serveur/Client qui est différente de ce que la doc de Godot propose.",
+      "date"        : "2021-04-07 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-topy-multiplayer-starter-project/",
+      "icon"        : "",
+      "tags"        : "Réseau,Multijoueur,Tuto"
+
+    } ,
+  
+    {
+      "title"       : "Release candidate : Godot 3.3 RC 8",
+      "description" : "Voici un autre Release Candidate pour Godot 3.3 ! Ce post sera bref car il n'y a pas eu beaucoup de changements,  juste quelques corrections - référez-vous au post 3.3 RC 7 pour les détails sur les nouvelles fonctionnalités.",
+      "date"        : "2021-04-07 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde.",
+      "url"         : "/actualite-release-candidate-godot-3-3-rc-8/",
+      "icon"        : "code-branch",
+      "tags"        : "3.3,Release Candidate"
+
+    } ,
+  
+    {
+      "title"       : "Godot Engine change de peau !",
+      "description" : "Une décision de rebranding importante a eu lieu aujourd'hui Godot Engine devient Godette Engine !",
+      "date"        : "2021-04-01 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Juan Linietsky.",
+      "url"         : "/actualite-godot-change-de-peau/",
+      "icon"        : "fish",
+      "tags"        : "Godot Engine,Rebranding"
+
+    } ,
+  
+    {
+      "title"       : "Firebase cloud firestore parser",
+      "description" : "Parse des données récupérées du cloud firestore de Firebase",
+      "date"        : "2021-03-16 00:00:00 +0000",
+      "categories"  : "snippets",
+      "by"          : "",
+      "url"         : "/resource-snippet-firebase/",
+      "icon"        : "",
+      "tags"        : "3.2,Snippets"
+
+    } ,
+  
+    {
+      "title"       : "Godot GGPO",
+      "description" : "Module permettant d'ajouter du rollback netcode dans les jeux en ligne (ne fonctionne que sous Windows pour l'instant)",
+      "date"        : "2021-03-09 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-extension-ggpo/",
+      "icon"        : "",
+      "tags"        : "Windows Only,3.2,3.1,4.0,GGPO"
+
+    } ,
+  
+    {
+      "title"       : "Godot Engine reçoit une subvention de 120 000$ du studio Kefir",
+      "description" : "Nous sommes ravis d'annoncer que le studio de développement de jeux Kefir accorde au projet Godot une subvention de 120 000$ pour financer le développement ultérieur du moteur. Merci à Kefir de soutenir notre moteur de jeu libre et open source !",
+      "date"        : "2021-02-10 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde",
+      "url"         : "/actualite-receives120kfromkefir/",
+      "icon"        : "money-bill-alt",
+      "tags"        : "Subvention"
+
+    } ,
+  
+    {
+      "title"       : "Haiki",
+      "description" : "Haiki est un jeu de plateformes à la précision BRUTALE où la décapitation n'est que le début de vos souffrances !",
+      "date"        : "2021-02-03 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-haiki/",
+      "icon"        : "",
+      "tags"        : "Richard Hörnig"
+
+    } ,
+  
+    {
+      "title"       : "A Comfortable Burden",
+      "description" : "Un jeu de gestion du temps coloré, mignon mais intense ! Jouer un couple qui s'occupe de sa maison et de sa famille au jour le jour. ",
+      "date"        : "2021-01-22 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-acomfortableburden/",
+      "icon"        : "",
+      "tags"        : "OtterWays"
+
+    } ,
+  
+    {
+      "title"       : "Thrive",
+      "description" : "Jeu complet fait avec Godot Engine sur l'évolution de la vie.",
+      "date"        : "2021-01-13 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-project-thrive/",
+      "icon"        : "",
+      "tags"        : "3.2,Jeu"
+
+    } ,
+  
+    {
+      "title"       : "Cropping shader",
+      "description" : "Permet de rogner une image. Il faut mettre les valeurs de 0 à 1 mais il peut être facilement adapté pour rentrer la valeur en pixel en multipliant par le pixel size (gles3 uniquement, sinon il faut faire un paramètre en plus pour indiquer la taille de l'image).",
+      "date"        : "2021-01-08 00:00:00 +0000",
+      "categories"  : "shaders",
+      "by"          : "",
+      "url"         : "/resource-shader-crop-shader/",
+      "icon"        : "",
+      "tags"        : "3.2,Shader"
+
+    } ,
+  
+    {
+      "title"       : "Remplacement de couleurs",
+      "description" : "Un shader permettant de remplacer une couleur par une autre",
+      "date"        : "2021-01-08 00:00:00 +0000",
+      "categories"  : "shaders",
+      "by"          : "",
+      "url"         : "/resource-shader-color-replacement/",
+      "icon"        : "",
+      "tags"        : "3.2,Shader"
+
+    } ,
+  
+    {
+      "title"       : "2D Wind shader",
+      "description" : "Permet de simuler le vent dans des sprites 2D",
+      "date"        : "2021-01-07 00:00:00 +0000",
+      "categories"  : "shaders",
+      "by"          : "",
+      "url"         : "/resource-shader-2d-wind-shader/",
+      "icon"        : "",
+      "tags"        : "3.2,Shader"
+
+    } ,
+  
+    {
+      "title"       : "Spades of Spaces",
+      "description" : "Spades of Spaces est un prototype de shump mobile réalisé avec Godot, ce n'est pas la version finale. Dans le jeu, vous trouverez un niveau et un combat de boss Pour atteindre le combat de boss, vous devrez obtenir au moins 1 500 pts. Pouvez-vous l'atteindre? C'est gratuit, pas de pub, pas de dlc et pas d'achat en jeu.",
+      "date"        : "2020-12-12 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-spadesofspaces/",
+      "icon"        : "",
+      "tags"        : "KrakenSIN Studio"
+
+    } ,
+  
+    {
+      "title"       : "Rogue State Revolution",
+      "description" : "Bienvenue, Monsieur le Président. Il est temps de reconstruire, de réformer et de se préparer à de nouveaux défis alors que la République populaire de Basenji devient un nouveau point chaud politique, économique et culturel. Nommez des ministres et menez le pays vers le succès. Attention, vous risquez de vous faire remplacer lors des prochaines élections.",
+      "date"        : "2020-12-11 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-roguestaterevolution/",
+      "icon"        : "",
+      "tags"        : "Little Red Dog Games"
+
+    } ,
+  
+    {
+      "title"       : "Tanks of freedom",
+      "description" : "Dans un monde plein de corruption et de luttes politiques, la voix des faibles n'est souvent pas entendue. Lorsque les gens se rebellent contre les gouvernements, il est temps de choisir son camp. Joignez les forces du gouvernement nouvellement créé et aidez-les à se soulever, ou alliez-vous aux forces loyalistes aidées par l'intervention d'un des pays voisins.",
+      "date"        : "2020-11-10 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-tanksoffreedom/",
+      "icon"        : "",
+      "tags"        : "P1X"
+
+    } ,
+  
+    {
+      "title"       : "Godot Ware",
+      "description" : "Enchaînez les mini jeu dans un thème spatial pour atteindre le meilleur score.",
+      "date"        : "2020-11-10 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-godotware/",
+      "icon"        : "",
+      "tags"        : "Ange Hubert"
+
+    } ,
+  
+    {
+      "title"       : "Fiscal Kombat European Edition",
+      "description" : "« Rendez l'argent ! » Incarnez Manon Aubry en mission contre la fraude fiscale en Europe.",
+      "date"        : "2020-11-10 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-fiscalkombat/",
+      "icon"        : "",
+      "tags"        : "Discord Insoumis"
+
+    } ,
+  
+    {
+      "title"       : "Sneak In: A zuma game",
+      "description" : "Shootez des billes de marbre, faites des reactions en chaine et défiez vos amis! ",
+      "date"        : "2020-11-09 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-sneakin/",
+      "icon"        : "",
+      "tags"        : "Binogure Studio"
+
+    } ,
+  
+    {
+      "title"       : "Smelted Kin",
+      "description" : "Tireur de science-fiction en 2D avec platforme et éléments de la métropole. Les joueurs devront explorer un énorme complexe de recherche composé de niveaux non linéaires, qui est peuplé de...",
+      "date"        : "2020-11-09 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-smeltedkin/",
+      "icon"        : "",
+      "tags"        : "Microbat Studio"
+
+    } ,
+  
+    {
+      "title"       : "Seek Etyliv",
+      "description" : "Un jeu de réflexion, limité à une grille de trois par trois, dans lequel chaque mouvement compte. A la fois, explorateur de donjon et lecteur de poème, aussi loin que je puisse la conduire. ",
+      "date"        : "2020-11-09 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-seeketyliv/",
+      "icon"        : "",
+      "tags"        : "Rokas"
+
+    } ,
+  
+    {
+      "title"       : "RPG in a Box",
+      "description" : "RPG in a Box vous permet de créer facilement des RPG et des jeux d'aventure en 3D avec un style à base de voxels !",
+      "date"        : "2020-11-09 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-rpginabox/",
+      "icon"        : "",
+      "tags"        : "Justin Arnold"
+
+    } ,
+  
+    {
+      "title"       : "ΔV: Rings of Saturn",
+      "description" : "La découverte inattendue de minéraux de valeurs dans les anneaux de Saturne a entraîné un boom sans précédent de l’industrie minière spatiale. Delta V est un simulateur spatial hard SF en vue du dessus dont chaque aspect respecte les lois de la physique et nos connaissances scientifiques",
+      "date"        : "2020-11-09 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-ringsofsaturn/",
+      "icon"        : "",
+      "tags"        : "Kodera Software"
+
+    } ,
+  
+    {
+      "title"       : "Resolutiion",
+      "description" : "Un ancien tueur escorte une étrange IA à travers des combats chaotiques, des secrets troublants, et un calme dérangeant dans un paysage d'hommes fous et d'animaux sains d'esprit.",
+      "date"        : "2020-11-09 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-resolutiion/",
+      "icon"        : "",
+      "tags"        : "Monolith of Minds"
+
+    } ,
+  
+    {
+      "title"       : "Primal Light",
+      "description" : "Joue en tant que Krog, une creature bleu mystérieuse dans un pagne rouge, en traversant un labyrinthe d'échelles, de pièges et de monstres. Découvres les coins et endroits bizarres du monde pendant que tu te bats pour acceder a la victoire, en laissant derière toi un cimetière de boss. ",
+      "date"        : "2020-11-09 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-primallight/",
+      "icon"        : "",
+      "tags"        : "Fat Gem"
+
+    } ,
+  
+    {
+      "title"       : "Portability",
+      "description" : "La portability est un jeu de physique 2D où vous téléportez et détruisez des objets pour résoudre des énigmes. ",
+      "date"        : "2020-11-09 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-portability/",
+      "icon"        : "",
+      "tags"        : "Aurimas Drungilas"
+
+    } ,
+  
+    {
+      "title"       : "Mindsight",
+      "description" : "Mindsight est une évolution minimaliste d'un jeu de match 3. Le but du jeu est de trouver tous les ensembles de trois symboles adjacents dont les caractéristiques correspondent ou diffèrent.",
+      "date"        : "2020-11-09 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-mindsight/",
+      "icon"        : "",
+      "tags"        : "Smokey Moose Games"
+
+    } ,
+  
+    {
+      "title"       : "The Interactive Adventures of Dog Mendonça &amp; Pizzaboy®",
+      "description" : "Résolvez les mystères surnaturels des souterrains de Lisbonne dans « The Interactive Adventures of Dog Mendonça & Pizzaboy », le jeu basé sur la série de romans graphiques récompensée de Dark Horse ! Incarnez le livreur de pizzas et vivez une toute nouvelle histoire dans l'univers de Dog Mendonça !",
+      "date"        : "2020-11-09 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-dogmendoncapizzaboy/",
+      "icon"        : "",
+      "tags"        : "OKAM Studio"
+
+    } ,
+  
+    {
+      "title"       : "City Game Studio: A tycoon about game dev",
+      "description" : "Vous êtes le président fondateur de votre studio de jeu vidéo. Le point de départ vous appartient, vous pouvez commencer dans votre garage, ou alors voir grand en acquérant votre premier local",
+      "date"        : "2020-11-09 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-citygamestudio/",
+      "icon"        : "",
+      "tags"        : "Binogure Studio"
+
+    } ,
+  
+    {
+      "title"       : "Bloom: Memories",
+      "description" : "Un véritable projet de passion de 7 ans et plus et une nouvelle version rafraîchissante de l'aventure action / RPG. Tuer était facultatif et les créatures agissent selon des désirs réalistes. ",
+      "date"        : "2020-11-09 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-bloommemories/",
+      "icon"        : "",
+      "tags"        : "Studio Fawn"
+
+    } ,
+  
+    {
+      "title"       : "1000 days to escape",
+      "description" : "Il ne reste que 1000 jours avant la fin du monde. Vous devez mettre en œuvre le programme spatial le plus ambitieux de l’histoire et sauver autant de vies humaines que possible. Explorez les planètes, colonisez-les, aidez les gens à trouver un nouveau foyer. ",
+      "date"        : "2020-11-09 00:00:00 +0000",
+      "categories"  : "showcase",
+      "by"          : "",
+      "url"         : "/showcase-1000daystoescape/",
+      "icon"        : "",
+      "tags"        : "Lemon Squeezy"
+
+    } ,
+  
+    {
+      "title"       : "Material Maker",
+      "description" : "Outil base sur Godot engine qui permet de créer des textures de manière procédurale.",
+      "date"        : "2020-10-19 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-projet-material-maker/",
+      "icon"        : "",
+      "tags"        : "material,maker"
+
+    } ,
+  
+    {
+      "title"       : "Zik Machine",
+      "description" : "Logiciel de création live orienter pad / drum machine écrit en gdscript.",
+      "date"        : "2020-09-25 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-project-zik-machine/",
+      "icon"        : "",
+      "tags"        : "drum,3.2,pad"
+
+    } ,
+  
+    {
+      "title"       : "LOD en GDScript",
+      "description" : "Ajout d'un LOD entièrement fait en GDscript, permet de gérer les mesh, lumieres et particules.",
+      "date"        : "2020-09-25 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-project-lod-gdscript/",
+      "icon"        : "",
+      "tags"        : "LOD,Addon,3.2"
+
+    } ,
+  
+    {
+      "title"       : "Generateur de build",
+      "description" : "Site web qui permet de générer les options de compilation pour Godot Engine",
+      "date"        : "2020-09-25 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-project-build-generator/",
+      "icon"        : "",
+      "tags"        : "3.2,Build,Options"
+
+    } ,
+  
+    {
+      "title"       : "Atelier de Programaths",
+      "description" : "Atelier pour l'apprentissage de Godot Engine.",
+      "date"        : "2020-06-02 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-project-programaths/",
+      "icon"        : "",
+      "tags"        : "atelier"
+
+    } ,
+  
+    {
+      "title"       : "Reflet de lumière sur la surface de l&#39;eau",
+      "description" : "Shader réaliste qui rend la surface de l'eua avec les jeux de lumière.",
+      "date"        : "2020-06-02 00:00:00 +0000",
+      "categories"  : "shaders",
+      "by"          : "",
+      "url"         : "/resource-eaushader/",
+      "icon"        : "",
+      "tags"        : "Eau,3.2,Réaliste,Shader"
+
+    } ,
+  
+    {
+      "title"       : "Godot Sketchfab",
+      "description" : "Importer des modèles SketchFab depuis Godot Engine vers Godot Engine.",
+      "date"        : "2020-06-01 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godot-sketchfab/",
+      "icon"        : "",
+      "tags"        : "3.2,SketchFab,3D"
+
+    } ,
+  
+    {
+      "title"       : "Godot Showreel 2020",
+      "description" : "Le showreel de 2020 est fin prêt !",
+      "date"        : "2020-04-26 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Juan Linietsky",
+      "url"         : "/actualite-showreel-2020/",
+      "icon"        : "photo-video",
+      "tags"        : "Showreel,2020"
+
+    } ,
+  
+    {
+      "title"       : "Tutoriels de Greaby",
+      "description" : "Greaby, créateur de jeux indépendant Suisse. Il maintient un site web qui aborde Godot Engine et fournit un tas de ressources utiles.",
+      "date"        : "2020-04-24 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-project-greaby/",
+      "icon"        : "",
+      "tags"        : "tutoriels"
+
+    } ,
+  
+    {
+      "title"       : "Atelier game design avec Godot",
+      "description" : "Dans ces temps de confinement plusieurs initiatives voient le jour. Dont celle d'Activdesign, qui met à disposition gratuitement leurs tuteurs dans le cadre d'ateliers ouverts gratuitement aux collégiens et lycéens.",
+      "date"        : "2020-03-27 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Xavier 'Binogure'",
+      "url"         : "/actualite-atelier-activ-design/",
+      "icon"        : "graduation-cap",
+      "tags"        : "Atelier,Game design,Active design"
+
+    } ,
+  
+    {
+      "title"       : "Poste à pourvoir: Chargé de cours à Montpellier (34) France",
+      "description" : "Nous recherchons actuellement un développeur avec de bonnes connaissances dans l’utilisation du moteur Godot afin de donner 4 cours sur quelques semaines avant Juin 2020!  ",
+      "date"        : "2020-03-10 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Xavier 'Binogure'",
+      "url"         : "/actualite-offree-montpellier-charge-de-cours/",
+      "icon"        : "chalkboard-teacher",
+      "tags"        : "Godot engine,Offre d'emploi,Chargé de cours,Montpellier"
+
+    } ,
+  
+    {
+      "title"       : "Version de maintenance: Godot 3.2.1",
+      "description" : "Godot Engine 3.2.1 vient de sortir, elle apporte de nombreuses corrections par rapport à la version 3.2. Elle est 100% compatible avec la version 3.2, pensez a mettre à jour vos projets.",
+      "date"        : "2020-03-10 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde",
+      "url"         : "/actualite-godot-3-2-1/",
+      "icon"        : "code-branch",
+      "tags"        : "3.2.1,Stable,Maintenance"
+
+    } ,
+  
+    {
+      "title"       : "IsoCube",
+      "description" : "Projette des texture/couleurs sur les différentes faces d'un cube",
+      "date"        : "2020-03-06 00:00:00 +0000",
+      "categories"  : "snippets",
+      "by"          : "",
+      "url"         : "/resource-snippet-cube-isometrique/",
+      "icon"        : "",
+      "tags"        : "3.2,Custom draw"
+
+    } ,
+  
+    {
+      "title"       : "Shader To Image",
+      "description" : "Permet d'obtenir une instance Image contenant le rendu d'un shader",
+      "date"        : "2020-03-05 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-shader-to-image/",
+      "icon"        : "",
+      "tags"        : "3.2,Shader"
+
+    } ,
+  
+    {
+      "title"       : "Release candidate 1: Godot 3.2.1",
+      "description" : "Godot 3.2 a été relâché il y a quelques semaines. Il s'agit d'une mise à jour majeur du moteur gratuit et open source, dont le développement a durée quasiment une année",
+      "date"        : "2020-02-22 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde",
+      "url"         : "/actualite-godot-3-2-1-rc1/",
+      "icon"        : "code-branch",
+      "tags"        : "3.2.1,Release candidate"
+
+    } ,
+  
+    {
+      "title"       : "Voilà Godot 3.2, la qualité est la priorité!",
+      "description" : "Godot 3.2 est une amélioration majeure par rapport à la version 3.1, apportant des dizaines de fonctionnalités importantes, des centaines de corrections de bugs et d'améliorations pour apporter à nos développeurs de jeux un ensemble de fonctionnalités en constante amélioration avec un fort accent sur facilité d'utilisation.",
+      "date"        : "2020-02-13 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde",
+      "url"         : "/actualite-godot-3-2-released/",
+      "icon"        : "code-branch",
+      "tags"        : "godot,3.2,release"
+
+    } ,
+  
+    {
+      "title"       : "Attention! Merge de Vulkan, branche master instable!",
+      "description" : "Nous fusionnons notre port Vulkan en cours de développement (jusqu’à présent dans la branche Vulkan) dans la branche master",
+      "date"        : "2020-02-11 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde",
+      "url"         : "/merge-de-vulkan-branche-master-instable/",
+      "icon"        : "code-branch",
+      "tags"        : "master,Vulkan"
+
+    } ,
+  
+    {
+      "title"       : "Godot 3.2 et la pseudo-3D",
+      "description" : "Je vous déterre et traduit un article qui date d'avril 2019 parlant de la future implémentation de la pseudo-3D dans Godot 3.2, suite à un tweet de Coldragon, utilisateur du discord Godot  Francophone.",
+      "date"        : "2020-02-10 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Juan Linietsky",
+      "url"         : "/godot-3-2-pseudo-3D/",
+      "icon"        : "code-branch",
+      "tags"        : "3.2,Stable"
+
+    } ,
+  
+    {
+      "title"       : "Masques de lumières 2D",
+      "description" : "Pack de masques pour des lumières 2D.",
+      "date"        : "2020-02-08 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-lightmask-2d/",
+      "icon"        : "",
+      "tags"        : "lightmask,2D,ressource"
+
+    } ,
+  
+    {
+      "title"       : "Démo d&#39;un monde ouvert",
+      "description" : "Projet Godot Engine sous license libre. Il s'agit d'une démonstration des capacités du moteur Godot Engine à rendre des vastes mondes ouverts.",
+      "date"        : "2020-02-07 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-project-owd/",
+      "icon"        : "",
+      "tags"        : "3.2,Monde ouvert,License libre"
+
+    } ,
+  
+    {
+      "title"       : "Aide mémoire pour Godot Engine",
+      "description" : "Une documentation complète avec de nombreux exemples pour mieux maitriser Godot Engine",
+      "date"        : "2020-02-05 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-examples-and-cheatsheet/",
+      "icon"        : "",
+      "tags"        : "3.2,exemples,gdscript,aide,tutoriel"
+
+    } ,
+  
+    {
+      "title"       : "Rapport de progrès Vulkan #6",
+      "description" : "Ça fait un moment depuis le dernier rapport de progrès : j'ai pris des vacances en Novembre (ça n'était pas arrivé depuis des années), et Décembre a été jonché de tâches liées au moteur qui se sont accumulées et que j'ai dû traiter. J'ai donc repris le travail sur Vulkan début Janvier, et beaucoup de progrès a déjà été fait.",
+      "date"        : "2020-01-29 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Juan Linietsky",
+      "url"         : "/actualite-vulkan-progress-report-6/",
+      "icon"        : "cube",
+      "tags"        : "Vulkan"
+
+    } ,
+  
+    {
+      "title"       : "Release candidate 4: Godot 3.2",
+      "description" : "Nous n'avons jamais été aussi proche de pouvoir publier la version 3.2 stable. La candidate 4 est la afin de valider les derniers changements faits durant le week-end, et avant de publier une nouvelle version, qui sera (probablement) la dernière release candidate. Si aucune regression critique n'est trouvée dans cette version, alors la 3.2 devrait être presque identique a celle-ci.",
+      "date"        : "2020-01-27 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde",
+      "url"         : "/actualite-release-candidate-3-2-rc-4/",
+      "icon"        : "code-branch",
+      "tags"        : "3.2,Release candidate"
+
+    } ,
+  
+    {
+      "title"       : "Release candidate 3: Godot 3.2",
+      "description" : "En attendant Godot 3.2 qui ne devrait plus tarder à voir le jour, nous sommes heureux de vous annoncer cette troisième Release Candidate. Nous espérons que cela va encourager les tests de ce qui va devenir Godot 3.2 stable dans les jours à venir.",
+      "date"        : "2020-01-24 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde",
+      "url"         : "/actualite-release-candidate-3-2-rc-3/",
+      "icon"        : "code-branch",
+      "tags"        : "3.2,Release candidate"
+
+    } ,
+  
+    {
+      "title"       : "Release candidate 2: Godot 3.2",
+      "description" : "Enfin; Godot 3.2 sera bientôt prêt. Nous sommes heureux de vous annoncer cette seconde Release Candidate.  Nous espérons que cela va encourager les tests de ce qui va devenir Godot 3.2 stable dans les jours à venir.",
+      "date"        : "2020-01-20 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde",
+      "url"         : "/actualite-release-candidate-3-2-rc-2/",
+      "icon"        : "code-branch",
+      "tags"        : "3.2,Release candidate"
+
+    } ,
+  
+    {
+      "title"       : "Release candidate 1: Godot 3.2",
+      "description" : "Et voilà; Godot 3.2 sera bientôt prêt. Nous sommes heureux de vous annoncer cette première Release Candidate.  Nous espérons que cela va encourager les tests de ce qui va devenir Godot 3.2 dans les jours à venir.",
+      "date"        : "2020-01-17 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde",
+      "url"         : "/actualite-release-candidate-3-2-rc-1/",
+      "icon"        : "code-branch",
+      "tags"        : "3.2,Release candidate"
+
+    } ,
+  
+    {
+      "title"       : "godot-lportal",
+      "description" : "En anglais Occlusion culling module, permet d'optimiser le rendu des environnements a 3 dimensions",
+      "date"        : "2020-01-16 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godot-lportal/",
+      "icon"        : "",
+      "tags"        : "3.2,Module,3D,Culling"
+
+    } ,
+  
+    {
+      "title"       : "GodotBluetooth",
+      "description" : "Implémentation native du bluetooth pour Godot Engine.",
+      "date"        : "2020-01-16 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godot-bluetooth/",
+      "icon"        : "",
+      "tags"        : "3.1.2,Module,Bluetooth"
+
+    } ,
+  
+    {
+      "title"       : "Sealed Bite",
+      "description" : "Gagnant de la Github Game off 2019. Il s'agit d'un metroidvania like.",
+      "date"        : "2020-01-14 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-sealedbite/",
+      "icon"        : "",
+      "tags"        : "3.2,Jeu"
+
+    } ,
+  
+    {
+      "title"       : "Instantané: Godot 3.2 beta 6",
+      "description" : "Après une semaine très chargée avec de nombreux correctifs (ainsi que l'ajout de plusieurs améliorations mineures sans risque et une document mise à niveau), voici sans plus attendre Godot 3.2 beta 6!",
+      "date"        : "2020-01-14 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde",
+      "url"         : "/actualite-devsnapshot-3-2-beta-6/",
+      "icon"        : "code-branch",
+      "tags"        : "Snapshot,3.2,Beta"
+
+    } ,
+  
+    {
+      "title"       : "Crypth of the GodoDancers",
+      "description" : "Une copie des mécaniques de jeu de crypth of the necrodancer.",
+      "date"        : "2019-12-17 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-project-ctgd/",
+      "icon"        : "",
+      "tags"        : "3.1,Jeu"
+
+    } ,
+  
+    {
+      "title"       : "Le DELTA c&#39;est quoi?",
+      "description" : "À quoi sert le delta que l'on retrouve dans process et à quoi va t il nous servir dans nos jeux",
+      "date"        : "2019-12-13 00:00:00 +0000",
+      "categories"  : "tutoriel",
+      "by"          : "SoloCodeNet",
+      "url"         : "/tutoriel-delta/",
+      "icon"        : "car-side",
+      "tags"        : "delta,gdscript,ratio,3.1"
+
+    } ,
+  
+    {
+      "title"       : "Tuile de tilemap animée",
+      "description" : "Comment mettre des sprites animés dans un tilemap",
+      "date"        : "2019-12-13 00:00:00 +0000",
+      "categories"  : "tutoriel",
+      "by"          : "SoloCodeNet",
+      "url"         : "/tutoriel-animated_tile/",
+      "icon"        : "layer-group",
+      "tags"        : "tilemap,animatedSprite,resources,3.1"
+
+    } ,
+  
+    {
+      "title"       : "Godot shaders",
+      "description" : "Une selection de 4 différents shader faits sur Shadertoy qui ont été convertie pour Godot Engine. Transition Pixel, Ciel nuageux, Flammes et Feu d'artifice",
+      "date"        : "2019-12-01 00:00:00 +0000",
+      "categories"  : "shaders",
+      "by"          : "",
+      "url"         : "/resource-4shaders/",
+      "icon"        : "",
+      "tags"        : "Firework,Feu d'artifice,Shader,3.1,Ciel,Feu,Pixel,Transition"
+
+    } ,
+  
+    {
+      "title"       : "Version de maintenance 3.1.2",
+      "description" : "Alors que la version 3.2 est entrée en phase de beta, nous relachons une nouvelle version de maintenance pour Godot Engine 3.1. Avec ses 400 changements de code, qui sont tout autant de correctifs que d'améliorations, il était temps de relacher la version 3.1.2.",
+      "date"        : "2019-11-30 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde",
+      "url"         : "/actualite-maintenance312/",
+      "icon"        : "code-branch",
+      "tags"        : "3.1.2,Stable"
+
+    } ,
+  
+    {
+      "title"       : "Serveur SSL WebSocket, serveur HTTP pour tester les builds HTML5",
+      "description" : "De nouvelles améliorations de la couche réseau débarquent avec la 3.2. SSL est maintenant pris en charge par WebSocketServer, et il vous est possible d'exporter et de tester l'export HTML5 depuis l'éditeur avec un simple clic.",
+      "date"        : "2019-11-29 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Fabio Alessandrelli",
+      "url"         : "/actualite-websocketsslserver/",
+      "icon"        : "shield-alt",
+      "tags"        : "SSL,Chiffrement,WebSocket,Serveur HTTP,HTML5,3.2"
+
+    } ,
+  
+    {
+      "title"       : "Whiskers",
+      "description" : "Whiskers est un outil libre de droit qui permet d'éditer visuellement des dialogues le tout avec Godot Engine",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-whiskers/",
+      "icon"        : "",
+      "tags"        : "3.1,Dialogue,Éditeur,Plugin"
+
+    } ,
+  
+    {
+      "title"       : "Pixelorama",
+      "description" : "Éditeur de sprite 2D pour Godot Engine, fait par Orama Interactive en utilisant uniquement ud GDScript",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-pixelorama/",
+      "icon"        : "",
+      "tags"        : "3.2,Pixel,Editeur"
+
+    } ,
+  
+    {
+      "title"       : "Palette shadow material",
+      "description" : "Cartoon shader permettant de choisir la couleur du material, pour Godot Engine.",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "shaders",
+      "by"          : "",
+      "url"         : "/resource-paletteshadowmaterial/",
+      "icon"        : "",
+      "tags"        : "3.1,Shader,Cartoon"
+
+    } ,
+  
+    {
+      "title"       : "Open ATDeluxe",
+      "description" : "Remake du jeu Airline Tycoon Deluxe avec Godot Engine",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-openatd/",
+      "icon"        : "",
+      "tags"        : "Airline Tycoon Deluxe,Jeu"
+
+    } ,
+  
+    {
+      "title"       : "Godot twicil",
+      "description" : "Permet d'interagir avec le chat de Twitch.",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godottwicil/",
+      "icon"        : "",
+      "tags"        : "2.1,3.0,3.1,Twitch,Plugin"
+
+    } ,
+  
+    {
+      "title"       : "Godot Tiled Importer",
+      "description" : "Plugin pour Godot Engine qui permet d'importer des TileMap et des TileSet depuis l'éditeur nommé Tiled Map Editor",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godottiledimporter/",
+      "icon"        : "",
+      "tags"        : "2.1,3.0,3.1,Tilemap,Plugin"
+
+    } ,
+  
+    {
+      "title"       : "Godot TIE",
+      "description" : "Text Interface Engine est un plugin qui permet d'afficher du texte comme dans les jeux de type RPG.",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godottie/",
+      "icon"        : "",
+      "tags"        : "2.1,3.0,3.1,Dialogue,Éditeur,Plugin"
+
+    } ,
+  
+    {
+      "title"       : "GodotSteam",
+      "description" : "Module C++ qui va vous permettre de brancher Godot Engine avec le SDK de Steam. Nécessaire si vous voulez publier votre jeu sur la plateforme Steam.",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotsteam/",
+      "icon"        : "",
+      "tags"        : "2.1,3.0,3.1,Steam,Module"
+
+    } ,
+  
+    {
+      "title"       : "Godot OpenVR",
+      "description" : "Plugin GDNative qui ajoute le support d'OpenVR pour godot Engine.",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotopenvr/",
+      "icon"        : "",
+      "tags"        : "master,3.0,3.1,VR,Module"
+
+    } ,
+  
+    {
+      "title"       : "Godot Mixing Desk",
+      "description" : "Solution audio complète, permet de générer des sons procéduralement, et d'avoir une musique adaptative/procédurale en ajoutant quelques nodes accompagnés de quelques lignes de code",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotmixingdesk/",
+      "icon"        : "",
+      "tags"        : "3.1,Plugin"
+
+    } ,
+  
+    {
+      "title"       : "Godot Lua",
+      "description" : "Version de Godot Engine supportant le Lua. C'est toujours en développement donc il vaut mieux ne pas l'utiliser pour de la production",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotlua/",
+      "icon"        : "",
+      "tags"        : "master,3.2,Lua"
+
+    } ,
+  
+    {
+      "title"       : "Godot Jigglebones",
+      "description" : "Ce plugin ajoute les parties moles a vos squelettes 3D. Cela permet de d'avoir des animations procédurales plus réalistes.",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotjigglebones/",
+      "icon"        : "",
+      "tags"        : "3.0,3.1,Jigglebone,Animation,Procédural,Plugin"
+
+    } ,
+  
+    {
+      "title"       : "Godot Google Service",
+      "description" : "Module C++ permettant d'utiliser les services offerts par Google sur Android.",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotgoogleservice/",
+      "icon"        : "",
+      "tags"        : "2.1,3.0,3.1,3.2,master,Android,Google Services,Module"
+
+    } ,
+  
+    {
+      "title"       : "Installer et Tester votre jeu Godot sur iOS sans compte payant Apple",
+      "description" : "Lancer votre jeu Godot sur n'importe quel appareil iOS 8 ou plus pour le tester sans compte payant, parfait si vous developpez votre premier jeu pour iOS sans payer directement un compte Apple.",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "snippets",
+      "by"          : "",
+      "url"         : "/resource-godotexportios/",
+      "icon"        : "",
+      "tags"        : "iOS,3.1,3.2"
+
+    } ,
+  
+    {
+      "title"       : "Godot ANL",
+      "description" : "Il s'agit un module C++ qui fait le lien entre la bibliothèque Accidental Noise et Godot Engine. Une fois compilée, on peut s'en servir avec du GDscript.",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotanl/",
+      "icon"        : "",
+      "tags"        : "3.1,Module,Noise,Shader"
+
+    } ,
+  
+    {
+      "title"       : "GodotAds",
+      "description" : "Module permettant de gérer les publicités pour Android avec Godot Engine. Il gère notammenet admob, adcolony, chartboost, vungle, mopub et unity_ads",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotads/",
+      "icon"        : "",
+      "tags"        : "2.1,3.0,3.1,Android,Module"
+
+    } ,
+  
+    {
+      "title"       : "GDTwitch",
+      "description" : "Permet d'intéragir avec le chat de Twitch",
+      "date"        : "2019-11-23 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-gdtwitch/",
+      "icon"        : "",
+      "tags"        : "3.1,Twitch,Plugin"
+
+    } ,
+  
+    {
+      "title"       : "Instantané: Godot 3.2 beta 2",
+      "description" : "Après deux semaines de correctifs depuis le dernier instantané, voici Godot 3.2 beta 2. Parmis les changements notables il y a l'ajout de l'export en WebAssembly pour les versions Mono ainsi que le support de C# 8 via Mono 6.6.0.",
+      "date"        : "2019-11-22 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde",
+      "url"         : "/actualite-devsnapshot-3-2-beta-2/",
+      "icon"        : "code-branch",
+      "tags"        : "Snapshot,3.2,Beta"
+
+    } ,
+  
+    {
+      "title"       : "Interblock sponsorise le développement de Godot engine",
+      "description" : "Nous sommes heureux de vous annoncer qu'Interblock est maintenant un sponsor Platinum de Godot. Pour cette occasion, nous leur avons demandeéde partager quelques mots au sujet de leur compagnie ; pourquoi ont-ils choisi de supporter Godot, et que comptent-ils faire avec Godot.",
+      "date"        : "2019-11-21 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde.",
+      "url"         : "/actualite-interblocksoutiengodot/",
+      "icon"        : "donate",
+      "tags"        : "Sponsor,Platinum,Interblock"
+
+    } ,
+  
+    {
+      "title"       : "Rapport d&#39;avancement C#: WebAssembly, Monodevelop et AOT",
+      "description" : "WebAssembly débarque avec Godot Engine 3.2 pour vos jeux en C#. Il y a aussi une nouvelle extension pour Visual Studio pour Mac, MonoDevelop et un support préliminaire pour la compilation AOT.",
+      "date"        : "2019-11-21 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Ignacio Roldán Etcheverry",
+      "url"         : "/actualite-csharpprogressreport/",
+      "icon"        : "newspaper",
+      "tags"        : "C#,Mono,AOT,WebAssembly"
+
+    } ,
+  
+    {
+      "title"       : "Tanks of Freedom",
+      "description" : "Jeu indépendant en tour par tour et en dessin pixel.",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-tanksoffreedom/",
+      "icon"        : "",
+      "tags"        : "2.1,Jeu"
+
+    } ,
+  
+    {
+      "title"       : "Structurer un projet",
+      "description" : "Voici un exemple permettant de définir la structure d'un projet pour Godot Engine.",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "snippets",
+      "by"          : "",
+      "url"         : "/resource-structureprojet/",
+      "icon"        : "",
+      "tags"        : "Structure"
+
+    } ,
+  
+    {
+      "title"       : "GUT",
+      "description" : "Godot Unit Test est un utilitaire permettant d'écrire des tests pour votre jeu. Cela permet d'écrire des tests en GDScript pour tester du code GDScript",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-gut/",
+      "icon"        : "",
+      "tags"        : "2.1,3.1,3.2,Plugin"
+
+    } ,
+  
+    {
+      "title"       : "Godot Voxel",
+      "description" : "Module écrit en C++ permettant de créer des volumes dans Godot Engine. Voxel c'est la contraction de Volumetric Pixel.",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotvoxel/",
+      "icon"        : "",
+      "tags"        : "3.1,Voxel,C++,Module"
+
+    } ,
+  
+    {
+      "title"       : "Godot Simple Logger",
+      "description" : "Script utilitaire à placer dans votre projet comme singleton. C'est un simple logger avec un peu de formattage et permet de stocker les log dans un fichier externe avec une rotation automatique a chaque lancement du jeu.",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotsimplelogger/",
+      "icon"        : "",
+      "tags"        : "2.1,logger"
+
+    } ,
+  
+    {
+      "title"       : "Godot Realistic Water",
+      "description" : "Shader rendant la surface de l'eau plus réaliste",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "shaders",
+      "by"          : "",
+      "url"         : "/resource-godotrealisticwater/",
+      "icon"        : "",
+      "tags"        : "3.1,Eau,Réaliste"
+
+    } ,
+  
+    {
+      "title"       : "Godot Rate It",
+      "description" : "Module qui permet d'ouvrir le Google Play Store afin de permettre à l'utilisateur de noter le jeu ou l'application.",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotrateit/",
+      "icon"        : "",
+      "tags"        : "2.1,C++,Android,Module"
+
+    } ,
+  
+    {
+      "title"       : "Godot Python",
+      "description" : "Version de Godot Engine supportant le Python. C'est toujours en développement donc il vaut mieux ne pas l'utiliser pour de la production",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotpython/",
+      "icon"        : "",
+      "tags"        : "master,python"
+
+    } ,
+  
+    {
+      "title"       : "Godot Practice shader",
+      "description" : "Liste de shader pour Godot Engine. Cela permet de voir ce qu'on peut faire avec et surtout de s'entrainer.",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "shaders",
+      "by"          : "",
+      "url"         : "/resource-godotpracticeshader/",
+      "icon"        : "",
+      "tags"        : "3.1"
+
+    } ,
+  
+    {
+      "title"       : "Godot Local Notification",
+      "description" : "Module pour android qui permet d'envoyer des notifications",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotlocalnotification/",
+      "icon"        : "",
+      "tags"        : "2.1,C++,android,Module"
+
+    } ,
+  
+    {
+      "title"       : "Godot Demo Projects",
+      "description" : "Démonstration de projets et projets modèles pour Godot Engine",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-godotdemoproject/",
+      "icon"        : "",
+      "tags"        : "2.1,3.0,3.1,3.2"
+
+    } ,
+  
+    {
+      "title"       : "Godot Android",
+      "description" : "Module qui permet d'utiliser Firebase avec Google Play Game Service. C'est une implémentation complète de l'API de GPGS et partielle de Firebase.",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotandroid/",
+      "icon"        : "",
+      "tags"        : "2.1,C++,Android,Module"
+
+    } ,
+  
+    {
+      "title"       : "Godot Amazon",
+      "description" : "Module qui permet d'utiliser Amazon Game Circle et Amazon Store. C'est une implémentation complète de l'API d'amazon.",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godotamazon/",
+      "icon"        : "",
+      "tags"        : "2.1,C++,Android,Module"
+
+    } ,
+  
+    {
+      "title"       : "Godot UUID",
+      "description" : "Addon qui permet de générer des uuid v4 respectant la RFC.",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godot-uuid/",
+      "icon"        : "",
+      "tags"        : "2.1"
+
+    } ,
+  
+    {
+      "title"       : "Godot discord",
+      "description" : "Module permettant de brancher votre projet à Discord Rich Presence.",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-godot-discord/",
+      "icon"        : "",
+      "tags"        : "2.1,C++,Module"
+
+    } ,
+  
+    {
+      "title"       : "GD Com",
+      "description" : "Module NPM a ajouter a votre backend fait en NodeJS. Il permet de communiquer avec des instances de Godot Engine.",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-gdcom/",
+      "icon"        : "",
+      "tags"        : "2.1,3.1,NodeJS,Serveur"
+
+    } ,
+  
+    {
+      "title"       : "GDChart",
+      "description" : "Ajoute un noeud de type GDChart à Godot Engine. Cela permet d'afficher et d'animer des graphiques en formes de courbes ou en forme de camembert",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-gdcharts/",
+      "icon"        : "",
+      "tags"        : "3.1,2.1,Plugin"
+
+    } ,
+  
+    {
+      "title"       : "GD Pixeldraw",
+      "description" : "Projet permettant de dessiner un peu comme dans MSPaint",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "projets",
+      "by"          : "",
+      "url"         : "/resource-gd-pixeldraw/",
+      "icon"        : "",
+      "tags"        : "2.1"
+
+    } ,
+  
+    {
+      "title"       : "FMOD",
+      "description" : "Module permettant l'intégration avec FMOD Studio.",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "extensions",
+      "by"          : "",
+      "url"         : "/resource-fmod/",
+      "icon"        : "",
+      "tags"        : "3.1,FMOD,C++,Module"
+
+    } ,
+  
+    {
+      "title"       : "CRT Shader",
+      "description" : "Un simple shader pour Godot engine qui simulte un écran CRT",
+      "date"        : "2019-11-20 00:00:00 +0000",
+      "categories"  : "shaders",
+      "by"          : "",
+      "url"         : "/resource-crtshader/",
+      "icon"        : "",
+      "tags"        : "2.1"
+
+    } ,
+  
+    {
+      "title"       : "Release candidate v3.1.2-RC1",
+      "description" : "Il y a plus de 6 mois que Godot Engine 3.1.1 a été relâché et vous êtes nombreux à attendre la version 3.1.2. Cette dernière contiendra son lot de correctifs notables ainsi que des améliorations. Nous avons ajouté 400 changements de code depuis la dernière version. Il est nécessaire de tester de manière approfondie afin d'éviter tout nouveau bug qui serait en fait une regression. Voilà pourquoi nous publions cette version, pour que la communauté puisse la tester avec nous.",
+      "date"        : "2019-11-19 00:00:00 +0000",
+      "categories"  : "actualite",
+      "by"          : "Rémi Verschelde",
+      "url"         : "/actualite-release-candidate-3-1-2-rc-1/",
+      "icon"        : "code-branch",
+      "tags"        : "Release Candidate,3.1"
+
+    } 
+  
+]

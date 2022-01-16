@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Attention! Merge de Vulkan, branche master instable!</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/the-grid-flexbox@2.0.1/css/the-grid.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="shortcut icon" href="https://www.godot-francophone.org/assets/img/favicon.png">
+  <link rel="icon" href="https://www.godot-francophone.org/assets/img/favicon.png">
+
+  <meta property="og:title" content="Attention! Merge de Vulkan, branche master instable!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.godot-francophone.org" />
+
+  <meta property="og:description" content="Nous fusionnons notre port Vulkan en cours de développement (jusqu’à présent dans la branche Vulkan) dans la branche master" />
+  <meta property="og:site_name" content="Godot Engine Francophone" />
+  <meta property="og:image" content="https://www.godot-francophone.org/assets/img/icon.png" />
+
+  <!-- facebook -->
+  
+    <meta property="fb:app_id" content="00000000" />
+    <meta property="fb:admins" content="00000000" />
+  
+  <!-- facebook -->
+
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Attention! Merge de Vulkan, branche master instable!">
+  <meta name="twitter:description" content="Nous fusionnons notre port Vulkan en cours de développement (jusqu’à présent dans la branche Vulkan) dans la branche master">
+  <meta name="twitter:creator" content="godotenginefr">
+  <meta name="twitter:image" content="https://www.godot-francophone.org/assets/img/icon.png">
+  <meta name="image" content="https://www.godot-francophone.org/assets/img/icon.png">
+  <meta itemprop="description" content="Nous fusionnons notre port Vulkan en cours de développement (jusqu’à présent dans la branche Vulkan) dans la branche master" />
+  <meta itemprop="name" content="Attention! Merge de Vulkan, branche master instable!">
+  <meta itemprop="keywords" content="master, Vulkan, godot, godot engine, engine, francais, france, tutoriel, francophone, discord, communauté">
+  <!-- twitter -->
+
+  <meta name="description" content="Nous fusionnons notre port Vulkan en cours de développement (jusqu’à présent dans la branche Vulkan) dans la branche master" />
+  <meta name="name" content="Attention! Merge de Vulkan, branche master instable!">
+  <meta name="keywords" content="master, Vulkan, godot, godot engine, engine, francais, france, tutoriel, francophone, discord, communauté">
+
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Godot Engine Francophone",
+    "alternateName": "Godot Engine fr",
+    "url": "https://www.godot-francophone.org",
+    "logo": "https://www.godot-francophone.org/assets/img/icon.png",
+    "sameAs": [
+      "https://twitter.com/godotenginefr",
+      "https://github.com/Godot-Engine-Francophone"
+    ]
+  }]
+  </script>
+</head>
+
+
+<body>
+  <div class="body-content">
+    <div class="menu">
+  <div class="size margin menu--content container align-items-center justify-content-between">
+
+    <a href="/" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
+      <div class="container align-items-center site-title">
+        <div class="">
+          <img src="/assets/img/icon.png" width="64" alt="Godot fr">
+        </div>
+        <div class="site-title-text">
+          Godot Engine Francophone
+        </div>
+      </div>
+    </a>
+
+    <div class="container align-items-center" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
+      <nav class="site-nav" id="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"></path>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"></path>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+        <div class="trigger">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            
+            
+            <a href="/actualite/index.html" class="menu--content--item">
+            
+              Actualités
+            </a>
+            
+          
+          
+          
+          
+          
+            
+            
+            <a href="/tutoriel/index.html" class="menu--content--item">
+            
+              Tutoriels
+            </a>
+            
+          
+          
+          
+            
+            
+            <a href="/resources/index.html" class="menu--content--item">
+            
+              Ressources
+            </a>
+            
+          
+          
+          
+          
+          
+          
+          
+            
+            
+            <a href="/showcase/index.html" class="menu--content--item">
+            
+              Showcase
+            </a>
+            
+          
+          
+          
+          
+          
+          
+          
+            
+            <a href="https://docs.godotengine.org/fr/latest/" class="menu--content--item" target="_blank" rel="noopener noreferrer">
+              Documentation
+            </a>
+            
+          
+          
+          
+            
+            
+            <a href="/apropos/" class="menu--content--item">
+            
+              À propos
+            </a>
+            
+          
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="bg-header">
+  <header>
+  
+  <div class="header container align-items-center justify-content-center">
+  </div>
+  
+</header>
+
+</div>
+
+
+
+
+<div class="size margin min-height background-box-white aos-init aos-animate">
+  <article>
+    <!-- titles -->
+    <h1 class="post-title" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">Attention! Merge de Vulkan, branche master instable!</h1>
+    <div class="post-date" data-aos="fade-left" data-aos-delay="300" data-aos-offset="0">
+      <time>11 Feb 2020</time>
+      <span class="reading-time" title="Estimated read time"> - 9 minutes de lecture</span>
+      
+
+<div id="share-buttons">
+  <div class="facebook" title="Partager via Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https://www.godot-francophone.org/merge-de-vulkan-branche-master-instable/');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"></path>
+    </svg>
+  </div>
+  <div class="twitter" title="Partager sur Twitter" onclick="window.open('https://twitter.com/intent/tweet?text=Attention! Merge de Vulkan, branche master instable! https://www.godot-francophone.org/merge-de-vulkan-branche-master-instable/');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path>
+    </svg>
+    </div>  
+  <div class="linkedin" title="Partager sur Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.godot-francophone.org/merge-de-vulkan-branche-master-instable/&amp;title=&amp;summary=&amp;source=');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
+    </svg>
+  </div>
+</div>
+    </div>
+    <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+      
+      <a target="_blank" rel="noopener noreferrer" href="https://godotengine.org/article/headsup-vulkan-merged-master-branch-unstable">
+      
+      <small>Écrit par <span>Rémi Verschelde</span> - </small>
+      
+      </a>
+      
+      
+      <small>Traduit par <span>Topy</span> - </small>
+      
+      <small><time>11 Feb 2020</time></small>
+    </div>
+    <div class="list-post-tag" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="0">
+      
+        <span class="post-tag">master</span>
+      
+        <span class="post-tag">Vulkan</span>
+      
+    </div>
+    <!-- titles -->
+    <!-- content -->
+    <p><img src="/assets/img/2020-02-11-actu-branche-master-instable.png" alt="Attention branche master instable" class="center-image image-512"></p>
+
+<p>Dans la plupart des <em>workflows</em> de développement basés sur Git, la branche <code class="highlighter-rouge">master</code> par défaut est celle où se fait 
+la majeure partie du développement. Il peut s’agir de branches de fonctionnalités bien définies (ou dans notre cas, de 
+<em>Pull Requests</em>) qui sont fusionnées dans la branche master une fois prêtes, ou de travaux de développement qui se déroulent 
+directement sur cette branche. Quel que soit le <em>workflow</em>, la branche master sera rarement destinée à être utilisée en 
+production, et les utilisateurs sont encouragés à l’utiliser seulement s’ils veulent aider aux tests quotidiens, 
+et non s’ils veulent s’en servir pour travailler :)</p>
+
+<p>Comme nous faisons nos versions directement à partir de la branche <code class="highlighter-rouge">master</code> après une période de stabilisation (gel des 
+fonctionnalités, gel des versions, puis bifurcation vers la version 3.2 par exemple lors de la sortie), beaucoup de nos 
+utilisateurs sont habitués à utiliser la branche <code class="highlighter-rouge">master</code> ou un <em>build de nuit</em> pour un usage quotidien.</p>
+
+<p><a href="https://github.com/godotengine/godot/pull/36098" target="_blank" rel="noopener noreferrer">Cela change aujourd’hui</a>, car nous fusionnons notre <strong>port Vulkan en cours de 
+développement</strong> (jusqu’à présent dans la branche Vulkan) dans la branche master.</p>
+
+<h2 id="pourquoi-fusionner-maintenant-si-la-branche-est-encore-en-développement-">Pourquoi fusionner maintenant si la branche est encore en développement ?</h2>
+
+<p>Le port de Vulkan n’est pas encore prêt, mais nous devons le fusionner dans la branche principale car de nombreux 
+développements futurs prévus pour Godot 4.0 en dépendent.</p>
+
+<p>Nous prévoyons de retravailler beaucoup d’éléments du <strong>noyau</strong> de Godot pour permettre de résoudre des problèmes de conception 
+de longue date et d’améliorer les performances (y compris d’améliorer les performances du GDScript). De plus, notre portage 
+tant attendu vers le C++ 14 se fera également maintenant que la branche <code class="highlighter-rouge">vulkan</code> est fusionnée dans le <code class="highlighter-rouge">master</code>, et de nombreux 
+autres gros changements au niveau de la <em>codebase</em> l’attendaient : changements de style de code, division Display/OS, renommage 
+des noeuds 3D pour unifier nos conventions, etc.</p>
+
+<p>L’ampleur des changements prévus signifie qu’il serait impossible de faire ces changements dans la branche <code class="highlighter-rouge">master</code> tout en 
+gardant la branche <code class="highlighter-rouge">vulkan</code> séparée, tout comme il ne serait pas possible de faire tous ces changements dans la branche <code class="highlighter-rouge">vulkan</code>
+elle-même avant de la fusionner dans le <code class="highlighter-rouge">master</code> : tout <em>rebase</em> ou <em>merge</em> deviendrait extrêmement difficile en raison de la 
+quantité de lignes de code qui changeraient.</p>
+
+<p>Jusqu’à présent, nous avons été très prudents en ce qui concerne les changements que nous autorisons dans la branche <code class="highlighter-rouge">vulkan</code>, 
+ainsi que les nouvelles PR que nous fusionnons dans <code class="highlighter-rouge">master</code>, afin de garantir que la branche <code class="highlighter-rouge">vulkan</code> puisse toujours être 
+rebasée sur <code class="highlighter-rouge">master</code> pour une fusion ultérieure. Je l’ai rebasée périodiquement au cours des huit derniers mois, et même si 
+nous avons été très conservateurs quant à l’ampleur des changements, un <em>rebase</em> complet pourrait facilement me prendre une 
+journée entière de travail au cours des mois suivants.</p>
+
+<p>Nous avons donc besoin que tout ce qui se trouve dans la branche principale cesse de nous limiter.</p>
+
+<h2 id="quels-changements-">Quels changements ?</h2>
+
+<p>La branche <code class="highlighter-rouge">vulkan</code> comprend le support préliminaire de l’API graphique Vulkan, que Juan a couvert dans de nombreux <a href="https://godotengine.org/devblog" target="_blank" rel="noopener noreferrer">devblogs</a> 
+(voir par exemple le <a href="https://www.godot-francophone.org/actualite-vulkan-progress-report-6/">dernier rapport d’avancement</a>).</p>
+
+<p>NdT : <em>Certains de ces devblogs ont été traduits sur <a href="https://www.godot-francophone.org/actualite/index.html">notre site</a>.</em></p>
+
+<p>Dans son état actuel, le port Vulkan ne fonctionne que sur Linux, macOS et Windows. La prise en charge des autres plateformes 
+sera rétablie dans les mois à venir, avant la sortie de la version 4.0 alpha.</p>
+
+<p>Les <em>backends</em> GLES2 et GLES3 de Godot 3.2 ont été désactivés car ils ne correspondent pas à la nouvelle conception de l’API 
+<code class="highlighter-rouge">RenderingDevice</code>. Le GLES3 sera finalement complètement supprimé, et le <em>backend</em> GLES2 devra être porté sur la nouvelle API. 
+Cela sera également fait dans les mois à venir.</p>
+
+<p>En attendant, cela signifie que la branche <code class="highlighter-rouge">master</code> utilisera Vulkan et ne pourra créer de <em>build</em> que sur ordinateur pendant 
+un certain temps. Merci de nous faire confiance pendant cette période de transition, et soyez assurés que le retour du support 
+mobile et web est une priorité. (Notez que les ports de plateforme actuels sont bien sûr toujours inclus dans le dernier 
+code, mais sans un <em>backend</em> de rendu correctement configuré, ils ne servent à rien).</p>
+
+<h2 id="implications-pour-les-utilisateurs">Implications pour les utilisateurs</h2>
+
+<p>Si vous êtes un utilisateur “normal” de Godot, rien ne change pour vous. Nous vous recommandons vivement d’utiliser la dernière 
+version stable, qui est Godot 3.2. Nous sommes tous excités par Godot 4.0, mais au stade actuel, il est beaucoup plus sain 
+d’attendre que les développeurs fassent leur magie. Une fois que nous aurons une version alpha qu’il vaut la peine de tester à 
+grande échelle, nous ne manquerons pas de vous le faire savoir :)</p>
+
+<p>Si vous avez besoin de corrections personnalisées pour votre jeu, n’hésitez pas à suivre la branche stable <a href="https://github.com/godotengine/godot/commits/3.2" target="_blank" rel="noopener noreferrer">3.2</a>, 
+qui sera utilisée pour toutes les prochaines versions de maintenance 3.2.x.</p>
+
+<h2 id="implications-pour-les-contributeurs">Implications pour les contributeurs</h2>
+
+<p>Même si elle est moins stable et ne supporte pas toutes les plateformes, la branche <code class="highlighter-rouge">master</code> reste notre principale branche 
+de développement, et toute <em>Pull Request</em> devrait être fusionnée en priorité dans cette branche. Les changements pertinents 
+fusionnés dans la branche <code class="highlighter-rouge">master</code> peuvent éventuellement être <em>cherry-picked</em> dans la branche 3.2 pour les versions de 
+maintenance (en particulier les corrections de <em>bugs</em>).</p>
+
+<p>Comme les branches <code class="highlighter-rouge">master</code> et <code class="highlighter-rouge">3.2</code> divergeront rapidement, les modifications sélectionnées peuvent s’avérer non triviales, 
+et il peut donc s’avérer nécessaire pour les PR concernées par la branche <code class="highlighter-rouge">3.2</code> de voir également une version personnalisée 
+pour la branche <code class="highlighter-rouge">3.2</code>. Cependant, nous vous demandons de vous <strong>concentrer d’abord sur la branche <code class="highlighter-rouge">master</code></strong> et de discuter 
+avec nous si un PR en particulier y serait bienvenu. Nous ne voulons pas fusionner de nouvelles fonctionnalités ou des 
+changements expérimentaux dans la branche 3.2 qui pourraient compromettre sa stabilité.</p>
+
+<h2 id="quen-est-il-des-pull-requests-en-attente-">Qu’en est-il des <em>Pull Requests</em> en attente ?</h2>
+
+<p>En raison du <a href="https://github.com/godotengine/godot/issues/31592" target="_blank" rel="noopener noreferrer">gel des fonctionnalités</a> pour la récente version 3.2, 
+nous avons littéralement des centaines de <em>Pull Requests</em> qui sont en attente de révision/fusion sur le dépôt Godot.</p>
+
+<p>Beaucoup d’entre elles sont pertinentes et mériteraient d’être fusionnées, mais la fusion de la branche <code class="highlighter-rouge">vulkan</code> et le travail 
+de <em>refactoring</em> à venir introduiront des conflits de fusion complexes pour la grande majorité d’entre elles.</p>
+
+<p>Dans l’idéal, nous voudrions résorber ce retard avant de procéder à des changements aussi massifs, mais nous savons par 
+expérience que nous n’avons pas la capacité de le faire. C’est un beau problème, mais la popularité de Godot et le nombre 
+de PR que nous recevons chaque jour sont extrêmement longs à traiter et il nous faudrait plusieurs mois pour tout gérer 
+(tout en nous efforçant de rattraper les dernières PR).</p>
+
+<p>De plus, beaucoup de ces PR sont antérieurs ou n’ont pas suivi notre nouveau <a href="https://github.com/godotengine/godot-proposals/" target="_blank" rel="noopener noreferrer">processus de proposition</a>, 
+qui vise à garantir que tous les changements que nous fusionnons sont des ajouts vraiments utiles au moteur et sont soutenus 
+par la communauté. L’examen des PR qui n’ont pas été pré-approuvés au stade de l’idée/conception peut être très difficile, 
+car nous ne savons pas toujours nous-mêmes si une proposition de code est une bonne idée : nous pouvons examiner le code, 
+mais l’examen des cas d’utilisation est une tâche difficile pour laquelle nous avons besoin de l’aide de membres expérimentés 
+de la communauté.</p>
+
+<p>Nous en avons discuté lors du Godot Sprint avec les principaux contributeurs fin janvier, et nous avons décidé que 
+l’approche suivante était la plus pratique. Nous allons <strong>fermer toutes les PR en attente</strong>, en demandant à leurs auteurs de :</p>
+
+<ul>
+  <li>vérifier si la proposition/le correctif est toujours souhaité/nécessaire dans la branche <code class="highlighter-rouge">master</code> actuelle ;</li>
+  <li>pour les propositions de fonctionnalités, assurez-vous qu’elles ont été approuvées via le dépôt <a href="https://github.com/godotengine/godot-proposals/" target="_blank" rel="noopener noreferrer"><em>godot proposals</em></a> ;</li>
+  <li>le cas échéant, rebasez (ou réimplantez) le patch sur la branche principale actuelle et ouvrez une nouvelle PR (en vous référencant l’ancienne).</li>
+</ul>
+
+<p>Bien que la clôture des RP puisse sembler un peu abrupte, nous demandons à tous les contributeurs de comprendre que cela est 
+fait pour nous aider à faire face à la quantité de propositions tout en devant remanier une grande partie de la <em>codebase</em> 
+du moteur. Cette clôture ne signifie pas que nous rejetons les PR, ni que nous ne les considérons pas comme des contributions 
+valables. Mais en demandant aux auteurs de réévaluer leurs propres propositions et de les rendre compatibles avec Godot 4.0, 
+nous gagnerons un temps de développement précieux et nous nous donnerons un peu d’air dans la quantité de PR énorme actuelle.</p>
+
+<p>Les PR fermées porteront l’étiquette “récupérable” (<code class="highlighter-rouge">salvageable</code>), que nous utilisons pour désigner les PR dont le code 
+pourrait être récupéré pour en faire une nouvelle PR mise à jour (et éventuellement améliorée), soit par l’auteur original, 
+soit par un nouveau contributeur. Nous ne perdrons donc pas de code au cours du processus, puisque tout sera toujours 
+accessible depuis les PR fermées et facilement identifiable grâce à l’étiquette récupérable (<code class="highlighter-rouge">salvageable</code>).</p>
+
+<p>C’est certainement une période délicate pour les développeurs principaux et les contributeurs, et nous demandons à tous de 
+faire preuve de compréhension. Pour ma part, je ressens une obligation morale envers tous les contributeurs de revoir leur 
+travail et de le faire fusionner s’il est bon, et cette proposition de nettoyage n’est donc pas une décision facile à prendre 
+pour moi, mais je crois que c’est le moyen le plus efficace que nous ayons pour éviter de nous retrouver coincés dans un 
+<em>backlog</em> de PR sans fin (comme nous l’étions dans une certaine mesure après la sortie de la version 3.1, même si le <em>backlog</em> 
+était alors d’à peine 250 PR…).</p>
+
+<p><strong>Note :</strong> Nous attendrons quelques semaines avant de fermer tous les PR plus anciens comme indiqué plus haut, car de nombreux 
+changements de base de code sont prévus dans les jours à venir. Nous ne voulons pas encourager tous les contributeurs à refaire 
+sans cesse leur travail au milieu de ces changements, il sera donc préférable d’envoyer ce signal une fois que la branche 
+<code class="highlighter-rouge">master</code> sera prête à accueillir ces contributions rafraîchies.</p>
+
+
+    <!-- content -->
+  </article>
+</div>
+
+    <footer>
+  <div class="footer container column align-center">
+    <div class="size margin footer--block container align-center justify-content-between">
+      <div class="container" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+        <a href="/"><span>Godot Engine Francophone</span></a>
+      </div>
+      <div class="container social-media-list" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
+        <ul class="">
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://discordapp.com/invite/NQVd34V">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#discord"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/Godot-Engine-Francophone">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#github"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/godotenginefr">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#twitter"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+</ul>
+
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="/assets/js/simple-jekyll-search.min.js"></script>
+  <script src="/assets/js/freezeframe.min.js"></script>
+
+  <script>
+    const freeze = new Freezeframe('.freezeframe', {
+      trigger: 'hover',
+      responsive: true,
+      warnings: false
+    });
+    
+    AOS.init({
+      once: true
+    })
+
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      searchResultTemplate: '<li><a href="{url}" title="{description}">{title}{tags}</a></li>',
+      json: '/search.json',
+      templateMiddleware: function (prop, value, template) {
+        if (prop === 'tags' && value.length > 1) {
+          return '<div class="search-result-tags">' + value.split(',').reduce((acc, item) => `${acc} <span class="post-tag">${item}</span>`, '') + '</div>'
+        }
+      }
+    })
+
+    const articles = document.querySelectorAll('article')
+
+    for (const article of articles) {
+      const headings = article.querySelectorAll('h2,h3,h4,h5,h6')
+
+      for (const heading of headings) {
+        const linkIcon = document.createElement('a')
+
+        linkIcon.innerHTML = ' <span class="fas fa-link fa-xs"></span>'
+        linkIcon.setAttribute('href', `#${heading.id}`)
+        linkIcon.setAttribute('class', `article-header-link`)
+        heading.appendChild(linkIcon)
+      }
+    }
+  </script>
+</body>
+
+</html>

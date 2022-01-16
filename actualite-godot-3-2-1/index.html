@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Version de maintenance: Godot 3.2.1</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/the-grid-flexbox@2.0.1/css/the-grid.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="shortcut icon" href="https://www.godot-francophone.org/assets/img/favicon.png">
+  <link rel="icon" href="https://www.godot-francophone.org/assets/img/favicon.png">
+
+  <meta property="og:title" content="Version de maintenance: Godot 3.2.1" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.godot-francophone.org" />
+
+  <meta property="og:description" content="Godot Engine 3.2.1 vient de sortir, elle apporte de nombreuses corrections par rapport à la version 3.2. Elle est 100% compatible avec la version 3.2, pensez..." />
+  <meta property="og:site_name" content="Godot Engine Francophone" />
+  <meta property="og:image" content="https://www.godot-francophone.org/assets/img/icon.png" />
+
+  <!-- facebook -->
+  
+    <meta property="fb:app_id" content="00000000" />
+    <meta property="fb:admins" content="00000000" />
+  
+  <!-- facebook -->
+
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Version de maintenance: Godot 3.2.1">
+  <meta name="twitter:description" content="Godot Engine 3.2.1 vient de sortir, elle apporte de nombreuses corrections par rapport à la version 3.2. Elle est 100% compatible avec la version 3.2, pensez...">
+  <meta name="twitter:creator" content="godotenginefr">
+  <meta name="twitter:image" content="https://www.godot-francophone.org/assets/img/icon.png">
+  <meta name="image" content="https://www.godot-francophone.org/assets/img/icon.png">
+  <meta itemprop="description" content="Godot Engine 3.2.1 vient de sortir, elle apporte de nombreuses corrections par rapport à la version 3.2. Elle est 100% compatible avec la version 3.2, pensez..." />
+  <meta itemprop="name" content="Version de maintenance: Godot 3.2.1">
+  <meta itemprop="keywords" content="3.2.1, Stable, Maintenance, godot, godot engine, engine, francais, france, tutoriel, francophone, discord, communauté">
+  <!-- twitter -->
+
+  <meta name="description" content="Godot Engine 3.2.1 vient de sortir, elle apporte de nombreuses corrections par rapport à la version 3.2. Elle est 100% compatible avec la version 3.2, pensez..." />
+  <meta name="name" content="Version de maintenance: Godot 3.2.1">
+  <meta name="keywords" content="3.2.1, Stable, Maintenance, godot, godot engine, engine, francais, france, tutoriel, francophone, discord, communauté">
+
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Godot Engine Francophone",
+    "alternateName": "Godot Engine fr",
+    "url": "https://www.godot-francophone.org",
+    "logo": "https://www.godot-francophone.org/assets/img/icon.png",
+    "sameAs": [
+      "https://twitter.com/godotenginefr",
+      "https://github.com/Godot-Engine-Francophone"
+    ]
+  }]
+  </script>
+</head>
+
+
+<body>
+  <div class="body-content">
+    <div class="menu">
+  <div class="size margin menu--content container align-items-center justify-content-between">
+
+    <a href="/" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
+      <div class="container align-items-center site-title">
+        <div class="">
+          <img src="/assets/img/icon.png" width="64" alt="Godot fr">
+        </div>
+        <div class="site-title-text">
+          Godot Engine Francophone
+        </div>
+      </div>
+    </a>
+
+    <div class="container align-items-center" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
+      <nav class="site-nav" id="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"></path>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"></path>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+        <div class="trigger">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            
+            
+            <a href="/actualite/index.html" class="menu--content--item">
+            
+              Actualités
+            </a>
+            
+          
+          
+          
+          
+          
+            
+            
+            <a href="/tutoriel/index.html" class="menu--content--item">
+            
+              Tutoriels
+            </a>
+            
+          
+          
+          
+            
+            
+            <a href="/resources/index.html" class="menu--content--item">
+            
+              Ressources
+            </a>
+            
+          
+          
+          
+          
+          
+          
+          
+            
+            
+            <a href="/showcase/index.html" class="menu--content--item">
+            
+              Showcase
+            </a>
+            
+          
+          
+          
+          
+          
+          
+          
+            
+            <a href="https://docs.godotengine.org/fr/latest/" class="menu--content--item" target="_blank" rel="noopener noreferrer">
+              Documentation
+            </a>
+            
+          
+          
+          
+            
+            
+            <a href="/apropos/" class="menu--content--item">
+            
+              À propos
+            </a>
+            
+          
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="bg-header">
+  <header>
+  
+  <div class="header container align-items-center justify-content-center">
+  </div>
+  
+</header>
+
+</div>
+
+
+
+
+<div class="size margin min-height background-box-white aos-init aos-animate">
+  <article>
+    <!-- titles -->
+    <h1 class="post-title" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">Version de maintenance: Godot 3.2.1</h1>
+    <div class="post-date" data-aos="fade-left" data-aos-delay="300" data-aos-offset="0">
+      <time>10 Mar 2020</time>
+      <span class="reading-time" title="Estimated read time"> - 3 minutes de lecture</span>
+      
+
+<div id="share-buttons">
+  <div class="facebook" title="Partager via Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https://www.godot-francophone.org/actualite-godot-3-2-1/');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"></path>
+    </svg>
+  </div>
+  <div class="twitter" title="Partager sur Twitter" onclick="window.open('https://twitter.com/intent/tweet?text=Version de maintenance: Godot 3.2.1 https://www.godot-francophone.org/actualite-godot-3-2-1/');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path>
+    </svg>
+    </div>  
+  <div class="linkedin" title="Partager sur Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.godot-francophone.org/actualite-godot-3-2-1/&amp;title=&amp;summary=&amp;source=');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
+    </svg>
+  </div>
+</div>
+    </div>
+    <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+      
+      <a target="_blank" rel="noopener noreferrer" href="https://godotengine.org/article/maintenance-release-godot-3-2-1">
+      
+      <small>Écrit par <span>Rémi Verschelde</span> - </small>
+      
+      </a>
+      
+      
+      <small>Traduit par <span>Xavier 'Binogure'</span> - </small>
+      
+      <small><time>10 Mar 2020</time></small>
+    </div>
+    <div class="list-post-tag" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="0">
+      
+        <span class="post-tag">3.2.1</span>
+      
+        <span class="post-tag">Stable</span>
+      
+        <span class="post-tag">Maintenance</span>
+      
+    </div>
+    <!-- titles -->
+    <!-- content -->
+    <p><img src="https://godotengine.org/storage/app/uploads/public/5e6/76e/b88/5e676eb885595988806573.jpg" alt="Fist of the Forgotten" class="center-image"></p>
+
+<p>La version stable actuelle, Godot 3.2, <a href="https://www.godot-francophone.org/actualite-godot-3-2-released/">est sortie fin janvier</a>. Elle constitue une mise à jour majeure de toutes les fonctionnalités et de l’expérience utilisateur du moteur. Mais comme pour toute version de logiciel, il y a toujours des choses qui peuvent être améliorées et des bogues qui peuvent être corrigés, et en tant que tel, nous prévoyons de publier des versions de maintenance fréquentes pour la branche 3.2, afin de la rendre encore plus agréable et fiable à utiliser.</p>
+
+<p>En particulier, parmi les 2000 corrections de bogues et améliorations apportées à la version 3.2 de Godot, quelques régressions sont passés sous le radar, et cette première version de Godot 3.2.1 vise à les corriger. Un grand merci à tous les contributeurs qui ont aidé à corriger les bogues, à améliorer l’expérience utilisateur et à écrire la documentation de cette version.</p>
+
+<p><a href="https://godotengine.org/download" target="_blank" rel="noopener noreferrer">Téléchargez Godot 3.2.1</a> maintenant et lisez les changements de cette mise à jour.</p>
+
+<p>Note : Crédits de l’illustration au bas de cette page.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<h2 id="liste-des-changements">Liste des changements</h2>
+<p>Cette version comprend près de <a href="https://github.com/godotengine/godot/compare/3.2-stable...3.2.1-stable" target="_blank" rel="noopener noreferrer">200 changements de code</a> corrigeant des bugs, améliorant l’expérience utilisateur, la documentation et des traductions. Voici quelques points forts:</p>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">Android</code>: Correction d’une régression d’événement de double pression (<a href="https://github.com/godotengine/godot/pull/35701" target="_blank" rel="noopener noreferrer">GH-35701</a>).</li>
+  <li>
+<code class="highlighter-rouge">Android</code>: Correction des entrées du clavier virtuel LineEdit (<a href="https://github.com/godotengine/godot/pull/35785" target="_blank" rel="noopener noreferrer">GH-35785</a>).</li>
+  <li>
+<code class="highlighter-rouge">Bullet</code>: Correction de la détection de la forme concave dans Area (<a href="https://github.com/godotengine/godot/pull/33690" target="_blank" rel="noopener noreferrer">GH-33690</a>).</li>
+  <li>
+<code class="highlighter-rouge">Camera2D</code>: Correction de l’utilisation inversée de l’offset_v de Camera2D (<a href="https://github.com/godotengine/godot/pull/36689" target="_blank" rel="noopener noreferrer">GH-36689</a>).</li>
+  <li>
+<code class="highlighter-rouge">Débogueur</code>: Correction de l’inspection des objets libérés en cas de crash (<a href="https://github.com/godotengine/godot/pull/36532" target="_blank" rel="noopener noreferrer">GH-36532</a>).</li>
+  <li>
+<code class="highlighter-rouge">Expression</code>: Correction de l’analyse des entiers en 32 bits (<a href="https://github.com/godotengine/godot/pull/36529" target="_blank" rel="noopener noreferrer">GH-36529</a>).</li>
+  <li>
+<code class="highlighter-rouge">HTML5</code>: Correction de <code class="highlighter-rouge">EMWSClient::get_connection_status()</code> (<a href="https://github.com/godotengine/godot/pull/36250" target="_blank" rel="noopener noreferrer">GH-36250</a>).</li>
+  <li>
+<code class="highlighter-rouge">HTML5</code>: Correction du support des événements tactiles avec Emscripten 1.39.5+ (<a href="https://github.com/godotengine/godot/pull/36557" target="_blank" rel="noopener noreferrer">GH-36557</a>).</li>
+  <li>
+<code class="highlighter-rouge">macOS</code>: Correction du rappel de déconnexion de la manette de jeu sur macOS Catalina (<a href="https://github.com/godotengine/godot/pull/36845" target="_blank" rel="noopener noreferrer">GH-36845</a>).</li>
+  <li>
+<code class="highlighter-rouge">Particules</code>: Correction d’un comportement indéfini avec atan dans GPU Particles (<a href="https://github.com/godotengine/godot/pull/36031" target="_blank" rel="noopener noreferrer">GH-36031</a>).</li>
+  <li>
+<code class="highlighter-rouge">Skin</code>: Ajout de la prise en charge des bindings nommés (<a href="https://github.com/godotengine/godot/pull/36415" target="_blank" rel="noopener noreferrer">GH-36415</a>).</li>
+  <li>
+<code class="highlighter-rouge">TileSet</code>: Cacher les propriétés du TileSet à l’inspecteur, correction du crash de l’OOM sur les énormes tilesets (<a href="https://github.com/godotengine/godot/pull/35908" target="_blank" rel="noopener noreferrer">GH-35908</a>).</li>
+  <li>
+<code class="highlighter-rouge">Vidéo</code>: Correction d’un bogue de lecture WebM après la correction de la latence de l’AudioServer (<a href="https://github.com/godotengine/godot/pull/35993" target="_blank" rel="noopener noreferrer">GH-35993</a>).</li>
+  <li>
+<code class="highlighter-rouge">Windows</code>: Correction d’une régression UPNP (<a href="https://github.com/godotengine/godot/pull/35953" target="_blank" rel="noopener noreferrer">GH-35953</a>).</li>
+  <li>
+<code class="highlighter-rouge">Windows</code>: Désactivation de la réutilisation des adresses NetSocket (<a href="https://github.com/godotengine/godot/pull/36321" target="_blank" rel="noopener noreferrer">GH-36321</a>).</li>
+  <li>Mises à jour de la documentation de l’API.</li>
+  <li>Mises à jour de la traduction de l’éditeur.</li>
+  <li>Et bien d’autres corrections de bogues et améliorations de l’ergonomie tout autour du moteur !</li>
+</ul>
+
+<p>Vous pouvez consulter <a href="https://github.com/godotengine/godot/compare/3.2-stable...3.2.1-stable" target="_blank" rel="noopener noreferrer">la liste complète des changements sur GitHub</a>.</p>
+
+<p>Certaines nouvelles fonctionnalités/améliorations sont attendues pour les prochaines versions de 3.2.x, cependant pour la version 3.2.1 nous nous concentrons sur la stabilité et les régressions.</p>
+
+<h2 id="rapports-de-bugs">Rapports de bugs</h2>
+
+<p>À l’heure actuelle, il n’y a aucun problème d’incompatibilité avec la version 3.2. Nous encourageons tous les utilsaiteurs a utiliser la version 3.2.1.</p>
+
+<p>Si, après avoir migré vos projets avec la version 3.2.1 vous constatez des problèmes, s’il vous plait <a href="https://github.com/godotengine/godot/issues" target="_blank" rel="noopener noreferrer">remplissez un ticket sur GitHub</a>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>L’illustration est tirée de <a href="https://store.steampowered.com/app/1105470/Fist_of_the_Forgotten/" target="_blank" rel="noopener noreferrer">Fist of the Forgotten</a>, un jeu de plates-formes de combat de précision axé sur le mouvement fluide avec de superbes silhouettes en 3D, développé par le studio <a href="https://twitter.com/jitspoe" target="_blank" rel="noopener noreferrer">Lone Wulf</a>. <a href="https://store.steampowered.com/app/1105470/Fist_of_the_Forgotten/" target="_blank" rel="noopener noreferrer">Ajoutez le a votre liste de souhaits sur Steam</a>, et suivez son développement sur son <a href="https://fistoftheforgotten.com/" target="_blank" rel="noopener noreferrer">site web</a>, <a href="https://twitter.com/fistforgotten/" target="_blank" rel="noopener noreferrer">Twitter</a>, et les directs de développement de <a href="https://www.twitch.tv/jitspoe/" target="_blank" rel="noopener noreferrer">@jitspoe sur Twitch</a>. <a href="#fnref:1" class="reversefootnote">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+
+    <!-- content -->
+  </article>
+</div>
+
+    <footer>
+  <div class="footer container column align-center">
+    <div class="size margin footer--block container align-center justify-content-between">
+      <div class="container" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+        <a href="/"><span>Godot Engine Francophone</span></a>
+      </div>
+      <div class="container social-media-list" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
+        <ul class="">
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://discordapp.com/invite/NQVd34V">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#discord"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/Godot-Engine-Francophone">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#github"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/godotenginefr">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#twitter"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+</ul>
+
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="/assets/js/simple-jekyll-search.min.js"></script>
+  <script src="/assets/js/freezeframe.min.js"></script>
+
+  <script>
+    const freeze = new Freezeframe('.freezeframe', {
+      trigger: 'hover',
+      responsive: true,
+      warnings: false
+    });
+    
+    AOS.init({
+      once: true
+    })
+
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      searchResultTemplate: '<li><a href="{url}" title="{description}">{title}{tags}</a></li>',
+      json: '/search.json',
+      templateMiddleware: function (prop, value, template) {
+        if (prop === 'tags' && value.length > 1) {
+          return '<div class="search-result-tags">' + value.split(',').reduce((acc, item) => `${acc} <span class="post-tag">${item}</span>`, '') + '</div>'
+        }
+      }
+    })
+
+    const articles = document.querySelectorAll('article')
+
+    for (const article of articles) {
+      const headings = article.querySelectorAll('h2,h3,h4,h5,h6')
+
+      for (const heading of headings) {
+        const linkIcon = document.createElement('a')
+
+        linkIcon.innerHTML = ' <span class="fas fa-link fa-xs"></span>'
+        linkIcon.setAttribute('href', `#${heading.id}`)
+        linkIcon.setAttribute('class', `article-header-link`)
+        heading.appendChild(linkIcon)
+      }
+    }
+  </script>
+</body>
+
+</html>

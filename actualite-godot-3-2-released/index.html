@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voilà Godot 3.2, la qualité est la priorité!</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/the-grid-flexbox@2.0.1/css/the-grid.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="shortcut icon" href="https://www.godot-francophone.org/assets/img/favicon.png">
+  <link rel="icon" href="https://www.godot-francophone.org/assets/img/favicon.png">
+
+  <meta property="og:title" content="Voilà Godot 3.2, la qualité est la priorité!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.godot-francophone.org" />
+
+  <meta property="og:description" content="Godot 3.2 est une amélioration majeure par rapport à la version 3.1, apportant des dizaines de fonctionnalités importantes, des centaines de corrections de b..." />
+  <meta property="og:site_name" content="Godot Engine Francophone" />
+  <meta property="og:image" content="https://www.godot-francophone.org/assets/img/icon.png" />
+
+  <!-- facebook -->
+  
+    <meta property="fb:app_id" content="00000000" />
+    <meta property="fb:admins" content="00000000" />
+  
+  <!-- facebook -->
+
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Voilà Godot 3.2, la qualité est la priorité!">
+  <meta name="twitter:description" content="Godot 3.2 est une amélioration majeure par rapport à la version 3.1, apportant des dizaines de fonctionnalités importantes, des centaines de corrections de b...">
+  <meta name="twitter:creator" content="godotenginefr">
+  <meta name="twitter:image" content="https://www.godot-francophone.org/assets/img/icon.png">
+  <meta name="image" content="https://www.godot-francophone.org/assets/img/icon.png">
+  <meta itemprop="description" content="Godot 3.2 est une amélioration majeure par rapport à la version 3.1, apportant des dizaines de fonctionnalités importantes, des centaines de corrections de b..." />
+  <meta itemprop="name" content="Voilà Godot 3.2, la qualité est la priorité!">
+  <meta itemprop="keywords" content="godot, 3.2, release, godot, godot engine, engine, francais, france, tutoriel, francophone, discord, communauté">
+  <!-- twitter -->
+
+  <meta name="description" content="Godot 3.2 est une amélioration majeure par rapport à la version 3.1, apportant des dizaines de fonctionnalités importantes, des centaines de corrections de b..." />
+  <meta name="name" content="Voilà Godot 3.2, la qualité est la priorité!">
+  <meta name="keywords" content="godot, 3.2, release, godot, godot engine, engine, francais, france, tutoriel, francophone, discord, communauté">
+
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Godot Engine Francophone",
+    "alternateName": "Godot Engine fr",
+    "url": "https://www.godot-francophone.org",
+    "logo": "https://www.godot-francophone.org/assets/img/icon.png",
+    "sameAs": [
+      "https://twitter.com/godotenginefr",
+      "https://github.com/Godot-Engine-Francophone"
+    ]
+  }]
+  </script>
+</head>
+
+
+<body>
+  <div class="body-content">
+    <div class="menu">
+  <div class="size margin menu--content container align-items-center justify-content-between">
+
+    <a href="/" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
+      <div class="container align-items-center site-title">
+        <div class="">
+          <img src="/assets/img/icon.png" width="64" alt="Godot fr">
+        </div>
+        <div class="site-title-text">
+          Godot Engine Francophone
+        </div>
+      </div>
+    </a>
+
+    <div class="container align-items-center" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
+      <nav class="site-nav" id="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"></path>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"></path>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+        <div class="trigger">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            
+            
+            <a href="/actualite/index.html" class="menu--content--item">
+            
+              Actualités
+            </a>
+            
+          
+          
+          
+          
+          
+            
+            
+            <a href="/tutoriel/index.html" class="menu--content--item">
+            
+              Tutoriels
+            </a>
+            
+          
+          
+          
+            
+            
+            <a href="/resources/index.html" class="menu--content--item">
+            
+              Ressources
+            </a>
+            
+          
+          
+          
+          
+          
+          
+          
+            
+            
+            <a href="/showcase/index.html" class="menu--content--item">
+            
+              Showcase
+            </a>
+            
+          
+          
+          
+          
+          
+          
+          
+            
+            <a href="https://docs.godotengine.org/fr/latest/" class="menu--content--item" target="_blank" rel="noopener noreferrer">
+              Documentation
+            </a>
+            
+          
+          
+          
+            
+            
+            <a href="/apropos/" class="menu--content--item">
+            
+              À propos
+            </a>
+            
+          
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="bg-header">
+  <header>
+  
+  <div class="header container align-items-center justify-content-center">
+  </div>
+  
+</header>
+
+</div>
+
+
+
+
+<div class="size margin min-height background-box-white aos-init aos-animate">
+  <article>
+    <!-- titles -->
+    <h1 class="post-title" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">Voilà Godot 3.2, la qualité est la priorité!</h1>
+    <div class="post-date" data-aos="fade-left" data-aos-delay="300" data-aos-offset="0">
+      <time>13 Feb 2020</time>
+      <span class="reading-time" title="Estimated read time"> - 24 minutes de lecture</span>
+      
+
+<div id="share-buttons">
+  <div class="facebook" title="Partager via Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https://www.godot-francophone.org/actualite-godot-3-2-released/');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"></path>
+    </svg>
+  </div>
+  <div class="twitter" title="Partager sur Twitter" onclick="window.open('https://twitter.com/intent/tweet?text=Voilà Godot 3.2, la qualité est la priorité! https://www.godot-francophone.org/actualite-godot-3-2-released/');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path>
+    </svg>
+    </div>  
+  <div class="linkedin" title="Partager sur Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.godot-francophone.org/actualite-godot-3-2-released/&amp;title=&amp;summary=&amp;source=');">
+    <svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+      <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
+    </svg>
+  </div>
+</div>
+    </div>
+    <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+      
+      <a target="_blank" rel="noopener noreferrer" href="https://godotengine.org/article/here-comes-godot-3-2">
+      
+      <small>Écrit par <span>Rémi Verschelde</span> - </small>
+      
+      </a>
+      
+      
+      <small>Traduit par <span>Xavier 'Binogure'</span> - </small>
+      
+      <small><time>13 Feb 2020</time></small>
+    </div>
+    <div class="list-post-tag" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="0">
+      
+        <span class="post-tag">godot</span>
+      
+        <span class="post-tag">3.2</span>
+      
+        <span class="post-tag">release</span>
+      
+    </div>
+    <!-- titles -->
+    <!-- content -->
+    <p><img src="https://godotengine.org/storage/app/uploads/public/5e3/15f/979/5e315f979aa78053750274.jpg" alt="Godot engine 3.2" class="center-image"></p>
+
+<p>Nous sommes ravis et enthousiastes de publier notre dernière mise à jour majeure, <strong>Godot 3.2</strong>! C’est le résultat de plus de 10 mois de travail de près de <strong>450 contributeurs</strong> (dont 300 contribuant à Godot pour la première fois) qui ont écrit plus de 6000 commits!</p>
+
+<p>Godot 3.2 est une amélioration majeure par rapport à la version 3.1, apportant des dizaines de fonctionnalités importantes, des centaines de corrections de bugs et d’améliorations pour apporter à nos développeurs de jeux un ensemble de fonctionnalités en constante amélioration avec un fort accent sur facilité d’utilisation.</p>
+
+<h2 id="télécharger">Télécharger</h2>
+
+<p><a href="https://godotengine.org/download" target="_blank" rel="noopener noreferrer">Téléchargez Godot 3.2 maintenant</a> et lisez la suite pour en savoir plus <a href="/actualite-godot-3-2-released/#petit-est-devenu-grand">sur son histoire</a>, <a href="/actualite-godot-3-2-released/#la-voie-%C3%A0-suivre">nos plans de support</a> et les nombreuses nouvelles fonctionnalités de cette mise à jour.</p>
+
+<h2 id="petit-est-devenu-grand">Petit est devenu grand</h2>
+
+<p>À la base, la version 3.2 devait se faire sur un cycle court allant de 4 à 6 mois. Cette version ne devait inclure que peu de nouvelles fonctionnalités mais beaucoup de correctifs. Au début ce fut le cas, car après avoir écrit une poignée de fonctionnalités destinées à la 3.2, <a href="https://github.com/reduz" target="_blank" rel="noopener noreferrer">Juan Linietsky</a>, le principal développeur, a bifurqué sur une branch distincte pour travailler sur Vulkan, le prochain moteur de rendu de Godot Engine.</p>
+
+<p>Mais cela c’était sans compter sur nous autres contributeurs. Nous ne nous sommes pas tournés les pouces et nous avons travaillé d’arrache pied pour corriger le plus de bug possible afin de faire de la version 3.2, une version stable. Avec l’arrivée des v3.0 et v3.1, de nombreuses fonctionnalités ont été introduites. L’objectif principal était l’amélioration de l’expérience utilisateur, l’ajout de composants manquants mais aussi la correction de nombreux bugs relevés par le nombre croissant d’utilisateurs.</p>
+
+<p>Fin <a href="https://github.com/godotengine/godot/issues/31592" target="_blank" rel="noopener noreferrer">août 2019</a>, la branche de développement a été gelée, c’est-à-dire qu’aucune nouvelle fonctionnalité importante n’était acceptée. Depuis nous avons eu de cesse de peaufiner les nouvelles fonctionnalités et de publier des correctifs pour adresser <a href="https://godotengine.org/article/github.com/godotengine/godot/issues" target="_blank" rel="noopener noreferrer">des problèmes de longue date</a>. Godot 3.2 c’est donc la version qui aura corrigée plus de <a href="https://github.com/godotengine/godot/issues?utf8=%E2%9C%93&amp;q=is%3Aclosed+is%3Aissue+milestone%3A3.2+-label%3Aarchived" target="_blank" rel="noopener noreferrer">2000 bugs</a> dont certains dataient de <a href="https://github.com/godotengine/godot/issues/2082" target="_blank" rel="noopener noreferrer">2015</a>!.</p>
+
+<p>Et c’est ainsi que la <em>petite</em> version 3.2 est devenue grande, presqu’aussi grande que la version 3.1, déplaçant ainsi la date de livraison à Novembre 2019 avec le délai habituel de 2 à 3 mois par rapport à la date prévue.</p>
+
+<p>En fait, la sortie d’aujourd’hui marque le deuxième anniversaire de Godot 3.0, publié le <a href="https://godotengine.org/article/godot-3-0-released" target="_blank" rel="noopener noreferrer">29 janvier 2018</a>. C’est une façon inattendue et agréable à la fois de nous lancer dans le développement de Godot 4.0!</p>
+
+<p>Nous espérons que vous apprécierez la version 3.2 autant que nous avons aimé la développer!</p>
+
+<h3 id="compatibilité">Compatibilité</h3>
+
+<p>Presque tous les domaines du moteur ont connu une certaine amélioration, et nous encourageons les utilisateurs à convertir leurs projets actifs vers Godot 3.2 s’ils le peuvent. Nous avons fait de notre mieux pour préserver la compatibilité entre les projets 3.1 et 3.2, cependant cela requiert un peu de travail pour passer un projet de la v3.1 à la v3.2 (cf la <a href="https://github.com/godotengine/godot/blob/master/CHANGELOG.md#changed" target="_blank" rel="noopener noreferrer">partie changements</a> de la <a href="https://github.com/godotengine/godot/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer">liste des changements</a> pour les détails)</p>
+
+<p>Pour les utilisateurs qui restent sur la branche 3.1, sachez qu’elle continuera à recevoir des correctifs ainsi que des changements spécifiques pour certaines plateformes (une version de maintenance 3.1.3 devrait voir le jour dans les mois à venir). Cependant, nous nous concentrons principalement sur la branche 3.2.</p>
+
+<h2 id="la-voie-à-suivre">La voie à suivre</h2>
+
+<p>Avant de donner un aperçu des nouvelles fonctionnalités majeures de Godot 3.2, répondons à une question que beaucoup d’entre vous se posent:
+<em>Quel support pour la branche 3.2, et qu’adviendra-t-il de la version 3.2?</em></p>
+
+<p>Comme certains d’entre vous le savent peut-être, notre prochaine étape majeure est Godot 4.0. Elle apportera un <a href="https://godotengine.org/article/abandoning-gles3-vulkan-and-gles2" target="_blank" rel="noopener noreferrer">nouveau backend de rendu basé sur Vulkan</a> à la place du backend OpenGL ES 3.0 / OpenGL 3.3 actuel. Le backend OpenGL ES 2.0 / OpenGL 2.1 sera conservé et porté sur la nouvelle architecture de Godot 4.0. Les plus curieux d’entre vous peuvent aussi lire les rapports de progression de Juan pour plus de détails sur cette nouvelle architecture et les fonctionnalités de rendu implémentées pour 4.0 (rapports <a href="https://godotengine.org/article/vulkan-progress-report-1" target="_blank" rel="noopener noreferrer">1</a>, <a href="https://godotengine.org/article/vulkan-progress-report-2" target="_blank" rel="noopener noreferrer">2</a>, <a href="https://godotengine.org/article/vulkan-progress-report-3" target="_blank" rel="noopener noreferrer">3</a>, <a href="https://godotengine.org/article/vulkan-progress-report-4" target="_blank" rel="noopener noreferrer">4</a>, <a href="https://godotengine.org/article/vulkan-progress-report-5" target="_blank" rel="noopener noreferrer">5</a> et <a href="/actualite-vulkan-progress-report-6/">6</a>).</p>
+
+<p>La nouvelle architecture de rendu sera complètement réécrite pour moderniser le code vieux de 10 ans et pour l’adapter aux dernières API graphiques.  Les versions 3.x et 4.x seront très différentes, et les projets 3.x ne seront pas compatibles avec les projets 4.x.
+Nous voulons changer de nombreuses choses, des choses que nous avions mis en suspend pendant des années, et tous ces changements prendront effet avec la version 4,0.</p>
+
+<p>C’est pour cette raison que porter un projet de la version 3 à la version 4 demandera un travail conséquent. Pour ceux qui ont porté leur projet de la version 2.1 à la 3.0, rassurez-vous, la liste des changements sera mieux maintenue pour la transition de la 3.x à la 4.x. Nous ferons de notre mieux pour documenter entièrement les changements pertinents et fournir des outils pour automatiser tout ce qui peut être automatisé. Malgrè cela, nous nous attendons à ce que de nombreux utilisateurs restent sur Godot 3.2.</p>
+
+<p>C’est pourquoi, nous allons fournir <strong>un support sur le long terme pour la version 3.2</strong>. Tout comme nous l’avons fait pour Godot 2.1 de 2016 à 2019. Il y aura des versions de maintenance régulières (3.2.x) apportant des correctifs importants, une meilleure interface ainsi que quelques nouvelles fonctionnalités.</p>
+
+<p>Durant ces 6 derniers mois, nous avons été amenés à travailler sur de nombreuses fonctionnalités. La plupart n’ont pas été ajouté à Godot 3.2 afin de ne pas exploser la liste des choses à faire. Cependant, nous allons examiner ces fonctionnalités, pour pouvoir les rajouter à la version 3.2 seulement si cela ne rend pas cette version trop instable. Cela incluerait notamment des fonctionnalités telles que la <a href="https://github.com/godotengine/godot/pull/33603" target="_blank" rel="noopener noreferrer">compilation AOT</a> et la <a href="https://github.com/godotengine/godot/issues/20268" target="_blank" rel="noopener noreferrer">prise en charge iOS</a> pour les projets C#, la prise en charge <a href="https://github.com/godotengine/godot/pull/26221" target="_blank" rel="noopener noreferrer">ARCore</a> ou le <a href="https://godotengine.org/article/dtls-report-1" target="_blank" rel="noopener noreferrer">support DTLS</a>. Ces fonctionnalités seront probablement intégrées dans les futures versions de maintenance 3.2.x, une fois qu’elles seront prêtes.</p>
+
+<h2 id="soutenir-le-projet">Soutenir le projet</h2>
+
+<p>Godot est <strong>une organisation à but non-lucratif dédiée</strong> (OBNL) à fournir à tout le monde la meilleure technologie de jeu libre et open source possible. Les dons ont joué un rôle essentiel. Cela nous a permis de développer Godot à un rythme soutenu mais aussi d’embaucher George comme généraliste à temps plein. Merci à vous tous, du fond du cœur!</p>
+
+<p>Si vous utilisez et appréciez Godot, prévoyez de l’utiliser ou si vous souhaitez soutenir la cause d’avoir un moteur de jeu mature et gratuit de haute qualité, alors <strong><a href="https://www.patreon.com/godotengine" target="_blank" rel="noopener noreferrer">devenez notre Patron</a></strong>. Si vous représentez une entreprise et souhaitez faire savoir à notre vaste communauté que vous soutenez notre cause, alors <a href="https://godotengine.org/donate" target="_blank" rel="noopener noreferrer">devenez notre sponsor</a>. Un financement supplémentaire nous permettra d’embaucher davantage de développeurs pour travailler à temps plein, intensifiant ainsi son rythme de développement et améliorant sa stabilité.</p>
+
+<h2 id="les-nouvelles-fonctionnalités">Les nouvelles fonctionnalités</h2>
+
+<p>Passons maintenant aux bonnes choses: quoi de neuf dans Godot 3.2?</p>
+
+<p>Il y a eu des milliers de changements, grands et petits, donc tout lister serait impossible. Vous pouvez cependant consulter la <a href="https://github.com/godotengine/godot/blob/master/CHANGELOG.md#32---2020-01-29" target="_blank" rel="noopener noreferrer">liste des changements détaillée</a>, où nous avons tenté de répertorier les modifications les plus pertinentes, séparées par catégorie: <a href="https://github.com/godotengine/godot/blob/master/CHANGELOG.md#added" target="_blank" rel="noopener noreferrer">ajouts</a>, <a href="https://github.com/godotengine/godot/blob/master/CHANGELOG.md#changed" target="_blank" rel="noopener noreferrer">modifications</a>, <a href="https://github.com/godotengine/godot/blob/master/CHANGELOG.md#removed" target="_blank" rel="noopener noreferrer">suppressions</a> et <a href="https://github.com/godotengine/godot/blob/master/CHANGELOG.md#fixed" target="_blank" rel="noopener noreferrer">correctifs</a>.</p>
+
+<p>Dans la suite de cet article, nous visons à donner un aperçu général des fonctionnalités et des changements les plus notables de Godot 3.2. Vous pouvez lire dans l’ordre ou utiliser l’index ci-dessous pour accéder à vos domaines d’intérêt. Les zones du moteur ne sont répertoriées dans aucun ordre particulier.</p>
+
+<ul>
+  <li><a href="/actualite-godot-3-2-released/#documentation-plus-de-contenu-de-meilleurs-th%C3%A8mes">Documentation: plus de contenu, de meilleurs thèmes</a></li>
+  <li><a href="/actualite-godot-3-2-released/#monoc-le-support-dandroid-et-de-webassembly">Mono/C#: Le support d’Android et de WebAssembly</a></li>
+  <li><a href="/actualite-godot-3-2-released/#arvr-support-doculus-quest-et-darkit">AR/VR: Support d’Oculus Quest et d’ARKit</a></li>
+  <li><a href="/actualite-godot-3-2-released/#refonte-des-visual-shaders">Refonte des Visual Shaders</a></li>
+  <li><a href="/actualite-godot-3-2-released/#am%C3%A9liorations-graphiquesde-rendu">Améliorations graphiques/de rendu</a></li>
+  <li><a href="/actualite-godot-3-2-released/#pipeline-des-asset-3d-gltf-20-et-fbx">Pipeline des asset 3D: glTF 2.0 et FBX</a></li>
+  <li><a href="/actualite-godot-3-2-released/#r%C3%A9seau-webrtc-et-websocket">Réseau: WebRTC et WebSocket</a></li>
+  <li><a href="/actualite-godot-3-2-released/#le-syst%C3%A8me-de-plugin-et-les-builds-android">Le système de plugin et les builds Android</a></li>
+  <li><a href="/actualite-godot-3-2-released/#l%C3%A9diteur">L’éditeur</a></li>
+  <li><a href="/actualite-godot-3-2-released/#outil-de-d%C3%A9veloppement">Outil de développement</a></li>
+  <li><a href="/actualite-godot-3-2-released/#2d-pseudo-3d-texture-atlas-astar2d">2D: Pseudo 3D, Texture atlas, AStar2D</a></li>
+  <li><a href="/actualite-godot-3-2-released/#gui-anchormargins-les-effets-richtextlabel">GUI: Anchor/margins, les effets RichTextLabel</a></li>
+  <li><a href="/actualite-godot-3-2-released/#g%C3%A9n%C3%A9rateurs-audio-et-analyseur-de-spectre">Générateurs audio et analyseur de spectre</a></li>
+  <li><a href="/actualite-godot-3-2-released/#am%C3%A9lioration-des-d%C3%A9composition-des-formes-convexes">Amélioration des décomposition des formes convexes</a></li>
+</ul>
+
+<h3 id="documentation-plus-de-contenu-de-meilleurs-thèmes">Documentation: plus de contenu, de meilleurs thèmes</h3>
+
+<p>La <a href="https://docs.godotengine.org/fr/latest/" target="_blank" rel="noopener noreferrer">documentation stable</a> utilise maintenant la version 3.2. Ce contenu est également disponible en tant <a href="https://docs.godotengine.org/fr/latest/" target="_blank" rel="noopener noreferrer">dans la version 3.2</a>. La version stable précédente peut toujours être trouvée <a href="https://docs.godotengine.org/en/3.1/" target="_blank" rel="noopener noreferrer">dans la version 3.1</a> (mais plus en Français).</p>
+
+<p>Nous recommandons aux nouveaux utilisateurs de commencer avec notre tutoriel officiel <a href="https://docs.godotengine.org/fr/latest/getting_started/step_by_step/index.html" target="_blank" rel="noopener noreferrer">pas à pas</a> afin d’apprendre les concepts de base de Godot.</p>
+
+<p>Beaucoup de contenu a été ajouté à la liste <a href="https://docs.godotengine.org/en/stable/classes/" target="_blank" rel="noopener noreferrer">des classes</a> et <a href="https://docs.godotengine.org/fr/latest/" target="_blank" rel="noopener noreferrer">des tutoriaux</a>. Bien que certains soient dédiés aux nouvelles fonctionnalités, la majorité est venu combler les lacunes de la documentation existante.</p>
+
+<p>Depuis Godot 3.1, le liste des classes référencées est passée de 73% à 90%! Plus de 2500 nouvelles descriptions ont été écrites pour les nœuds, les méthodes, les propriétés, les constantes ou les signaux, et la plupart des 7000 descriptions déjà existantes ont été relues et améliorées. Merci aux 200 contributeurs qui ont travaillé sur la documentation!</p>
+
+<p>La documentation intégrée et la <a href="https://docs.godotengine.org/fr/stable/" target="_blank" rel="noopener noreferrer">version en ligne</a> ont eu un beau reformatage. Cela est particulièrement visible avec les nouveaux thèmes (lumineux et sombre, ajuste automatiquement à des préférences système) pour la version Web conçue par <a href="https://github.com/Calinou/" target="_blank" rel="noopener noreferrer">Hugo Locurcio</a>.</p>
+
+<p><img src="https://godotengine.org/storage/app/uploads/public/5e3/161/4f3/5e31614f37b41633239978.png" alt="Documentation" class="center-image image-512"></p>
+
+<p>Pour la première fois, la documentation de Godot est également disponible en plusieurs langues! Seule la <a href="https://docs.godotengine.org/fr/latest/" target="_blank" rel="noopener noreferrer">dernière branche est traduite</a>, mais elle correspond actuellement au contenu de la branche stable. Vous pouvez participer à l’<a href="https://hosted.weblate.org/projects/godot-engine/godot-docs/" target="_blank" rel="noopener noreferrer">effort de traduction</a></p>
+
+<p><img src="https://godotengine.org/storage/app/uploads/public/5e3/162/182/5e3162182c027709073016.png" alt="Documentation" class="center-image image-256"></p>
+
+<h3 id="monoc-le-support-dandroid-et-de-webassembly">Mono/C#: Le support d’Android et de WebAssembly</h3>
+
+<p>Le support C # a été implémenté dans <a href="https://godotengine.org/article/godot-3-0-released#csharp" target="_blank" rel="noopener noreferrer">Godot 3.0</a> grace à <a href="https://www.mono-project.com/" target="_blank" rel="noopener noreferrer">Mono</a>, avec la possibilité d’exécuter des projets depuis l’éditeur. <a href="https://godotengine.org/article/godot-3-1-released#csharp" target="_blank" rel="noopener noreferrer">Godot 3.1</a> a ajouté la prise en charge de l’exportation de projets vers les PC de bureau (Linux, macOS et Windows).</p>
+
+<p>Pour Godot 3.2, le responsable C#, Ignacio Etcheverry (<a href="https://github.com/neikeq" target="_blank" rel="noopener noreferrer">neikeq</a>) a été assez occupé, implémentant d’abord le support pour <strong><a href="https://godotengine.org/article/csharp-android-support" target="_blank" rel="noopener noreferrer">Android</a></strong>, puis pour <strong><a href="/actualite-csharpprogressreport/">WebAssembly</a></strong>. La prise en charge initiale de la compilation AOT a également été <a href="https://github.com/godotengine/godot/pull/33603" target="_blank" rel="noopener noreferrer">ajoutée</a>, mais elle n’est pas encore activée dans Godot 3.2 car des tests supplémentaires et des modifications de package sont nécessaires. AOT permettra de meilleures performances pour le port WebAssembly (utilisant actuellement l’interpréteur) et est également une condition préalable à la prise en charge de la prochaine plate-forme iOS, qui devrait être incluse dans une version ultérieure 3.2.x.</p>
+
+<p><img src="https://godotengine.org/storage/app/media/mono_wasm_demo.opt.gif" alt="Demo Dodge The Creep" class="center-image image-256">
+<em>Démo <a href="https://github.com/godotengine/godot-demo-projects/tree/master/mono/dodge_the_creeps" target="_blank" rel="noopener noreferrer">Dodge The Creeps</a> fait en C# sur un navigateur Web</em></p>
+
+<p>Parmis ces améliorations, il y a le support de <a href="/actualite-csharpprogressreport/">MonoDevelop/Visual Studio</a> pour Mac ainsi que le support de <a href="https://github.com/godotengine/godot/pull/34181" target="_blank" rel="noopener noreferrer">Jetbrains Rider</a> en tant qu’éditeurs externes. Ou encore la prise en charge de C# 8.0 via Mono 6.6, le passage à .NET Framework 4.7 comme cible par défaut et la réécriture du code de l’éditeur spécifique à Mono en C# (porté C++ depuis). De plus, des dizaines de bogues ont été corrigés, ce qui rend l’expérience C# dans Godot beaucoup plus agréable.</p>
+
+<p>Nous remercions Microsoft d’avoir financé le travail d’Ignacio sur le support C#.</p>
+
+<h3 id="arvr-support-doculus-quest-et-darkit">AR/VR: Support d’Oculus Quest et d’ARKit</h3>
+
+<p>Notre prolifique responsable AR et VR <a href="https://github.com/BastiaanOlij" target="_blank" rel="noopener noreferrer">Bastiaan Olij</a> a pu finaliser les nombreux efforts qui ont eu lieu tout au long du développement de Godot 3.2.</p>
+
+<p>Son premier travail sur la prise en charge d’<a href="https://godotengine.org/article/godot-3-2-arvr-update" target="_blank" rel="noopener noreferrer">ARKit</a> pour iOS remonte à <a href="https://github.com/godotengine/godot/pull/9967" target="_blank" rel="noopener noreferrer">2017</a>, et il aura fallu quelques années pour arriver à une conception qui s’intégrerait correctement dans l’architecture de Godot, en particulier en ce qui concerne l’API <a href="https://github.com/godotengine/godot/pull/10643" target="_blank" rel="noopener noreferrer">CameraServer</a>. Côté Android, l’<a href="https://github.com/godotengine/godot/pull/26221" target="_blank" rel="noopener noreferrer">intégration ARCore</a> n’est pas tout à fait terminée, mais c’est déjà fonctionnel. Une fois les problèmes résolus, nous pourrons l’inclure dans une version 3.2.x ultérieure.</p>
+
+<p>2019 a été une grande année pour le support de la VR dans Godot. Oculus et Valve nous ont contactés pour nous aider en ce qui concerne les contacts, les connaissances techniques et le matériel VR. Bastiaan a publié le plugin <a href="https://github.com/GodotVR/godot_oculus_mobile" target="_blank" rel="noopener noreferrer">VR mobile Oculus</a> puis a rapidement obtenu l’aide d’utilisateurs ayant de l’expérience avec l’<a href="https://godotengine.org/article/godot-oculus-quest-support" target="_blank" rel="noopener noreferrer">Oculus Quest</a>. Leur entente a permis de co-entretenir le plugin et d’améliorer son intégration en général (<a href="https://github.com/m4gr3d" target="_blank" rel="noopener noreferrer">Fredia Huya-Kouadio</a> et <a href="https://github.com/NeoSpark314" target="_blank" rel="noopener noreferrer">Holger Dammertz</a> sont les utilisateurs expérimentés qui ont prêtés main forte à Bastiaan).
+La communauté de développeurs autour de Quest VR est en plein essor. Il existe déà de nombreux prototypes intéressants qui utilisent Godot, et nous pensons que la version 3.2 devrait booster encore plus cette communauté. Restez à l’affût des mises à jour car Bastiaan va bientôt envoyer des plugins VR précompilés pour tous les casques VR pris en charge dans l’<a href="https://godotengine.org/asset-library/asset" target="_blank" rel="noopener noreferrer">Asset lib</a>. Puis il publiera probablement une mise à jour avec des instructions sur la façon d’utiliser le plugin.</p>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/N-UReOuxAP0" frameborder="0" allowfullscreen=""></iframe>
+</div>
+<p><em>Le prototype <a href="https://neospark314.itch.io/voxel-works-quest" target="_blank" rel="noopener noreferrer">Voxel Works Quest</a> de Holger Dammertz réalisé avec Godot pour Oculus Quest.</em></p>
+
+<h3 id="refonte-des-visual-shaders">Refonte des Visual Shaders</h3>
+
+<p><a href="https://godotengine.org/article/godot-3-1-released#visual-shader" target="_blank" rel="noopener noreferrer">Godot 3.1</a> a introduit un nouvel éditeur graphique qui permet d’éditer visuellement les shaders. Il s’agit d’une ré-implmentation de la version qui était incluse dans Godot 2.1.</p>
+
+<p>Pour Godot 3.2, notre contributeur <a href="https://github.com/Chaosus" target="_blank" rel="noopener noreferrer">Yuri Roubinsky</a> a fait un énorme remaniement de l’UX du <a href="https://godotengine.org/article/major-update-for-visual-shader-in-godot-3-2" target="_blank" rel="noopener noreferrer">nouveau visual shader</a>, et est finalement responsable de cette  fonctionnalité. Au-delà de l’amélioration du UX et des correctifs, il a ajouté de nouveaux nœuds pratiques pour écrire des shaders plus avancés avec une plus large flexibilité.</p>
+
+<p><img src="https://godotengine.org/storage/app/media/vshader2019/vs_copy_paste.gif" alt="Visual Shader" class="center-image image-512"></p>
+
+<p>Lisez ses rapports d’étape (<a href="https://godotengine.org/article/major-update-for-visual-shader-in-godot-3-2" target="_blank" rel="noopener noreferrer">partie 1</a> et <a href="https://godotengine.org/article/major-update-visual-shaders-godot-3-2-part-2" target="_blank" rel="noopener noreferrer">partie 2</a>) pour avoir plus de détails sur les nouvelles fonctionnalités.</p>
+
+<p>Yuri ne s’est pas arrêté là, car il a également ajouté de nombreuses fonctionnalités pour les <a href="https://godotengine.org/article/major-update-visual-shaders-godot-3-2-part-2" target="_blank" rel="noopener noreferrer">shaders classiques</a>, telles que l’ajout des constantes, des tableaux et des variantes. De nombreuses fonctions préconstruitent du backend GLES 3 ont été portées sur le backend GLES 2. Pour les fonctions qui ne sont pas compatibles GLES2 a cause de problème de compatibilité, elles ont identifiées et généreront des erreurs de compilation.</p>
+
+<h3 id="améliorations-graphiquesde-rendu">Améliorations graphiques/de rendu</h3>
+
+<p>Avec le passage à Vulkan pour Godot 4.0, nous avons pris la décision difficile de suspendre les fonctionnalités de rendu pour Godot 3.2. Comme vous le savez, depuis la sortie de la version 3.1, notre développeur principal Juan a travailler sur le nouveau moteur de rendu Vulkan pour 4.0, ce qui fait que le moteur de rendu de Godot 3.2 n’a subit beaucoup de modification.</p>
+
+<p>Pourtant, d’autres contributeurs ont repris le flambeau, notamment <a href="https://github.com/clayjohn" target="_blank" rel="noopener noreferrer">Clay John</a> qui a fait des miracles avec les moteurs de rendu GLES2 et GLES3.</p>
+
+<p>Parmis les changements, il y a celui du <a href="https://github.com/godotengine/godot/pull/33668" target="_blank" rel="noopener noreferrer">pipeline PBR</a> qui permet de rendre compatible avec les autres moteurs de PBR temps-réel, comme <a href="https://www.blender.org/" target="_blank" rel="noopener noreferrer">Blender</a>’s Eevee et Substance Designer. Attendez-vous à ce que les scènes qui utilisent le plus de PBR aient un rendu très proche de celui de votre logiciel de modélisation 3D.</p>
+
+<p>De nombreuses fonctionnalités GLES3 ont été portées sur GLES2, y compris la prise en charge du <a href="https://github.com/godotengine/godot/pull/28518" target="_blank" rel="noopener noreferrer">MSAA</a> et divers effets de <a href="https://github.com/godotengine/godot/pull/31845" target="_blank" rel="noopener noreferrer">post-traitement</a> (glow, DOF blur, and BCS).</p>
+
+<p>De nombreux paramètres de rendu par défaut ont été modifiés et optimisés pour donner à la fois une meilleure qualité d’image et de meilleures performances par défaut. Comme toujours, les paramètres peuvent être modifiés en fonction du projet (par exemple, les <a href="https://github.com/godotengine/godot/pull/29188" target="_blank" rel="noopener noreferrer">paramètres SSAO</a>).</p>
+
+<p>De nombreux bugs ont été corrigés, en particulier pour le moteur de rendu GLES2.</p>
+
+<h3 id="pipeline-des-asset-3d-gltf-20-et-fbx">Pipeline des asset 3D: glTF 2.0 et FBX</h3>
+
+<p>Grâce au travail dévoué de plusieurs contributeurs (<a href="https://github.com/fire" target="_blank" rel="noopener noreferrer">Ernest Lee</a>, <a href="https://github.com/RevoluPowered" target="_blank" rel="noopener noreferrer">Gordon MacPherson</a> et <a href="https://github.com/marstaik" target="_blank" rel="noopener noreferrer">Marios Staikopoulos</a>), Godot dispose désormais d’un <strong>pipeline d’importation glTF 2.0 entièrement fonctionnel</strong>, ainsi que du support du format FBX. Une partie importante de ce travail a été généreusement donnée par l’IMVU.</p>
+
+<p>glTF 2.0 est considéré comme le choix idéal pour importer des scènes 3D dans Godot, et voit l’adoption croissante de l’industrie comme norme. En particulier, l’importation des animations glTF 2.0 a été considérablement améliorée. Grâce à la collaboration avec la communauté Blender, des améliorations importantes ont été apportées aux pipelines d’importation et d’exportation de glTF 2.0, qui seront incluses dans la prochaine version de Blender 2.83.</p>
+
+<p>Godot prend désormais en charge la <em>peau</em> des squelettes lors de l’importation de scènes glTF 2.0 et FBX. Supporter la <a href="https://github.com/godotengine/godot/pull/32275" target="_blank" rel="noopener noreferrer">peau des squelettes</a> permet à <strong>plusieurs mesh de partager un seul squelette</strong>.</p>
+
+<p>Les pipelines <a href="https://github.com/godotengine/godot-blender-exporter" target="_blank" rel="noopener noreferrer">ESCN</a> et <a href="https://github.com/godotengine/collada-exporter" target="_blank" rel="noopener noreferrer">Collada</a> n’ont pas beaucoup changé et marchent comme dans Godot 3.1. Le support de la <em>peau</em> n’a pas encore été ajouté auz pipeline ESCN ou Collada.</p>
+
+<p>Nous avons également inclus une <strong>support basique du FBX</strong> (actuellement un aperçu). Les fichiers FBX exportés depuis Blender avec des animations sont partiellement pris en charge. Nous ne prenons pas en charge les fichiers FBX provenant de Maya ou de 3ds Max. Dans une version future, nous améliorerons la compatibilité avec d’autres formats.</p>
+
+<p>Bien que les formats FBX et glTF 2.0 autorisent plus de 4 os par vertex, ces mesh ne sont actuellement pas pris en charge dans Godot 3.2. <a href="https://github.com/facebookincubator/FBX2glTF" target="_blank" rel="noopener noreferrer">FBX2glTF</a> est une option qui permet de convertir le contenu FBX préexistant en glTF 2.0.</p>
+
+<p>Si vous rencontrez des problèmes avec des assets importés, veuillez remplir un <a href="https://github.com/godotengine/godot/issues/new" target="_blank" rel="noopener noreferrer">rapport de bogue</a> permettant de reproduire le problème.</p>
+
+<h3 id="réseau-webrtc-et-websocket">Réseau: WebRTC et WebSocket</h3>
+
+<p>Grâce à une <a href="https://godotengine.org/article/godot-engine-awarded-50000-mozilla-open-source-support-program" target="_blank" rel="noopener noreferrer">généreuse donation de Mozilla</a>, notre responsable de la couche réseau <a href="https://github.com/Faless" target="_blank" rel="noopener noreferrer">Fabio Alessandrelli</a> a pu travailler à temps plein sur la couche réseau durant tout le cycle de développement de Godot 3.2.</p>
+
+<p>Il a commence par implémenté la <strong>prise en charge de WebRTC</strong>. Il a détaillé son travail dans différents rapports d’avancement (<a href="https://godotengine.org/article/godot-webrtc-report1" target="_blank" rel="noopener noreferrer">1</a>, <a href="https://godotengine.org/article/godot-webrtc-report2" target="_blank" rel="noopener noreferrer">2</a> et <a href="https://godotengine.org/article/godot-webrtc-report3" target="_blank" rel="noopener noreferrer">3</a>).</p>
+
+<p>D’autres modifications de réseau impliquent la prise en charge de la <a href="https://godotengine.org/article/websocket-updates-udp-multicast" target="_blank" rel="noopener noreferrer">multidiffusion UDP</a>, <a href="https://godotengine.org/article/websocket-updates-udp-multicast" target="_blank" rel="noopener noreferrer">des exemples et des tutos pour les WebSocket</a>, un <a href="/actualite-websocketsslserver/">serveur SSL WebSocket</a> et des <a href="https://godotengine.org/article/basic-cryptography-ssl-improvements" target="_blank" rel="noopener noreferrer">fonctions cryptographiques basiques</a>.</p>
+
+<p>Côté débug, <a href="https://github.com/JFonS" target="_blank" rel="noopener noreferrer">Joan Fons Sanchez</a> a ajouté un <a href="https://github.com/godotengine/godot/pull/31870" target="_blank" rel="noopener noreferrer">profileur réseau</a>. Ce dernier vous aidera à monitorer la bande passante de votre jeu en temps-réel. Vous pourrez consulter la quantité de données reçues et envoyées par seconde, ainsi qu’un compteur RPC (Remote Procedure Call). Le compteur est très utile si vous voulez optimiser la couche réseau. Vous pourrez notamment consulter la liste des noeuds les plus gourmands en RPC (appels de fonctions à distance).</p>
+
+<p><img src="https://godotengine.org/storage/app/uploads/public/5e3/167/117/5e3167117c8c3991279770.png" alt="Réseau" class="center-image image-512"></p>
+
+<p>Fabio va continuer a travailler sur la couche réseau, mais il va aussi travailler sur un autre sujet financé par Mozilla. Il s’agit d’améliorer le port WebAssembly/HTML5 et de porter l’éditeur Godot pour qu’il puisse s’ouvrir via un navigateur web! Son travail a déjà commencé avec l’ajout d’un <a href="/actualite-websocketsslserver/">serveur HTTP</a> dans l’éditeur de Godot fin de supporter les exports en WebAssembly.</p>
+
+<p><img src="https://godotengine.org/storage/app/uploads/public/5de/045/0f1/5de0450f18d4a943481630.png" alt="Particules" class="center-image image-512"></p>
+
+<h3 id="le-système-de-plugin-et-les-builds-android">Le système de plugin et les builds Android</h3>
+
+<p>Avant de se consacrer au développement de Vulkan, Juan a travaillé sur le <strong><a href="https://godotengine.org/article/godot-3-2-will-get-new-android-plugin-system" target="_blank" rel="noopener noreferrer">nouveau système de plugin pour Android</a></strong>.</p>
+
+<p>Beaucoup d’utilisateurs veulent créer leurs modèles d’exporation pour Android qui incluent des modules Java personnalisés. Avec l’ancien système, il vous fallait recompiler Godot Engine dans son ensemble, cela était chronophage est relativement complexe.</p>
+
+<p>Godot comprend maintenant deux systèmes d’exportation distincts. Celui avec un fichier APK préconstruit (celui par défaut). Et le second qui permet d’exporter une “version personnalisée pour Android”. Cette dernière méthode d’exportation utilise un modèle d’APK précompilé qui est modifié à la volée afin d’ajouter les modules des utilisateurs ce qui va permettre de générer un nouvel APK qui lui sera utilisé pour l’export des projets vers Android.</p>
+
+<p><img src="https://godotengine.org/storage/app/uploads/public/5cc/0d9/a7f/5cc0d9a7f014b050964561.png" alt="Export Android" class="center-image image-512"></p>
+
+<p>Le <a href="https://docs.godotengine.org/fr/latest/tutorials/plugins/android/android_plugin.html" target="_blank" rel="noopener noreferrer">nouveau système de plugins</a> permet de facilité la compilation des modules personnalisés, permettant aux utilisateurs de configurer les plugins via l’éditeur plutôt que de modifier le code source Godot. Les plugins existants devront être portés sur le nouveau système, mais cela devrait se faire facilement.</p>
+
+<p>Le portage Android a également fait l’objet d’une refactorisation massive par un nouveau contributeur, <a href="https://github.com/m4gr3d" target="_blank" rel="noopener noreferrer">Fredia Huya-Kouadio</a>, qui est rapidement devenu l’un de nos principaux mainteneurs Android. Cela nous a permis de moderniser le code, de résoudre certains problèmes de longue date et d’améliorer le travail initial effectué par Juan.</p>
+
+<h3 id="léditeur">L’éditeur</h3>
+
+<p>L’éditeur de Godot est l’interface principale du moteur, il a donc attiré beaucoup d’attention de la part de tous les contributeurs. Ce qui suit n’est qu’une partie des plus gros changements.</p>
+
+<p>Il est maintenance possible de <a href="https://godotengine.org/article/godot-32-will-allow-disabling-editor-features" target="_blank" rel="noopener noreferrer">désactiver certaines fonctionnalités de l’éditeur</a>. Cela permet de masquer les fonctionnalités que vous ne voulez pas utiliser et cela simplifie l’interface. Cela peut être utile pour les tuteurs ou les entreprises qui souhaitent restreindre l’accès à certaines zones de l’éditeur afin de permettre à leurs étudiants / équipes de se concentrer sur un sous-ensemble spécifique.</p>
+
+<p><img src="https://godotengine.org/storage/app/uploads/public/5ca/bcb/9a1/5cabcb9a1a4ab072608872.png" alt="L'éditeur Godot" class="center-image image-512"></p>
+
+<p>La prise en <a href="https://godotengine.org/article/gsoc-2019-progress-report-3#vcs-integration" target="_blank" rel="noopener noreferrer">charge de VCS</a> a été fusionnée et il existe un <a href="https://github.com/godotengine/godot-git-plugin" target="_blank" rel="noopener noreferrer">plugin Git</a> qui peut être utilisé afin d’activer un support basique de Git dans l’éditeur. C’est le résultat du travail de <a href="https://github.com/IronicallySerious" target="_blank" rel="noopener noreferrer">Twarit Waikar</a> pour GSoC 2019.</p>
+
+<p><a href="https://github.com/rxlecky" target="_blank" rel="noopener noreferrer">Erik Selecký</a> a implémenté une fonctionnalité qui permet de <a href="https://github.com/godotengine/godot/pull/27742" target="_blank" rel="noopener noreferrer">remplacer la caméra</a> d’un jeu qui tourne par celle de la fenêtre de l’éditeur. Cela signifie que vous pouvez explorer votre jeu qui tourne en utilisant les fonctionnalités de l’éditeur (freelook, inspection des nœuds, etc.).</p>
+
+<video controls=""><source src="https://v.redd.it/p510zrmq92731/DASH_480" type="video/mp4"></source></video>
+
+<p>Et plein d’autres choses!</p>
+
+<h3 id="outil-de-développement">Outil de développement</h3>
+
+<p><a href="https://github.com/Geequlim" target="_blank" rel="noopener noreferrer">Geequlim</a>, avec l’aide de <a href="https://github.com/ankitpriyarup" target="_blank" rel="noopener noreferrer">Ankit Priyarup</a> (qui participait au programme GSoC 2019), a implémenté le <strong><a href="https://github.com/godotengine/godot/pull/29780" target="_blank" rel="noopener noreferrer">protocole LSP</a></strong> pour le GDScript. Ce protocle permet de fournir l’auto-complétion de code, la documentation et d’autres outils aux éditeurs externes (tels que Sublime Text ou Kate par exemple). À l’heure actuelle, il existe déjà quelques plugins qui utilisent le protocole LSP, notamment pour <a href="https://github.com/godotengine/godot-vscode-plugin" target="_blank" rel="noopener noreferrer">VS Code</a> et pour <a href="https://atom.io/packages/lang-gdscript" target="_blank" rel="noopener noreferrer">Atom</a>.</p>
+
+<p>L’diteur GDScript intégré a également subit un petit relooking:</p>
+
+<ul>
+  <li>Grâce au travail de <a href="https://github.com/Paulb23" target="_blank" rel="noopener noreferrer">Paul Batty</a>, l’éditeur intégré propose une mini-carte, fonctionnalité demandée depuis longtemps. Il a également ajouté une icône à côté des fonctions qui sont connectées à des signaux (très malin ça).</li>
+</ul>
+
+<p><img src="https://user-images.githubusercontent.com/6584330/56457000-36e36200-636c-11e9-9988-4e6796bbd0cd.png" alt="Mini-carte" class="center-image"></p>
+
+<ul>
+  <li>
+<a href="https://github.com/KoBeWi" target="_blank" rel="noopener noreferrer">Tomasz Chabora</a> a ajouté la prise <a href="https://github.com/godotengine/godot/pull/28218" target="_blank" rel="noopener noreferrer">en charge de signets</a> dans les scripts pour conserver les références à des lignes spécifiques, ainsi qu’une fonctionnalité qui <a href="https://github.com/godotengine/godot/pull/31179" target="_blank" rel="noopener noreferrer">évalue et réduit l’expression mathématique</a> qui se trouve sous le curseur.</li>
+  <li>En plus du support LSP, Geequlim a amélioré l’auto-complétion de l’éditeur intégré, affichant des <a href="https://github.com/godotengine/godot/pull/29744" target="_blank" rel="noopener noreferrer">icônes différentes</a> en fonction du type d’objet à compléter (classes, méthodes, propriétés, constantes, etc.).</li>
+</ul>
+
+<p><img src="https://user-images.githubusercontent.com/6964556/59157685-7ebb7580-8ae1-11e9-95c0-2b2179985fa8.gif" alt="Auto-completion" class="center-image image-512"></p>
+
+<p>Pour finir, le <strong><a href="https://godotengine.org/article/gsoc-2019-progress-report-3#visual-scripting" target="_blank" rel="noopener noreferrer">VisualScript</a></strong> a été amélioré par un autre étudiant qui participait lui aussi au GSoC 2019, <a href="https://github.com/swarnimarun" target="_blank" rel="noopener noreferrer">Swarnim Arun</a>.</p>
+
+<h3 id="2d-pseudo-3d-texture-atlas-astar2d">2D: Pseudo 3D, Texture atlas, AStar2D</h3>
+
+<p>Juan a implémenté une <strong><a href="https://godotengine.org/article/godot-32-will-get-pseudo-3d-support-2d-engine" target="_blank" rel="noopener noreferrer">pseudo 3D</a></strong> qui permet d’ajouter facilement de la profondeur aux jeux 2D. C’est en superposant plusieurs couches de canevas, et donnant une échelle différente a chacune d’elle que cela a donné un effet de profondeur.</p>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/CWZvPZ5mGmY" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<p>La prise en charge des <a href="https://godotengine.org/article/atlas-support-returns-godot-3-2" target="_blank" rel="noopener noreferrer">textures atlas</a> est de retour dans Godot 3.2. La disposition des textures est maintenant déterministe (ça c’est vraiment cool), et cela se gère directement depuis l’éditeur.</p>
+
+<p>Dans le même temps, une <a href="https://github.com/godotengine/godot/pull/27237" target="_blank" rel="noopener noreferrer">variante AStar2D</a> a été implémentée, c’est maintenant plus simplifie de calculer le plus court chemin en 2D.</p>
+
+<h3 id="gui-anchormargins-les-effets-richtextlabel">GUI: Anchor/margins, les effets RichTextLabel</h3>
+
+<p>Après avoir travaillé sur les noeuds <code class="highlighter-rouge">Control</code> GUI dans Godot 3.0, <a href="https://github.com/Groud" target="_blank" rel="noopener noreferrer">Gilles Roudière</a> a amélioré l’UX en se basant sur les commentaires des utilisateurs. Il a également fait d’autres changements en ce qui concerne <strong><a href="https://github.com/godotengine/godot/pull/27559" target="_blank" rel="noopener noreferrer">l’ancrage et les marges</a></strong>.</p>
+
+<p><img src="https://user-images.githubusercontent.com/6093119/55293018-88de3b00-53f1-11e9-99b3-cf63f1ae0094.gif" alt="Ancrage et marge" class="center-image image-512"></p>
+
+<p><a href="https://github.com/Eoin-ONeill-Yokai" target="_blank" rel="noopener noreferrer">Eoin O’Neill</a> a travaillé sur une fonctionnalité plutôt inattendue mais vraiment cool. Il s’agit d’<a href="https://github.com/godotengine/godot/pull/23658" target="_blank" rel="noopener noreferrer">ajouter des effets de texte</a> aux <code class="highlighter-rouge">RichTextLabel</code>. Il est également possible de définir ses propres effets en utilisant les balises BBCode.</p>
+
+<h3 id="générateurs-audio-et-analyseur-de-spectre">Générateurs audio et analyseur de spectre</h3>
+
+<p>Avant de se pencher sur Vulkan, Juan a implémenté des <strong><a href="https://godotengine.org/article/godot-32-will-get-new-audio-features" target="_blank" rel="noopener noreferrer">générateurs de flux audio</a></strong> qui vous permettent de générer facilement des sons en ajoutant des <code class="highlighter-rouge">Vector2</code> (via la fonction <code class="highlighter-rouge">push_frame</code>) ou en utilisant de la mémoire tampon (un tableau de <code class="highlighter-rouge">Vector2</code>). Il a également travaillé sur un <strong><a href="https://godotengine.org/article/godot-32-will-get-new-audio-features" target="_blank" rel="noopener noreferrer">analyseur de spectre</a></strong>.</p>
+
+<h3 id="amélioration-des-décomposition-des-formes-convexes">Amélioration des décomposition des formes convexes</h3>
+
+<p>Grâce à la bibliothèque V-HACD, Godot peut désormais décomposer des mesh concaves en parties convexes précises et simplifiées.</p>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/jVmG7nVxvoA" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<p>Cela simplifie énormément le processus de génération, par ex. formes de collision pour ajouter des collisions à un mesh 3D donné.</p>
+
+<h2 id="et-beaucoup-dautres-fonctionnalités">Et beaucoup d’autres fonctionnalités</h2>
+
+<p>Nous aimerions profiter de l’occasion pour remercier tous nos incroyables contributeurs pour toutes les autres fonctionnalités géniales apportées depuis la version 3.1, et les centaines de correctifs et améliorations effectuées au cours de 2019. Même si elles ne sont pas répertoriées ici, chaque contribution améliore Godot, et cette version est l’œuvre de centaines de personnes travaillant ensemble vers un objectif et une passion communs.</p>
+
+<p>Pour plus de détails sur les autres modifications de Godot 3.2, veuillez consulter la <a href="https://github.com/godotengine/godot/blob/master/CHANGELOG.md#32---2020-01-29" target="_blank" rel="noopener noreferrer">liste organisée des changements</a>, ainsi que le journal des modifications brut de Git (<a href="https://downloads.tuxfamily.org/godotengine/3.2/Godot_v3.2-stable_changelog_chrono.txt" target="_blank" rel="noopener noreferrer">chronologique</a> ou <a href="https://downloads.tuxfamily.org/godotengine/3.2/Godot_v3.2-stable_changelog_authors.txt" target="_blank" rel="noopener noreferrer">trié par auteurs</a>).</p>
+
+<h2 id="donner-en-retour">Donner en retour</h2>
+
+<p>En tant qu’effort communautaire, Godot compte sur les contributeurs individuels pour s’améliorer. En plus de devenir un <a href="https://www.patreon.com/godotengine" target="_blank" rel="noopener noreferrer">Patron</a>, vous pouvez redonner en: écrivant des rapports de bogues de haute qualité, en contribuant à la base de code, en écrivant de la documentation, en écrivant des tutoriels, et en soutenant les autres sur les <a href="https://docs.godotengine.org/en/latest/community/channels.html" target="_blank" rel="noopener noreferrer">différentes plateformes communautaires</a> en répondant aux questions et en fournissant des conseils utiles.</p>
+
+<p>Enfin et surtout, faire des jeux avec Godot et créditer le moteur contribue grandement à augmenter sa popularité, et donc le nombre de contributeurs actifs qui l’améliorent au quotidien. N’oubliez pas que nous sommes tous dans le même bateau et Godot a besoin du soutien de la communauté dans tous les domaines pour prospérer.</p>
+
+<p>Maintenant, allez vous amuser avec la 3.2!</p>
+
+
+    <!-- content -->
+  </article>
+</div>
+
+    <footer>
+  <div class="footer container column align-center">
+    <div class="size margin footer--block container align-center justify-content-between">
+      <div class="container" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+        <a href="/"><span>Godot Engine Francophone</span></a>
+      </div>
+      <div class="container social-media-list" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
+        <ul class="">
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://discordapp.com/invite/NQVd34V">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#discord"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/Godot-Engine-Francophone">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#github"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+   
+   <li>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/godotenginefr">
+         <svg class="svg-icon">
+            <use xlink:href="/assets/img/minima-social-icons.svg#twitter"></use>
+         </svg>
+      </a>
+   </li>
+   
+   
+   
+   
+</ul>
+
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="/assets/js/simple-jekyll-search.min.js"></script>
+  <script src="/assets/js/freezeframe.min.js"></script>
+
+  <script>
+    const freeze = new Freezeframe('.freezeframe', {
+      trigger: 'hover',
+      responsive: true,
+      warnings: false
+    });
+    
+    AOS.init({
+      once: true
+    })
+
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      searchResultTemplate: '<li><a href="{url}" title="{description}">{title}{tags}</a></li>',
+      json: '/search.json',
+      templateMiddleware: function (prop, value, template) {
+        if (prop === 'tags' && value.length > 1) {
+          return '<div class="search-result-tags">' + value.split(',').reduce((acc, item) => `${acc} <span class="post-tag">${item}</span>`, '') + '</div>'
+        }
+      }
+    })
+
+    const articles = document.querySelectorAll('article')
+
+    for (const article of articles) {
+      const headings = article.querySelectorAll('h2,h3,h4,h5,h6')
+
+      for (const heading of headings) {
+        const linkIcon = document.createElement('a')
+
+        linkIcon.innerHTML = ' <span class="fas fa-link fa-xs"></span>'
+        linkIcon.setAttribute('href', `#${heading.id}`)
+        linkIcon.setAttribute('class', `article-header-link`)
+        heading.appendChild(linkIcon)
+      }
+    }
+  </script>
+</body>
+
+</html>
