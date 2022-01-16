@@ -7,7 +7,7 @@ description: >-
   ou alors voir grand en acquérant votre premier local
 type: Jeu
 logo: 2020-11-09-showcase-citygamestudio.gif
-tag:
+tags:
 - Binogure Studio
 categories: showcase
 lien: https://store.steampowered.com/app/726840/City_Game_Studio/

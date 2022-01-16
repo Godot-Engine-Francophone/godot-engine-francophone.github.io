@@ -4,7 +4,7 @@ title: "Godot Local Notification"
 description: >-
   Module pour android qui permet d'envoyer des notifications
 type: Module
-tag:
+tags:
   - 2.1
   - C++
   - android

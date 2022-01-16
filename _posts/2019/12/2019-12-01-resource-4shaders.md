@@ -6,7 +6,7 @@ description: >-
   Shadertoy qui ont été convertie pour Godot Engine.
   Transition Pixel, Ciel nuageux, Flammes et Feu d'artifice
 type: Pack de 4 shaders
-tag:
+tags:
 - Firework
 - Feu d'artifice
 - Shader

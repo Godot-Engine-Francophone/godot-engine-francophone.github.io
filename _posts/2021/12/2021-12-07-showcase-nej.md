@@ -6,8 +6,8 @@ description: >-
 type: Jeu
 logo: 2021-12-07-showcase-nej.gif
 nsfw: false
-tag:
-- Ben Lega
+tags:
+  - Ben Lega
 categories: showcase
 lien: https://store.steampowered.com/app/1626620/NeJ/
 ---

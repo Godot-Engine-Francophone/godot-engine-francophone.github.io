@@ -6,8 +6,8 @@ description: >-
 type: Jeu
 logo: 2020-12-12-showcase-spadesofspaces.gif
 nsfw: false
-tag:
-- KrakenSIN Studio
+tags:
+  - KrakenSIN Studio
 categories: showcase
 lien: https://play.google.com/store/apps/details?id=com.krakensinstudio.spadesofspaces
 ---

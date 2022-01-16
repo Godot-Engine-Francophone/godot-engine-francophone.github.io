@@ -5,7 +5,7 @@ description: >-
   Il s'agit un module C++ qui fait le lien entre la bibliothèque Accidental Noise et Godot Engine.
   Une fois compilée, on peut s'en servir avec du GDscript.
 type: Bibliothèque Accidental Noise
-tag:
+tags:
 - 3.1
 - Module
 - Noise

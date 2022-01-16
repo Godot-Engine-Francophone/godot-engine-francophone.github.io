@@ -5,7 +5,7 @@ description: >-
   Mindsight est une évolution minimaliste d'un jeu de match 3. Le but du jeu est de trouver tous les ensembles de trois symboles adjacents dont les caractéristiques correspondent ou diffèrent.
 type: Jeu
 logo: 2020-11-09-showcase-mindsight.jpg
-tag:
+tags:
 - Smokey Moose Games   
 categories: showcase
 lien: https://store.steampowered.com/app/716070/Mindsight/

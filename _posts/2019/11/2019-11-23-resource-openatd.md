@@ -4,7 +4,7 @@ title: "Open ATDeluxe"
 description: >-
   Remake du jeu Airline Tycoon Deluxe avec Godot Engine
 type: Airline Tycoon Deluze
-tag:
+tags:
 - Airline Tycoon Deluxe
 - Jeu
 categories: projets

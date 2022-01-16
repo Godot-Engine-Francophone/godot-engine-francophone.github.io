@@ -5,7 +5,7 @@ description: >-
   Projet Godot Engine sous license libre. Il s'agit d'une démonstration des capacités du moteur
   Godot Engine à rendre des vastes mondes ouverts.
 type: Démo
-tag:
+tags:
 - 3.2
 - Monde ouvert
 - License libre

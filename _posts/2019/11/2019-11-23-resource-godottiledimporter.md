@@ -5,7 +5,7 @@ description: >-
   Plugin pour Godot Engine qui permet d'importer des TileMap et des TileSet depuis
   l'éditeur nommé Tiled Map Editor
 type: Importeur de Tilemap
-tag:
+tags:
 - 2.1
 - 3.0
 - 3.1

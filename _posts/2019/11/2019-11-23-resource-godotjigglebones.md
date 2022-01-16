@@ -5,7 +5,7 @@ description: >-
   Ce plugin ajoute les parties moles a vos squelettes 3D.
   Cela permet de d'avoir des animations procédurales plus réalistes.
 type: Animation procédurale
-tag:
+tags:
 - 3.0
 - 3.1
 - Jigglebone

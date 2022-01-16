@@ -4,7 +4,7 @@ title: "Palette shadow material"
 description: >-
   Cartoon shader permettant de choisir la couleur du material, pour Godot Engine.
 type: Shader cartoon
-tag:
+tags:
 - 3.1
 - Shader
 - Cartoon

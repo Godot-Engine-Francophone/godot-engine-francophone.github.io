@@ -6,8 +6,8 @@ description: >-
 type: Jeu
 logo: 2021-09-20-showcase-little-adventure.png
 nsfw: false
-tag:
-- dupot.org 
+tags:
+  - dupot.org 
 categories: showcase
 lien: https://play.google.com/store/apps/details?id=dupot.org.mika.littleadventure
 ---

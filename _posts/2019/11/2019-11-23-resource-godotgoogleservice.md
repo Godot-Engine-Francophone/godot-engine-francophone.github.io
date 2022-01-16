@@ -4,7 +4,7 @@ title: "Godot Google Service"
 description: >-
   Module C++ permettant d'utiliser les services offerts par Google sur Android.
 type: Google Service
-tag:
+tags:
 - 2.1
 - 3.0
 - 3.1

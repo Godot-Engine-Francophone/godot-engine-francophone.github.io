@@ -6,8 +6,8 @@ description: >-
 type: Jeu
 logo: 2021-09-20-showcase-en-attendant09h15.png
 nsfw: false
-tag:
-- Obeqaen 
+tags:
+  - Obeqaen 
 categories: showcase
 lien: https://obeqaen.itch.io/en-attendant-9h15
 ---

@@ -4,7 +4,7 @@ title: "Generateur de build"
 description: >-
   Site web qui permet de générer les options de compilation pour Godot Engine
 type: Site web
-tag:
+tags:
 - 3.2
 - Build
 - Options

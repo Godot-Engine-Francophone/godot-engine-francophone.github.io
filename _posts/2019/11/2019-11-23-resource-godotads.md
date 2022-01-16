@@ -5,7 +5,7 @@ description: >-
   Module permettant de gérer les publicités pour Android avec Godot Engine.
   Il gère notammenet admob, adcolony, chartboost, vungle, mopub et unity_ads
 type: Publicité Android
-tag:
+tags:
 - 2.1
 - 3.0
 - 3.1

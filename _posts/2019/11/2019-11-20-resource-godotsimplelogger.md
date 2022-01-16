@@ -6,7 +6,7 @@ description: >-
   C'est un simple logger avec un peu de formattage et permet de stocker les log dans un fichier
   externe avec une rotation automatique a chaque lancement du jeu.
 type: Utilitaire
-tag:
+tags:
   - 2.1
   - logger
 categories: extensions

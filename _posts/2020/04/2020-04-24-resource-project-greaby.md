@@ -5,7 +5,7 @@ description: >-
   Greaby, créateur de jeux indépendant Suisse. Il maintient un site web qui aborde Godot Engine
   et fournit un tas de ressources utiles.
 type: Site web
-tag:
+tags:
 - tutoriels
 categories: projets
 lien: https://greaby.co/tag/godotengine/

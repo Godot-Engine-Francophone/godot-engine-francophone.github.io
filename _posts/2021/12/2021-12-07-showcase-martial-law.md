@@ -6,8 +6,8 @@ description: >-
 type: Jeu
 logo: 2021-12-07-showcase-martial-law.gif
 nsfw: false
-tag:
-- FIXER
+tags:
+  - FIXER
 categories: showcase
 lien: https://store.steampowered.com/app/1712390/Martial_Law/
 ---

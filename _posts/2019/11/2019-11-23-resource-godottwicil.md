@@ -4,7 +4,7 @@ title: "Godot twicil"
 description: >-
   Permet d'interagir avec le chat de Twitch.
 type: Twitch API
-tag:
+tags:
 - 2.1
 - 3.0
 - 3.1

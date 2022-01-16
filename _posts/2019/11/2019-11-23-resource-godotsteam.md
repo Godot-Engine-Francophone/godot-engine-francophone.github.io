@@ -5,7 +5,7 @@ description: >-
   Module C++ qui va vous permettre de brancher Godot Engine avec le SDK de Steam.
   Nécessaire si vous voulez publier votre jeu sur la plateforme Steam.
 type: Steam SDK
-tag:
+tags:
 - 2.1
 - 3.0
 - 3.1

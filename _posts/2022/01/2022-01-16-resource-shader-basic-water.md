@@ -1,14 +1,14 @@
 ---
 layout: ressource
-title: "Shader To Image"
+title: "Basic Water Material"
 description: >-
-  Permet d'obtenir une instance Image contenant le rendu d'un shader
+  Un shader pour avoir un rendu d'une surface d'eau réaliste.
 type: Shader
 tags:
   - 3.2
   - Shader
-categories: extensions
-lien: https://github.com/Coldragon/godot-shader-to-image
+categories: shaders
+lien: https://github.com/Maujoe/godot-basic-water-material
 ---
 
 Il n'y a aucun contenu pour les ressources.

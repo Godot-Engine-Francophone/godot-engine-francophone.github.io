@@ -4,7 +4,7 @@ title: "GodotBluetooth"
 description: >-
   Implémentation native du bluetooth pour Godot Engine.
 type: Connexion Bluetooth
-tag:
+tags:
 - 3.1.2
 - Module
 - Bluetooth

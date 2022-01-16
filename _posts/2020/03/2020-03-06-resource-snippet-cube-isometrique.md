@@ -4,7 +4,7 @@ title: "IsoCube"
 description: >-
   Projette des texture/couleurs sur les différentes faces d'un cube
 type: Custom draw
-tag:
+tags:
   - 3.2
   - Custom draw
 categories: snippets

@@ -5,7 +5,7 @@ description: >-
   En anglais Occlusion culling module, permet d'optimiser
   le rendu des environnements a 3 dimensions
 type: Potentially visible set
-tag:
+tags:
 - 3.2
 - Module
 - 3D

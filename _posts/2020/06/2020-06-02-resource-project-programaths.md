@@ -4,7 +4,7 @@ title: "Atelier de Programaths"
 description: >-
   Atelier pour l'apprentissage de Godot Engine.
 type: Site web
-tag:
+tags:
 - atelier
 categories: projets
 lien: https://www.programaths.be/godot/

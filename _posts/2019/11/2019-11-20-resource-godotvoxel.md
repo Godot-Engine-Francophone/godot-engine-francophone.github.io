@@ -5,7 +5,7 @@ description: >-
   Module écrit en C++ permettant de créer des volumes dans Godot Engine.
   Voxel c'est la contraction de Volumetric Pixel.
 type: Bibliothèque Voxel
-tag:
+tags:
   - 3.1
   - Voxel
   - C++

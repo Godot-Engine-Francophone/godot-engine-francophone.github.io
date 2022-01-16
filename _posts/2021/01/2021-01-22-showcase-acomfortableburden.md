@@ -6,8 +6,8 @@ description: >-
 type: Jeu
 logo: 2021-01-22-showcase-acomfortableburden.gif
 nsfw: false
-tag:
-- OtterWays
+tags:
+  - OtterWays
 categories: showcase
 lien: https://store.steampowered.com/app/1432760/A_Comfortable_Burden
 ---

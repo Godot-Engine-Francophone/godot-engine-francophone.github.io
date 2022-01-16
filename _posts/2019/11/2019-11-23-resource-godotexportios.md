@@ -5,7 +5,7 @@ description: >-
   Lancer votre jeu Godot sur n'importe quel appareil iOS 8 ou plus pour le tester sans compte payant,
   parfait si vous developpez votre premier jeu pour iOS sans payer directement un compte Apple.
 type: Documentation
-tag:
+tags:
 - iOS
 - 3.1
 - 3.2

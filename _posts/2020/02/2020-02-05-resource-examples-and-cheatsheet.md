@@ -5,7 +5,7 @@ description: >-
   Une documentation complète avec de nombreux exemples
   pour mieux maitriser Godot Engine
 type: Aide mémoire
-tag:
+tags:
   - 3.2
   - exemples
   - gdscript

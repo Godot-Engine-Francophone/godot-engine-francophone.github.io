@@ -4,7 +4,7 @@ title: "Masques de lumières 2D"
 description: >-
   Pack de masques pour des lumières 2D.
 type: Lightmask
-tag:
+tags:
   - lightmask
   - 2D
   - ressource

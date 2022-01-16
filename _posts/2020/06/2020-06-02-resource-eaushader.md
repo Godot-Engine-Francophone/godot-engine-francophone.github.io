@@ -4,7 +4,7 @@ title: "Reflet de lumière sur la surface de l'eau"
 description: >-
   Shader réaliste qui rend la surface de l'eua avec les jeux de lumière.
 type: Reflet sur de l'eau réaliste
-tag:
+tags:
 - Eau
 - 3.2
 - Réaliste

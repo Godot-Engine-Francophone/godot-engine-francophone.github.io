@@ -4,9 +4,9 @@ title: "Thrive"
 description: >-
   Jeu complet fait avec Godot Engine sur l'évolution de la vie.
 type: Jeu complet
-tag:
-- 3.2
-- Jeu
+tags:
+  - 3.2
+  - Jeu
 categories: projets
 lien: https://github.com/Revolutionary-Games/Thrive
 ---

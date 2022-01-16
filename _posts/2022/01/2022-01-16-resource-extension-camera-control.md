@@ -1,14 +1,14 @@
 ---
 layout: ressource
-title: "Shader To Image"
+title: "Camera Control"
 description: >-
-  Permet d'obtenir une instance Image contenant le rendu d'un shader
-type: Shader
+  Script facile d'utilisation permettant de controller une caméra via la souris.
+type: Controle de caméra
 tags:
   - 3.2
   - Shader
 categories: extensions
-lien: https://github.com/Coldragon/godot-shader-to-image
+lien: https://github.com/Maujoe/godot-camera-control
 ---
 
 Il n'y a aucun contenu pour les ressources.

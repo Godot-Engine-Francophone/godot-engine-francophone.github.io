@@ -4,7 +4,7 @@ title: "Godot OpenVR"
 description: >-
   Plugin GDNative qui ajoute le support d'OpenVR pour godot Engine.
 type: OpenVR
-tag:
+tags:
 - master
 - 3.0
 - 3.1

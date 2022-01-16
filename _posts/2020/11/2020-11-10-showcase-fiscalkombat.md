@@ -6,7 +6,7 @@ description: >-
   Incarnez Manon Aubry en mission contre la fraude fiscale en Europe.
 type: Jeu
 logo: 2020-11-10-showcase-fiscalkombat.png
-tag:
+tags:
 - Discord Insoumis 
 categories: showcase
 lien: https://play.google.com/store/apps/details?id=com.discord.insoumis

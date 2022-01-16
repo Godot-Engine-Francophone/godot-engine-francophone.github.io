@@ -4,7 +4,7 @@ title: "Godot Demo Projects"
 description: >-
   Démonstration de projets et projets modèles pour Godot Engine
 type: Démo
-tag:
+tags:
   - 2.1
   - 3.0
   - 3.1

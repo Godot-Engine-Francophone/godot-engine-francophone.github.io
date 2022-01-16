@@ -5,7 +5,7 @@ description: >-
   Solution audio complète, permet de générer des sons procéduralement, et d'avoir une musique adaptative/procédurale
   en ajoutant quelques nodes accompagnés de quelques lignes de code
 type: Son interactif
-tag:
+tags:
 - 3.1
 - Plugin
 categories: extensions

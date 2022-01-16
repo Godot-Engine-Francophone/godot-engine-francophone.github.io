@@ -4,7 +4,7 @@ title: "LOD en GDScript"
 description: >-
   Ajout d'un LOD entièrement fait en GDscript, permet de gérer les mesh, lumieres et particules.
 type: Addons
-tag:
+tags:
 - LOD
 - Addon
 - 3.2

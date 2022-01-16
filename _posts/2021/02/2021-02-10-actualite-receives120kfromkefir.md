@@ -8,7 +8,7 @@ categories: actualite
 by: Rémi Verschelde
 translated: Topy
 tags:
-- Subvention
+  - Subvention
 original_url: https://godotengine.org/article/godot-engine-receives-120000-grant-from-kefir
 icon: money-bill-alt
 ---

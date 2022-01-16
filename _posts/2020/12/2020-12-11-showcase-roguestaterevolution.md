@@ -6,8 +6,8 @@ description: >-
 type: Jeu
 logo: 2020-12-11-showcase-roguestaterevolution.jpg
 nsfw: false
-tag:
-- Little Red Dog Games
+tags:
+  - Little Red Dog Games
 categories: showcase
 lien: https://store.steampowered.com/app/1145340/Rogue_State_Revolution/
 ---

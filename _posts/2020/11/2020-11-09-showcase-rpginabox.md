@@ -5,7 +5,7 @@ description: >-
   RPG in a Box vous permet de créer facilement des RPG et des jeux d'aventure en 3D avec un style à base de voxels !
 type: Jeu
 logo: 2020-11-09-showcase-rpginabox.gif
-tag:
+tags:
 - Justin Arnold
 categories: showcase
 lien: https://store.steampowered.com/app/498310/RPG_in_a_Box/

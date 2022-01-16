@@ -4,7 +4,7 @@ title: "Godot Python"
 description: >-
   Version de Godot Engine supportant le Python. C'est toujours en développement donc il vaut mieux ne pas l'utiliser pour de la production
 type: Godot Engine
-tag:
+tags:
   - master
   - python
 categories: extensions

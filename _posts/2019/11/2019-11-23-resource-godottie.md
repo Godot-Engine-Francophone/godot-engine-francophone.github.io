@@ -5,7 +5,7 @@ description: >-
   Text Interface Engine est un plugin qui permet d'afficher du texte comme
   dans les jeux de type RPG.
 type: Éditeur de dialogue
-tag:
+tags:
 - 2.1
 - 3.0
 - 3.1

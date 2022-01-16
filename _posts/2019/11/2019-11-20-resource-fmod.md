@@ -4,7 +4,7 @@ title: "FMOD"
 description: >-
   Module permettant l'intégration avec FMOD Studio.
 type: Audio
-tag:
+tags:
   - 3.1
   - FMOD
   - C++

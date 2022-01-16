@@ -6,8 +6,8 @@ description: >-
 type: Jeu
 logo: 2021-09-20-showcase-sonic-colors-ultimate.jpg
 nsfw: false
-tag:
-- Sega 
+tags:
+  - Sega 
 categories: showcase
 lien: https://www.epicgames.com/store/fr/p/sonic-colors-ultimate
 ---

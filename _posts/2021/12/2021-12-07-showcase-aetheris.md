@@ -6,8 +6,8 @@ description: >-
 type: Jeu
 logo: 2021-12-07-showcase-aetheris.png
 nsfw: false
-tag:
-- Wild wits Games
+tags:
+  - Wild wits Games
 categories: showcase
 lien: https://www.kickstarter.com/projects/wild-wits-games/aetheris-the-game/
 ---

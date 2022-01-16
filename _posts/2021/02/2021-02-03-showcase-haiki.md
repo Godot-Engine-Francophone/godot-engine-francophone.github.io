@@ -6,8 +6,8 @@ description: >-
 type: Jeu
 logo: 2021-02-03-showcase-haiki.gif
 nsfw: false
-tag:
-- Richard Hörnig 
+tags:
+  - Richard Hörnig 
 categories: showcase
 lien: https://store.steampowered.com/app/1395270/Haiki/
 ---

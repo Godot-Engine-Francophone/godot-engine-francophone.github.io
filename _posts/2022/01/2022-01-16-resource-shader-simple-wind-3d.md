@@ -1,14 +1,14 @@
 ---
 layout: ressource
-title: "Shader To Image"
+title: "Simple wind 3D"
 description: >-
-  Permet d'obtenir une instance Image contenant le rendu d'un shader
+  Shader permettant de simuler du vent en 3D
 type: Shader
 tags:
   - 3.2
   - Shader
-categories: extensions
-lien: https://github.com/Coldragon/godot-shader-to-image
+categories: shaders
+lien: https://github.com/Maujoe/godot-simple-wind-shader
 ---
 
 Il n'y a aucun contenu pour les ressources.

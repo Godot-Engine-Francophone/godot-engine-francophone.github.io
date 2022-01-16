@@ -4,7 +4,7 @@ title: "Zik Machine"
 description: >-
   Logiciel de création live orienter pad / drum machine écrit en gdscript.
 type: Logiciel
-tag:
+tags:
 - drum
 - 3.2
 - pad

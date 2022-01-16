@@ -1,14 +1,14 @@
 ---
 layout: ressource
-title: "2D Wind shader"
+title: "Flow Map Shader"
 description: >-
-  Permet de simuler le vent dans des sprites 2D
+  Un shader material assez basique permettant d'appliquer des déformations détaillées a des textures
 type: Shader
 tags:
   - 3.2
   - Shader
 categories: shaders
-lien: https://gist.github.com/jordanlis/7d21abf8857a465ac48126a8425f7f7a
+lien: https://github.com/Maujoe/godot-flow-map-shader
 ---
 
 Il n'y a aucun contenu pour les ressources.

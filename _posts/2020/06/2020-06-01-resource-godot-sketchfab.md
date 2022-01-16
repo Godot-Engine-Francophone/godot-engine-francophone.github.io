@@ -4,7 +4,7 @@ title: "Godot Sketchfab"
 description: >-
   Importer des modèles SketchFab depuis Godot Engine vers Godot Engine.
 type: Sktechfab
-tag:
+tags:
 - 3.2
 - SketchFab
 - 3D

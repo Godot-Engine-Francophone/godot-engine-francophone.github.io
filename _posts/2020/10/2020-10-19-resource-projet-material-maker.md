@@ -4,7 +4,7 @@ title: "Material Maker"
 description: >-
   Outil base sur Godot engine qui permet de créer des textures de manière procédurale.
 type: Logiciel
-tag:
+tags:
 - material
 - maker
 categories: projets

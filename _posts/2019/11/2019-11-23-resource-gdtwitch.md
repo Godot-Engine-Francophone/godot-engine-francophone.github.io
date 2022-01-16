@@ -4,7 +4,7 @@ title: "GDTwitch"
 description: >-
   Permet d'intéragir avec le chat de Twitch
 type: Twitch
-tag:
+tags:
 - 3.1
 - Twitch
 - Plugin

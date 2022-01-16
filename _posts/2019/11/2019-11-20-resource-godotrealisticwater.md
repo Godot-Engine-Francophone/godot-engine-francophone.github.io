@@ -4,7 +4,7 @@ title: "Godot Realistic Water"
 description: >-
   Shader rendant la surface de l'eau plus réaliste
 type: Shader
-tag:
+tags:
   - 3.1
   - Eau
   - Réaliste

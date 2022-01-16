@@ -4,7 +4,7 @@ title: "Tanks of Freedom"
 description: >-
   Jeu indépendant en tour par tour et en dessin pixel.
 type: Jeu complet
-tag:
+tags:
   - 2.1
   - Jeu
 categories: projets

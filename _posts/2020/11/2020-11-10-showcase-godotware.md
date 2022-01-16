@@ -5,7 +5,7 @@ description: >-
   Enchaînez les mini jeu dans un thème spatial pour atteindre le meilleur score.
 type: Jeu
 logo: 2020-11-10-showcase-godotware.gif
-tag:
+tags:
 - Ange Hubert 
 categories: showcase
 lien: https://play.google.com/store/apps/details?id=org.godotengine.projetphonegodot

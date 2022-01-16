@@ -6,8 +6,8 @@ description: >-
 type: Jeu
 logo: 2021-06-02-showcase-daedalusdemise.gif
 nsfw: false
-tag:
-- tim Krief 
+tags:
+  - Tim Krief 
 categories: showcase
 lien: https://timkrief.itch.io/daedalus-demise/devlog/257476/new-version-out-coins-diamonds-translations-high-scores
 ---
