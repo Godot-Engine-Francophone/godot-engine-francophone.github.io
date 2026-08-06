@@ -6,20 +6,15 @@ Site statique utilisant Jekyll.
 La branche principale est la branche `gh-pages`. Elle est nommée ainsi pour signaler que c'est la branche de rendu `github pages`.
 
 ### Pourquoi ne pas avoir utilisé la branche `master`?
-La branche `master` est utilisée automatiquement par github pour afficher le site web. Il n'est pas possible de changer de branche, c'est imposé par github.
-Normalement github pages prend en charge jekyll. Cependant comme nous utilisons le plugin `jekyll-pagination-v2` qui n'est pas
-supporté par github pages, nous ne pouvons pas utiliser le jekyll offert par github pages.
-Pour palier à ce problème, nous avons mis en place un système d'intégration continue.
+Historiquement, la branche `master` servait de branche de rendu GitHub Pages. Désormais, le déploiement se fait via GitHub Actions
+sur le Pages natif (voir l'intégration continue ci-dessous), ce qui évite de maintenir une branche contenant des fichiers générés.
+La branche `gh-pages` reste la branche source du site.
 
 ### L'intégration continue
-Le fichier `.travis.yml` permet de définir l'intégration continue du projet.
-L'utilisation de travis pro est gratuite car il s'agit d'un projet libre de droit.
-L'intégration continue de Travis permet de générer, en utilisant jekyll et tout ses plugins, le réperoitre `_site` qui est ensuite
-publié automatiquement sur la branche `master` de ce repository git.
-En faisant ainsi, la branche `master` ne contient que des fichiers générés et donc, pousser manuellement sur la branche `master` reviendrait a casser le site web.
-
-Voici l'url de travis pour le suivi de l'intégration continue:
-https://app.travis-ci.com/github/Godot-Engine-Francophone/godot-engine-francophone.github.io
+Le fichier `.github/workflows/jekyll.yml` définit l'intégration continue du projet via GitHub Actions.
+À chaque poussée sur la branche `gh-pages`, le workflow génère le site avec Jekyll et tous ses plugins,
+puis le déploie automatiquement via GitHub Pages (branche de rendu native).
+L'ancien pipeline Travis (fichier `.travis.yml` et `script/cibuild.sh`) a été supprimé car redondant et basé sur Ruby 2.6.3 (en fin de vie).
 
 ## Comment publier un article?
 
